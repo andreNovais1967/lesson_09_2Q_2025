@@ -18,948 +18,912 @@ const allQuestions = [ // Renomeado para 'allQuestions' para manter o array comp
       "opcoes": [
         "O êxodo do Egito e a entrada na Terra Prometida, a construção do Templo de Salomão e a dispersão das tribos de Israel.",
         "A criação do mundo, a queda do homem e a promessa de um Salvador.",
-        "Tribulação e confiança em Deus, o colapso dos reinos terrestres, a entronização de Cristo, o juízo final e o papel missionário do povo de Deus.",
-        "A vida e o ministério de Jesus Cristo, Seus milagres e Seus ensinamentos."
+        "O Grande Conflito, a soberania de Deus, a Segunda Vinda de Cristo, o juízo e a restauração final.",
+        "As festas judaicas anuais, o sistema sacrificial e a fundação da nação de Israel."
       ],
-      "respostaCorreta": "Tribulação e confiança em Deus, o colapso dos reinos terrestres, a entronização de Cristo, o juízo final e o papel missionário do povo de Deus."
+      "respostaCorreta": "O Grande Conflito, a soberania de Deus, a Segunda Vinda de Cristo, o juízo e a restauração final."
     },
     {
       "day": "Sábado",
-      "pergunta": "De que forma os Salmos abordam questões como o problema do mal e sofrimento, a justiça divina e a batalha entre o bem e o mal, em contraste com as profecias apocalípticas?",
+      "pergunta": "Qual Salmo serve como uma advertência contra o orgulho e a idolatria, profetizando o julgamento divino e a vinda do Messias?",
       "opcoes": [
-        "De forma histórica e cronológica.",
-        "De forma poética e devocional.",
-        "De forma legalista e cerimonial.",
-        "De forma apocalíptica e simbólica complexa."
+        "Salmo 23",
+        "Salmo 97",
+        "Salmo 1",
+        "Salmo 150"
       ],
-      "respostaCorreta": "De forma poética e devocional."
+      "respostaCorreta": "Salmo 97"
     },
     {
       "day": "Sábado",
-      "pergunta": "Quais outros livros proféticos a lição menciona que dialogam com as passagens dos Salmos?",
+      "pergunta": "Que Salmo representa a coroação do Rei Messias, celebrando Seu reinado justo e a vitória sobre os inimigos?",
       "opcoes": [
-        "Gênesis, Êxodo, Levítico, Números, Deuteronômio.",
-        "Isaías, Ezequiel, Joel, Amós, Miquéias.",
-        "Daniel, Jeremias, Zacarias, Mateus, Apocalipse.",
-        "Provérbios, Eclesiastes, Cântico dos Cânticos."
+        "Salmo 110",
+        "Salmo 8",
+        "Salmo 45",
+        "Salmo 19"
       ],
-      "respostaCorreta": "Daniel, Jeremias, Zacarias, Mateus, Apocalipse."
+      "respostaCorreta": "Salmo 110"
     },
     {
       "day": "Sábado",
-      "pergunta": "Segundo a lição, o estudo dos Salmos e sua conexão com a escatologia adventista visa, entre outras coisas:",
+      "pergunta": "No contexto profético, como o Salmo 110 é visto na Igreja Adventista do Sétimo Dia?",
       "opcoes": [
-        "Aumentar o medo dos eventos finais.",
-        "Fortalecer a esperança e o compromisso dos crentes.",
-        "Desencorajar a busca por lições práticas.",
-        "Focar exclusivamente em símbolos complexos."
+        "Como uma referência à restauração de Israel nos últimos dias.",
+        "Como uma profecia do reinado de Salomão sobre Israel.",
+        "Como uma profecia messiânica, apontando para o sacerdócio eterno de Cristo segundo a ordem de Melquisedeque.",
+        "Como um hino de louvor pela criação de Deus."
       ],
-      "respostaCorreta": "Fortalecer a esperança e o compromisso dos crentes."
+      "respostaCorreta": "Como uma profecia messiânica, apontando para o sacerdócio eterno de Cristo segundo a ordem de Melquisedeque."
     },
     {
       "day": "Sábado",
-      "pergunta": "Além de abordar temas proféticos, em grande profundidade, explorando quase todas as emoções humanas, o que mais o livro de Salmos e o livro de Provérbios são considerados, segundo uma das fontes?",
+      "pergunta": "O que o Salmo 97 descreve sobre a vinda do Senhor?",
       "opcoes": [
-        "Os melhores livros de história antiga.",
-        "Os melhores manuais de psicologia humana que podemos encontrar.",
-        "Os mais importantes livros sobre lei e justiça.",
-        "Os textos mais difíceis de interpretar."
+        "Uma vinda pacífica e silenciosa para abençoar a Terra.",
+        "Uma vinda gloriosa e majestosa, manifestada em raios e trovões, destruindo ídolos e exaltando a justiça.",
+        "Uma vinda discreta para julgar secretamente as nações.",
+        "Uma vinda para estabelecer um reino terrestre em Jerusalém."
       ],
-      "respostaCorreta": "Os melhores manuais de psicologia humana que podemos encontrar."
+      "respostaCorreta": "Uma vinda gloriosa e majestosa, manifestada em raios e trovões, destruindo ídolos e exaltando a justiça."
     },
     {
       "day": "Sábado",
-      "pergunta": "Por que a Bíblia, incluindo o Livro dos Salmos, continua sendo um livro atual, segundo uma das fontes?",
+      "pergunta": "No livro 'O Grande Conflito', que evento Ellen White descreve como o cumprimento do Salmo 97:5?",
       "opcoes": [
-        "Porque as épocas e a natureza humana mudaram drasticamente.",
-        "Porque trata de assuntos base da raça humana que são as mesmas vivências de hoje, apesar das diferentes épocas e avanços tecnológicos.",
-        "Porque foi escrita com uma linguagem complexa que só pode ser entendida hoje.",
-        "Porque se foca apenas em eventos históricos que não se repetem."
+        "A destruição de Sodoma e Gomorra.",
+        "O dilúvio universal.",
+        "A vinda de Jesus Cristo na Segunda Vinda, onde 'os montes se derretem como cera na presença do Senhor'.",
+        "A queda do muro de Jericó."
       ],
-      "respostaCorreta": "Porque trata de assuntos base da raça humana que são as mesmas vivências de hoje, apesar das diferentes épocas e avanços tecnológicos."
+      "respostaCorreta": "A vinda de Jesus Cristo na Segunda Vinda, onde 'os montes se derretem como cera na presença do Senhor'."
     },
     {
       "day": "Sábado",
-      "pergunta": "A indagação sobre por que Deus não trata o mal de forma mais direta e imediata é mencionada como uma questão com a qual quem se debate?",
+      "pergunta": "Que Salmo celebra o Rei que trará justiça, compaixão e proteção aos necessitados?",
       "opcoes": [
-        "Apenas os inimigos de Deus.",
-        "Indivíduos que leem o livro de Provérbios.",
-        "Indivíduos que leem o livro de Salmos e com a qual todos nós já nos colocamos.",
-        "Somente aqueles que não têm fé."
+        "Salmo 72",
+        "Salmo 139",
+        "Salmo 27",
+        "Salmo 103"
       ],
-      "respostaCorreta": "Indivíduos que leem o livro de Salmos e com a qual todos nós já nos colocamos."
+      "respostaCorreta": "Salmo 72"
     },
     {
       "day": "Sábado",
-      "pergunta": "Além do santuário terrestre ou templo terrestre, para onde somos encaminhados em busca de respostas ao lermos os Salmos?",
+      "pergunta": "De que forma o Salmo 72 aponta para o Messias?",
       "opcoes": [
-        "Para o mar Mediterrâneo.",
-        "Para o monte Sinai.",
-        "Para o santuário celestial.",
-        "Para a cidade de Babilônia."
+        "Descrevendo Seu nascimento em Belém.",
+        "Detalhando Sua genealogia real.",
+        "Apontando para Seu reinado de justiça e paz, estendendo-se por toda a Terra e trazendo bem-estar a todos os povos.",
+        "Registrando Seus milagres de cura."
       ],
-      "respostaCorreta": "Para o santuário celestial."
+      "respostaCorreta": "Apontando para Seu reinado de justiça e paz, estendendo-se por toda a Terra e trazendo bem-estar a todos os povos."
     },
     {
       "day": "Sábado",
-      "pergunta": "Qual é o Verso para Memorizar da Lição 9, “Nos Salmos – Parte 2”?",
+      "pergunta": "Qual é a importância dos Salmos proféticos para a fé adventista, conforme a lição?",
       "opcoes": [
-        "\"O Senhor é o meu pastor; nada me faltará.\" (Salmo 23:1)",
-        "\"Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.\" (João 3:16)",
-        "\"Louvem-Te os povos, ó Deus! Louvem-Te os povos todos! Alegrem-se e exultem as nações, pois julgas os povos com justiça e guias na Terra as nações.\" (Salmo 67:3, 4)",
-        "\"Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.\" (Mateus 11:28)"
+        "Eles são apenas registros históricos sem relevância futura.",
+        "Eles oferecem consolo e esperança, fortalecendo a fé na Segunda Vinda de Cristo e na restauração final de Seu Reino.",
+        "Eles servem principalmente como guias para a adoração no templo.",
+        "Eles são exemplos de poesia hebraica antiga e não contêm ensinamentos doutrinários."
       ],
-      "respostaCorreta": "\"Louvem-Te os povos, ó Deus! Louvem-Te os povos todos! Alegrem-se e exultem as nações, pois julgas os povos com justiça e guias na Terra as nações.\" (Salmo 67:3, 4)"
+      "respostaCorreta": "Eles oferecem consolo e esperança, fortalecendo a fé na Segunda Vinda de Cristo e na restauração final de Seu Reino."
     },
     // DOMINGO (Questões 11-20)
     {
       "day": "Domingo",
-      "pergunta": "De acordo com o Salmo 46, qual é a atitude do povo de Deus diante das grandes comoções naturais mencionadas no texto?",
+      "pergunta": "O que os Salmos proféticos nos convidam a fazer em relação ao futuro, conforme a lição?",
       "opcoes": [
-        "Temor e desespero.",
-        "Incredulidade e negação.",
-        "Confiança e a ausência de temor.",
-        "Fuga e busca por esconderijo."
+        "Ignorar os acontecimentos futuros, focando apenas no presente.",
+        "Preparar-nos para a Segunda Vinda de Cristo e para a vida no novo céu e nova Terra.",
+        "Aguardar passivamente o cumprimento das profecias sem qualquer ação pessoal.",
+        "Buscar a prosperidade material como sinal da bênção divina."
       ],
-      "respostaCorreta": "Confiança e a ausência de temor."
+      "respostaCorreta": "Preparar-nos para a Segunda Vinda de Cristo e para a vida no novo céu e nova Terra."
     },
     {
       "day": "Domingo",
-      "pergunta": "O Salmo 46:1 afirma que Deus é nosso refúgio e fortaleza, socorro bem presente em qual circunstância?",
+      "pergunta": "Qual Salmo se destaca como o hino do povo de Deus que aguarda a vinda do Messias?",
       "opcoes": [
-        "Apenas em tempos de paz.",
-        "Na angústia.",
-        "Durante a prosperidade.",
-        "Ao realizar obras de caridade."
+        "Salmo 23",
+        "Salmo 97",
+        "Salmo 1",
+        "Salmo 150"
       ],
-      "respostaCorreta": "Na angústia."
+      "respostaCorreta": "Salmo 97"
     },
     {
       "day": "Domingo",
-      "pergunta": "As cenas do Apocalipse sobre a volta de Jesus, mencionadas em Apocalipse 6:14 (céu enrolando-se, montes e ilhas removidos), são comparadas a que descrição encontrada no Salmo 46?",
+      "pergunta": "O que o Salmo 97 enfatiza sobre o governo de Deus?",
       "opcoes": [
-        "A calmaria após uma tempestade.",
-        "A terra mudando e os montes se transportando para o meio dos mares.",
-        "A construção de uma nova cidade.",
-        "A fertilidade da terra."
+        "Que Deus governa apenas sobre os justos.",
+        "Que Deus governa sobre todas as coisas e os povos, com nuvens e escuridão ao Seu redor.",
+        "Que Deus governa apenas sobre Israel.",
+        "Que Deus permite que o caos prevaleça na Terra."
       ],
-      "respostaCorreta": "A terra mudando e os montes se transportando para o meio dos mares."
+      "respostaCorreta": "Que Deus governa sobre todas as coisas e os povos, com nuvens e escuridão ao Seu redor."
     },
     {
       "day": "Domingo",
-      "pergunta": "Qual evento histórico no Antigo Testamento é mencionado como o contexto em que Salmos como o 46 foram cantados, apresentando Deus como refúgio na tribulação?",
+      "pergunta": "Qual é o efeito da vinda do Senhor descrita no Salmo 97 sobre a Terra e os elementos naturais?",
       "opcoes": [
-        "A libertação de Israel do Egito sob Moisés.",
-        "A vitória sobre os cananeus sob Josué.",
-        "Uma notável vitória nos dias de Josafá.",
-        "A dedicação do Templo por Salomão."
+        "Traz calma e serenidade.",
+        "Provoca terremotos e derretimento de montanhas, revelando Sua majestade.",
+        "Causa secas e fomes.",
+        "Apenas uma brisa suave."
       ],
-      "respostaCorreta": "Uma notável vitória nos dias de Josafá."
+      "respostaCorreta": "Provoca terremotos e derretimento de montanhas, revelando Sua majestade."
     },
     {
       "day": "Domingo",
-      "pergunta": "O Salmo 46 contrasta o mundo em ruínas e caos com qual imagem relacionada a Deus e Seu povo?",
+      "pergunta": "O Salmo 97 adverte sobre a inutilidade da adoração de ídolos, declarando que:",
       "opcoes": [
-        "O deserto árido.",
-        "A torre de Babel.",
-        "A cidade de Deus que habita em paz.",
-        "O dilúvio universal."
+        "Ídolos são fontes de poder oculto.",
+        "Aqueles que servem imagens de escultura e se gloriam em ídolos são confundidos.",
+        "Ídolos protegem seus adoradores.",
+        "Ídolos são meros objetos de arte."
       ],
-      "respostaCorreta": "A cidade de Deus que habita em paz."
+      "respostaCorreta": "Aqueles que servem imagens de escultura e se gloriam em ídolos são confundidos."
     },
     {
       "day": "Domingo",
-      "pergunta": "No Salmo 46, a fúria dos rios e mares é contrastada com qual elemento relacionado à presença de Deus?",
+      "pergunta": "Qual é o convite para o povo de Deus no Salmo 97?",
       "opcoes": [
-        "Um deserto sem água.",
-        "Um rio que flui da presença de Deus e alegra a cidade santa.",
-        "Um lago de fogo.",
-        "O mar Vermelho."
+        "Temer a Deus e odiar o mal.",
+        "Construir mais templos.",
+        "Sacrificar animais.",
+        "Celebrar festas pagãs."
       ],
-      "respostaCorreta": "Um rio que flui da presença de Deus e alegra a cidade santa."
+      "respostaCorreta": "Temer a Deus e odiar o mal."
     },
     {
       "day": "Domingo",
-      "pergunta": "O comando 'Aquietai-vos e saibam que eu sou Deus' (Salmo 46) é apresentado como um contraste direto a qual condição do mundo?",
+      "pergunta": "O que os justos recebem no Salmo 97 em meio à escuridão e ao julgamento?",
       "opcoes": [
-        "A paz e harmonia universais.",
-        "As guerras e a agitação entre nações.",
-        "A busca por conhecimento científico.",
-        "A celebração religiosa."
+        "Riqueza material.",
+        "Luz e alegria.",
+        "Punição divina.",
+        "Esquecimento."
       ],
-      "respostaCorreta": "As guerras e a agitação entre nações."
+      "respostaCorreta": "Luz e alegria."
     },
     {
       "day": "Domingo",
-      "pergunta": "Qual é a principal mensagem que o Salmo 46 nos incentiva a ter diante das tribulações, sejam elas atuais ou finais?",
+      "pergunta": "Como os Salmos 97 e 99 retratam o trono de Deus?",
       "opcoes": [
-        "A fugir e se esconder.",
-        "A lutar com nossas próprias forças.",
-        "A confiar e não temer.",
-        "A questionar a justiça de Deus."
+        "Como um trono vazio.",
+        "Como um trono de glória, majestade, justiça e retidão.",
+        "Como um trono temporário.",
+        "Como um trono distante e inacessível."
       ],
-      "respostaCorreta": "A confiar e não temer."
+      "respostaCorreta": "Como um trono de glória, majestade, justiça e retidão."
     },
     {
       "day": "Domingo",
-      "pergunta": "A lição sugere que, se buscarmos a Deus como nosso refúgio hoje:",
+      "pergunta": "O que a vinda do Senhor significa para o Seu povo, de acordo com o Salmo 97?",
       "opcoes": [
-        "As dificuldades cessarão completamente.",
-        "Teremos o livramento e a proteção dEle no tempo do fim nas perseguições.",
-        "Não precisaremos nos preparar para o futuro.",
-        "Apenas as dificuldades atuais serão resolvidas."
+        "Um tempo de tristeza e lamentação.",
+        "Um tempo de libertação e redenção.",
+        "Um tempo de guerra contínua.",
+        "Um tempo de incerteza."
       ],
-      "respostaCorreta": "Teremos o livramento e a proteção dEle no tempo do fim nas perseguições."
+      "respostaCorreta": "Um tempo de libertação e redenção."
     },
     {
       "day": "Domingo",
-      "pergunta": "O Salmo 46 é aplicado para aqueles que:",
+      "pergunta": "No contexto da Segunda Vinda, o Salmo 97 enfatiza a importância de:",
       "opcoes": [
-        "Dependem de sua própria força.",
-        "Confiam e se entregam a Deus.",
-        "Ignoram os sinais do fim.",
-        "Apenas buscam prosperidade material."
+        "Acumular bens materiais.",
+        "Manter-se fiel a Deus e odiar o mal, vivendo uma vida de santidade.",
+        "Esconder-se em bunkers.",
+        "Adorar a outros deuses."
       ],
-      "respostaCorreta": "Confiam e se entregam a Deus."
+      "respostaCorreta": "Manter-se fiel a Deus e odiar o mal, vivendo uma vida de santidade."
     },
     // SEGUNDA-FEIRA (Questões 21-30)
     {
       "day": "Segunda-feira",
-      "pergunta": "A linguagem do Salmo 46, ao descrever o abalo da terra física, é vista como um prenúncio de quê?",
+      "pergunta": "Qual Salmo é conhecido por ser um Salmo messiânico, profetizando o Rei ungido por Deus?",
       "opcoes": [
-        "A construção de novas cidades.",
-        "A transformação da terra pelo retorno de Cristo.",
-        "Um período de paz e prosperidade duradoura.",
-        "A criação de novas espécies."
-      ],
-      "respostaCorreta": "A transformação da terra pelo retorno de Cristo."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A passagem de Jeremias 4:23-26 descreve a terra em qual estado?",
-      "opcoes": [
-        "Um paraíso restaurado com abundância de vida.",
-        "Sem forma e vazia, com montes tremendo e cidades derribadas, após o furor da ira do Senhor.",
-        "Um centro de tecnologia avançada e desenvolvimento humano.",
-        "Um deserto fértil e habitado por muitas aves."
-      ],
-      "respostaCorreta": "Sem forma e vazia, com montes tremendo e cidades derribadas, após o furor da ira do Senhor."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A lição conecta a visão de Jeremias 4 com a promessa de um 'novo céu e uma nova terra', encontrada em qual outro livro bíblico?",
-      "opcoes": [
-        "Isaías.",
-        "Mateus.",
-        "Apocalipse.",
-        "Hebreus."
-      ],
-      "respostaCorreta": "Apocalipse."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "Segundo o apóstolo Paulo em 2 Coríntios 4:8-9, os servos de Deus podem ser atribulados, perplexos, perseguidos e abatidos, mas em que condição final?",
-      "opcoes": [
-        "Angustiados, desanimados, desamparados e destruídos.",
-        "Vencedores, alegres, prósperos e saudáveis.",
-        "Não angustiados, não desanimados, não desamparados e não destruídos.",
-        "Imunes a qualquer tipo de sofrimento."
-      ],
-      "respostaCorreta": "Não angustiados, não desanimados, não desamparados e não destruídos."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "Por que Deus permite que Seus filhos passem por sofrimento, perplexidade, tribulação ou perseguição, segundo uma das fontes?",
-      "opcoes": [
-        "Porque Ele não tem poder para impedi-lo.",
-        "Porque Ele quer provar sua fraqueza.",
-        "Porque sabe que muitas vezes nessas situações o caráter se molda à imagem de Cristo.",
-        "Porque Ele é indiferente à dor humana."
-      ],
-      "respostaCorreta": "Porque sabe que muitas vezes nessas situações o caráter se molda à imagem de Cristo."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "Qual é o 'motor' na vida do cristão que o impede de desanimar e dá sempre um objetivo à vida?",
-      "opcoes": [
-        "A riqueza material.",
-        "O reconhecimento humano.",
-        "A esperança.",
-        "A força física."
-      ],
-      "respostaCorreta": "A esperança."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A grande esperança do cristão, especialmente para os Adventistas do Sétimo Dia, é:",
-      "opcoes": [
-        "Uma longa vida na terra.",
-        "O encontro com Jesus (o advento).",
-        "O sucesso profissional.",
-        "A ausência de dificuldades."
-      ],
-      "respostaCorreta": "O encontro com Jesus (o advento)."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "De acordo com a lição, quando o contexto da linguagem do Livro dos Salmos aponta para os tempos do fim (tempos escatológicos), essa linguagem deve ser interpretada como:",
-      "opcoes": [
-        "Meramente simbólica, sem aplicação literal.",
-        "Com razões claras para pensar que seja literal.",
-        "Apenas como poesia sem significado profético.",
-        "Uma alegoria sem conexão com eventos reais."
-      ],
-      "respostaCorreta": "Com razões claras para pensar que seja literal."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A esperança em meio à turbulência mencionada na lição de segunda-feira nos lembra que as dificuldades atuais são um sinal de quê?",
-      "opcoes": [
-        "Que Deus nos abandonou.",
-        "Que as coisas nunca melhorarão.",
-        "Que algo melhor está por chegar.",
-        "Que o pecado venceu."
-      ],
-      "respostaCorreta": "Que algo melhor está por chegar."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "Qual Salmo é o foco principal da lição de terça-feira?",
-      "opcoes": [
-        "Salmo 23",
+        "Salmo 2",
+        "Salmo 139",
         "Salmo 46",
-        "Salmo 47",
-        "Salmo 75"
+        "Salmo 121"
       ],
-      "respostaCorreta": "Salmo 47"
+      "respostaCorreta": "Salmo 2"
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "O que o Salmo 2 retrata as nações e seus governantes fazendo?",
+      "opcoes": [
+        "Reunindo-se para adorar a Deus.",
+        "Conspirando e tramando contra o Senhor e Seu Ungido.",
+        "Firmando pactos de paz entre si.",
+        "Proclamando a glória de Deus."
+      ],
+      "respostaCorreta": "Conspirando e tramando contra o Senhor e Seu Ungido."
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "Como Deus reage à conspiração das nações no Salmo 2?",
+      "opcoes": [
+        "Ele se esconde e os ignora.",
+        "Ele se ri e zomba deles.",
+        "Ele faz acordos com eles.",
+        "Ele fica triste e desanimado."
+      ],
+      "respostaCorreta": "Ele se ri e zomba deles."
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "Qual é a declaração central de Deus no Salmo 2 sobre Seu Rei?",
+      "opcoes": [
+        "Que Ele não tem rei.",
+        "Que Ele estabeleceu o Seu Rei sobre Sião, o Seu santo monte.",
+        "Que o rei será escolhido pelas nações.",
+        "Que o rei será um homem comum."
+      ],
+      "respostaCorreta": "Que Ele estabeleceu o Seu Rei sobre Sião, o Seu santo monte."
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "O que o Salmo 2 profetiza sobre o domínio do Messias?",
+      "opcoes": [
+        "Que Ele dominará apenas sobre Israel.",
+        "Que Ele dominará sobre todas as nações, tendo-as como Sua herança.",
+        "Que Ele não terá domínio.",
+        "Que Seu domínio será temporário."
+      ],
+      "respostaCorreta": "Que Ele dominará sobre todas as nações, tendo-as como Sua herança."
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "Qual é o conselho final do Salmo 2 aos reis e juízes da Terra?",
+      "opcoes": [
+        "Que confiem em seus próprios poderes.",
+        "Que sirvam ao Senhor com temor e tremam com alegria.",
+        "Que se rebelem contra Deus.",
+        "Que ignorem os avisos divinos."
+      ],
+      "respostaCorreta": "Que sirvam ao Senhor com temor e tremam com alegria."
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "O que significa 'beijai o Filho' no contexto do Salmo 2?",
+      "opcoes": [
+        "Um ato de afeto literal.",
+        "Um símbolo de submissão e lealdade ao Messias.",
+        "Uma saudação cerimonial.",
+        "Um ritual de purificação."
+      ],
+      "respostaCorreta": "Um símbolo de submissão e lealdade ao Messias."
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "Qual é a promessa para aqueles que confiam no Senhor, conforme o Salmo 2?",
+      "opcoes": [
+        "Riquezas e poder.",
+        "Felicidade e bênçãos.",
+        "Vidas sem desafios.",
+        "Reconhecimento humano."
+      ],
+      "respostaCorreta": "Felicidade e bênçãos."
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "Como o Novo Testamento aplica o Salmo 2 a Jesus Cristo?",
+      "opcoes": [
+        "Apenas como um registro histórico.",
+        "Como uma profecia de Seu nascimento.",
+        "Como uma profecia cumprida em Sua vida, morte, ressurreição e ascensão ao trono celestial, e que se cumprirá plenamente em Sua Segunda Vinda.",
+        "Como uma metáfora para o poder de Roma."
+      ],
+      "respostaCorreta": "Como uma profecia cumprida em Sua vida, morte, ressurreição e ascensão ao trono celestial, e que se cumprirá plenamente em Sua Segunda Vinda."
+    },
+    {
+      "day": "Segunda-feira",
+      "pergunta": "A mensagem do Salmo 2 é uma advertência e um convite. Qual é a essência desse convite?",
+      "opcoes": [
+        "Convite à rebelião contra Deus.",
+        "Convite para aceitar a soberania de Deus e Seu Messias, buscando refúgio Nele antes que Sua ira se manifeste.",
+        "Convite para ignorar a autoridade divina.",
+        "Convite para viver sem preocupações com o futuro."
+      ],
+      "respostaCorreta": "Convite para aceitar a soberania de Deus e Seu Messias, buscando refúgio Nele antes que Sua ira se manifeste."
     },
     // TERÇA-FEIRA (Questões 31-40)
     {
       "day": "Terça-feira",
-      "pergunta": "O tema da lição de terça-feira, 'Debaixo de seus pés', é uma expressão de quê?",
+      "pergunta": "Que Salmo se destaca como uma súplica de um profeta para que Deus julgue a Terra e cumpra Suas promessas de redenção?",
       "opcoes": [
-        "Submissão do povo de Deus aos seus inimigos.",
-        "A derrota final de Deus.",
-        "Vitória e triunfo sobre os inimigos.",
-        "A fraqueza do reino de Deus."
+        "Salmo 80",
+        "Salmo 23",
+        "Salmo 100",
+        "Salmo 42"
       ],
-      "respostaCorreta": "Vitória e triunfo sobre os inimigos."
+      "respostaCorreta": "Salmo 80"
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Segundo Salmo 47:3, Deus submeterá os povos e porá as nações 'debaixo dos nossos pés'. O que essa linguagem de batalha e vitória indica?",
+      "pergunta": "No Salmo 80, Deus é invocado como o Pastor de Israel, que guiava qual figura bíblica?",
       "opcoes": [
-        "Que o povo de Deus lutará fisicamente contra todas as nações.",
-        "Que Deus colocará os inimigos que perseguiram debaixo dos pés de Seu povo fiel após Sua vitória.",
-        "Que as nações se submeterão voluntariamente ao povo de Deus.",
-        "Que o povo de Deus dominará o mundo pela força."
+        "José",
+        "Moisés",
+        "Davi",
+        "Efraim, Benjamim e Manassés"
       ],
-      "respostaCorreta": "Que Deus colocará os inimigos que perseguiram debaixo dos pés de Seu povo fiel após Sua vitória."
+      "respostaCorreta": "Efraim, Benjamim e Manassés"
     },
     {
       "day": "Terça-feira",
-      "pergunta": "A ideia de colocar os inimigos debaixo dos pés também é encontrada em Salmo 110:1, referindo-se a quem?",
+      "pergunta": "Qual é a principal oração repetida no Salmo 80?",
       "opcoes": [
-        "O rei Davi.",
-        "O povo de Israel.",
-        "Jesus, pela Sua vitória na cruz.",
-        "Os profetas."
+        "Dá-nos paz e prosperidade.",
+        "Restaura-nos, ó Deus; faze resplandecer o Teu rosto, e seremos salvos.",
+        "Castiga os nossos inimigos.",
+        "Ajuda-nos a construir um templo."
       ],
-      "respostaCorreta": "Jesus, pela Sua vitória na cruz."
+      "respostaCorreta": "Restaura-nos, ó Deus; faze resplandecer o Teu rosto, e seremos salvos."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "De acordo com Salmo 47, qual é o lugar que em última análise nós, o povo de Deus, ocupamos no reino de Cristo?",
+      "pergunta": "O Salmo 80 descreve Israel como uma videira que foi transplantada do Egito. O que aconteceu com essa videira?",
       "opcoes": [
-        "Dominadores sobre Deus.",
-        "Escravos sem direitos.",
-        "Súditos, mas chamados a reinar junto com Cristo como príncipes.",
-        "Observadores passivos."
+        "Ela floresceu e cobriu toda a Terra.",
+        "Suas cercas foram derrubadas, e ela foi destruída pelos transeuntes e animais selvagens.",
+        "Ela produziu frutos amargos.",
+        "Ela secou e morreu imediatamente."
       ],
-      "respostaCorreta": "Súditos, mas chamados a reinar junto com Cristo como príncipes."
+      "respostaCorreta": "Suas cercas foram derrubadas, e ela foi destruída pelos transeuntes e animais selvagens."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "A lição menciona a profecia de Zacarias 14:4, que descreve o retorno de Jesus e Seus pés sobre o Monte das Oliveiras. Qual detalhe geográfico significativo ocorre neste evento?",
+      "pergunta": "A quem se refere a 'planta' que o Salmo 80 pede que Deus fortaleça, e quem é o 'filho do homem' que Ele fez forte para Si?",
       "opcoes": [
-        "O monte se tornará uma ilha.",
-        "O monte será fendido pelo meio.",
-        "O monte será movido para o mar.",
-        "O monte desaparecerá."
+        "A Israel e ao povo judeu.",
+        "À nação de Israel e ao Messias.",
+        "Ao templo e aos sacerdotes.",
+        "A Davi e seus descendentes."
       ],
-      "respostaCorreta": "O monte será fendido pelo meio."
+      "respostaCorreta": "À nação de Israel e ao Messias."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Em Daniel 7:14, é dada a quem o domínio, a honra e o reino que é eterno e não será destruído?",
+      "pergunta": "O que o Salmo 80 antecipa a respeito do Messias?",
       "opcoes": [
-        "Aos reinos terrestres.",
-        "Ao povo dos santos do Altíssimo.",
-        "Ao Filho do Homem.",
-        "Ao anticristo."
+        "Sua fraqueza e incapacidade.",
+        "Sua vinda como um poderoso Salvador e Restaurador, que trará o livramento definitivo para o povo de Deus.",
+        "Seu papel como um rei terreno comum.",
+        "Seu desaparecimento do cenário mundial."
       ],
-      "respostaCorreta": "Ao Filho do Homem."
+      "respostaCorreta": "Sua vinda como um poderoso Salvador e Restaurador, que trará o livramento definitivo para o povo de Deus."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Conforme Daniel 7:27, os reinos, domínios e majestade debaixo de todo o céu serão dados a quem após o fracasso dos reinos rebeldes?",
+      "pergunta": "Como o Salmo 80 retrata a esperança de Israel em meio à destruição?",
       "opcoes": [
-        "Ao Filho do Homem.",
-        "Ao povo dos santos do Altíssimo.",
-        "Às bestas apocalípticas.",
-        "Aos anjos."
+        "Pela resignação ao destino.",
+        "Pela confiança na intervenção divina e na restauração.",
+        "Pelo abandono da fé.",
+        "Pela busca de ajuda em nações vizinhas."
       ],
-      "respostaCorreta": "Ao povo dos santos do Altíssimo."
+      "respostaCorreta": "Pela confiança na intervenção divina e na restauração."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "A vinda de Cristo, conforme descrito nas profecias bíblicas, será caracterizada por ser:",
+      "pergunta": "Qual é a conexão entre o Salmo 80 e o clamor por avivamento na Igreja Adventista do Sétimo Dia?",
       "opcoes": [
-        "Oculta e secreta.",
-        "Visível para todo olho.",
-        "Compreendida apenas por alguns eleitos.",
-        "Um evento puramente espiritual sem manifestação física."
+        "Não há conexão.",
+        "Ambos expressam um desejo profundo pela intervenção divina e pela restauração do povo de Deus à Sua plenitude e poder.",
+        "O Salmo 80 fala apenas do passado.",
+        "A Igreja Adventista não acredita em avivamento."
       ],
-      "respostaCorreta": "Visível para todo olho."
+      "respostaCorreta": "Ambos expressam um desejo profundo pela intervenção divina e pela restauração do povo de Deus à Sua plenitude e poder."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Qual doutrina, surgida no mundo protestante/evangélico, é contrastada na lição com a visibilidade da vinda de Cristo e criticada por não ser como Deus age?",
+      "pergunta": "O que significa 'faze resplandecer o Teu rosto' no Salmo 80?",
       "opcoes": [
-        "A doutrina da Trindade.",
-        "A doutrina da criação.",
-        "A doutrina do arrebatamento secreto.",
-        "A doutrina do batismo."
+        "Que Deus deve se mostrar fisicamente.",
+        "Que Deus deve demonstrar Sua aprovação, favor e bênção ao Seu povo.",
+        "Que Deus deve se afastar.",
+        "Que Deus deve julgar severamente."
       ],
-      "respostaCorreta": "A doutrina do arrebatamento secreto."
+      "respostaCorreta": "Que Deus deve demonstrar Sua aprovação, favor e bênção ao Seu povo."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Qual Salmo é o foco principal da lição de quarta-feira?",
+      "pergunta": "O Salmo 80 é um lembrete de que, mesmo em tempos de adversidade, o povo de Deus pode:",
       "opcoes": [
-        "Salmo 46",
-        "Salmo 47",
-        "Salmo 75",
-        "Salmo 67"
+        "Desistir da fé.",
+        "Clamar a Deus por restauração e ter esperança em Sua promessa de redenção.",
+        "Confiar apenas em seus próprios esforços.",
+        "Culpar os outros por seus problemas."
       ],
-      "respostaCorreta": "Salmo 75"
+      "respostaCorreta": "Clamar a Deus por restauração e ter esperança em Sua promessa de redenção."
     },
     // QUARTA-FEIRA (Questões 41-50)
     {
       "day": "Quarta-feira",
-      "pergunta": "Que aspecto do caráter e obra de Deus é revelado no Salmo 75?",
+      "pergunta": "Qual Salmo profetiza um Reino divino de paz e justiça que se estenderá por toda a Terra?",
       "opcoes": [
-        "Deus como Criador.",
-        "Deus como Redentor.",
-        "Deus como Juiz que trará justiça.",
-        "Deus como Pastor."
-      ],
-      "respostaCorreta": "Deus como Juiz que trará justiça."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "No Salmo 75:8, o que simboliza o 'cálice espumante' nas mãos de Deus?",
-      "opcoes": [
-        "Bênçãos divinas.",
-        "A salvação oferecida a todos.",
-        "O vinho da cólera/ira de Deus para os ímpios.",
-        "A comunhão entre Deus e Seu povo."
-      ],
-      "respostaCorreta": "O vinho da cólera/ira de Deus para os ímpios."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Apocalipse 14:10 ecoa quase literalmente Salmo 75:8 ao advertir que quem adorar a besta beberá do vinho da cólera de Deus. Qual é a diferença crucial mencionada na lição sobre o vinho em Apocalipse 14:10 ('sem mistura') em comparação com Salmo 75:8 ('cheio de mistura')?",
-      "opcoes": [
-        "No Salmo, a ira é mais intensa; no Apocalipse, é diluída.",
-        "No Apocalipse, o vinho tem força total, sem diluição com misericórdia, representando a plena medida do juízo divino.",
-        "O vinho no Salmo representa a misericórdia, enquanto no Apocalipse representa a ira.",
-        "A mistura no Salmo significa adição de água, enquanto no Apocalipse significa adição de veneno."
-      ],
-      "respostaCorreta": "No Apocalipse, o vinho tem força total, sem diluição com misericórdia, representando a plena medida do juízo divino."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Beber o 'vinho da ira sem mistura' no fim dos tempos, conforme Apocalipse 14 e Salmo 75, é interpretado como:",
-      "opcoes": [
-        "Uma oportunidade de arrependimento.",
-        "A plena medida do juízo divino.",
-        "Um castigo parcial anterior.",
-        "Uma bênção para os fiéis."
-      ],
-      "respostaCorreta": "A plena medida do juízo divino."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "O que acontecerá com os pecadores ('ímpios da terra'), segundo Salmo 75:8, ao beberem do cálice da ira de Deus?",
-      "opcoes": [
-        "Serão purificados e salvos.",
-        "Absorverão e beberão as escórias de suas obras.",
-        "Serão transportados para um lugar seguro.",
-        "Receberão misericórdia."
-      ],
-      "respostaCorreta": "Absorverão e beberão as escórias de suas obras."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "A terceira mensagem angélica em Apocalipse 14:9-11 é comparada a um eco do Salmo 75, assegurando que",
-      "opcoes": [
-        "Todos terão a oportunidade de escapar do juízo.",
-        "Nenhum ímpio escapará das consequências de suas escolhas.",
-        "O juízo será apenas para alguns.",
-        "A misericórdia anulará completamente o juízo."
-      ],
-      "respostaCorreta": "Nenhum ímpio escapará das consequências de suas escolhas."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "O que Deus fará em relação ao Seu povo, ao pecado e aos pecadores no juízo final, conforme revelado no Salmo 75?",
-      "opcoes": [
-        "Perdoará a todos sem distinção.",
-        "Ignorará o pecado e os pecadores.",
-        "Exaltará Seu povo, destruirá pecado e pecadores, e revelará Seu caráter justo.",
-        "Apenas julgará as nações, mas não indivíduos."
-      ],
-      "respostaCorreta": "Exaltará Seu povo, destruirá pecado e pecadores, e revelará Seu caráter justo."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Qual é uma de las coisas que Deus corrigirá no juízo, segundo uma das fontes?",
-      "opcoes": [
-        "A ausência de progresso científico.",
-        "A falta de organização social.",
-        "A apropriação indevida de poder e o egoísmo.",
-        "A diversidade cultural."
-      ],
-      "respostaCorreta": "A apropriação indevida de poder e o egoísmo."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "O que é identificado em uma das fontes como o 'grande problema do pecado'?",
-      "opcoes": [
-        "A falta de conhecimento.",
-        "O egoísmo.",
-        "A desobediência a leis humanas.",
-        "A fraqueza física."
-      ],
-      "respostaCorreta": "O egoísmo."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Qual Salmo é o foco principal da lição de quinta-feira?",
-      "opcoes": [
+        "Salmo 72",
+        "Salmo 1",
         "Salmo 46",
-        "Salmo 47",
-        "Salmo 75",
-        "Salmo 67"
+        "Salmo 100"
       ],
-      "respostaCorreta": "Salmo 67"
+      "respostaCorreta": "Salmo 72"
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "A quem o Salmo 72 é tradicionalmente atribuído?",
+      "opcoes": [
+        "Moisés",
+        "Davi",
+        "Salomão",
+        "Asafe"
+      ],
+      "respostaCorreta": "Salomão"
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "O que o Salmo 72 descreve sobre o rei que governará?",
+      "opcoes": [
+        "Que ele governará com tirania e opressão.",
+        "Que ele julgará os pobres com justiça, salvará os filhos dos necessitados e esmagará o opressor.",
+        "Que ele governará apenas por um curto período.",
+        "Que ele favorecerá os ricos e poderosos."
+      ],
+      "respostaCorreta": "Que ele julgará os pobres com justiça, salvará os filhos dos necessitados e esmagará o opressor."
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "Qual é a duração do reinado profetizado no Salmo 72?",
+      "opcoes": [
+        "Apenas alguns anos.",
+        "Por muitas gerações.",
+        "Para sempre, enquanto o sol e a lua existirem.",
+        "Até que os inimigos sejam derrotados."
+      ],
+      "respostaCorreta": "Para sempre, enquanto o sol e a lua existirem."
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "De onde virão os presentes e tributos para este rei, segundo o Salmo 72?",
+      "opcoes": [
+        "Apenas de Israel.",
+        "Das nações distantes, como Társis, Sabá e Sebá.",
+        "Dos povos vizinhos.",
+        "Do próprio povo do rei."
+      ],
+      "respostaCorreta": "Das nações distantes, como Társis, Sabá e Sebá."
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "O que acontecerá ao nome do rei profetizado no Salmo 72?",
+      "opcoes": [
+        "Será esquecido rapidamente.",
+        "Será para sempre; o Seu nome permanecerá de geração em geração, e os homens serão abençoados Nele.",
+        "Será conhecido apenas em seu próprio tempo.",
+        "Será amaldiçoado pelas nações."
+      ],
+      "respostaCorreta": "Será para sempre; o Seu nome permanecerá de geração em geração, e os homens serão abençoados Nele."
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "Como o Salmo 72 descreve a prosperidade do Reino do Messias?",
+      "opcoes": [
+        "Com escassez de recursos.",
+        "Com abundância de cereais, como no alto dos montes, e prosperidade nas cidades.",
+        "Com terras secas e improdutivas.",
+        "Com falta de alimento para o povo."
+      ],
+      "respostaCorreta": "Com abundância de cereais, como no alto dos montes, e prosperidade nas cidades."
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "Qual é a bênção principal que o reinado do Messias trará, conforme o Salmo 72?",
+      "opcoes": [
+        "Aumento de impostos.",
+        "Guerra e conflitos.",
+        "Paz e justiça.",
+        "Divisão entre os povos."
+      ],
+      "respostaCorreta": "Paz e justiça."
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "O Salmo 72, embora possa se referir a Salomão, é considerado pelos cristãos como uma profecia que aponta para:",
+      "opcoes": [
+        "O império romano.",
+        "O reinado de qualquer rei justo.",
+        "Jesus Cristo e Seu Reino milenar de paz e justiça.",
+        "A fundação de Jerusalém."
+      ],
+      "respostaCorreta": "Jesus Cristo e Seu Reino milenar de paz e justiça."
+    },
+    {
+      "day": "Quarta-feira",
+      "pergunta": "A promessa de que 'todas as nações O servirão' no Salmo 72 é uma esperança para a Igreja Adventista do Sétimo Dia de que:",
+      "opcoes": [
+        "Apenas alguns se converterão.",
+        "A mensagem do evangelho alcançará todos os povos antes da Segunda Vinda.",
+        "As nações se destruirão mutuamente.",
+        "As nações não reconhecerão a Deus."
+      ],
+      "respostaCorreta": "A mensagem do evangelho alcançará todos os povos antes da Segunda Vinda."
     },
     // QUINTA-FEIRA (Questões 51-60)
     {
       "day": "Quinta-feira",
-      "pergunta": "O que o Salmo 67 apresenta em relação à presença de Deus?",
+      "pergunta": "Qual Salmo reflete o lamento de um profeta exilado, clamando a Deus por libertação e restauração?",
       "opcoes": [
-        "Deus escondido de Seu povo.",
-        "Deus presente entre Seu povo.",
-        "Deus distante e inalcançável.",
-        "Deus preocupado apenas consigo mesmo."
+        "Salmo 74",
+        "Salmo 1",
+        "Salmo 23",
+        "Salmo 139"
       ],
-      "respostaCorreta": "Deus presente entre Seu povo."
+      "respostaCorreta": "Salmo 74"
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Segundo Salmo 67:2, qual é o propósito de Deus abençoar e fazer resplandecer Seu rosto sobre Seu povo?",
+      "pergunta": "No Salmo 74, o povo de Deus se lamenta pela destruição de qual lugar sagrado?",
       "opcoes": [
-        "Para que Seu povo se torne rico e poderoso.",
-        "Para que se conheça na terra o Seu caminho e entre todas as nações a Sua salvação.",
-        "Para que Seu povo domine as outras nações.",
-        "Para que Seu povo viva isolado do mundo."
+        "O monte Sinai",
+        "O Templo em Jerusalém",
+        "O tabernáculo no deserto",
+        "A cidade de Babilônia"
       ],
-      "respostaCorreta": "Para que se conheça na terra o Seu caminho e entre todas as nações a Sua salvação."
+      "respostaCorreta": "O Templo em Jerusalém"
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Conforme Salmo 67:4, qual é a razão para os povos se alegrarem e exultarem?",
+      "pergunta": "Como o Salmo 74 descreve a profanação do santuário?",
       "opcoes": [
-        "Porque alcançaram prosperidade econômica.",
-        "Porque alcançaram a paz mundial.",
-        "Porque Deus julga os povos com justiça e guia as nações na Terra.",
-        "Porque o conhecimento humano superou a ignorância."
+        "Com orações e cânticos de louvor.",
+        "Com o grito dos inimigos na casa de Deus e seus estandartes erguidos como sinais.",
+        "Com a presença de anjos.",
+        "Com a adoração de ídolos."
       ],
-      "respostaCorreta": "Porque Deus julga os povos com justiça e guia as nações na Terra."
+      "respostaCorreta": "Com o grito dos inimigos na casa de Deus e seus estandartes erguidos como sinais."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Qual é o grande objetivo do povo de Deus no tempo do fim, conforme a lição relaciona Salmo 67 com Apocalipse 14?",
+      "pergunta": "O que o Salmo 74 lembra a Deus sobre Seu poder passado?",
       "opcoes": [
-        "Estabelecer um reino terrestre.",
-        "Proclamar a misericórdia e a salvação de Deus a todo o mundo.",
-        "Viver em isolamento e santidade.",
-        "Acumular bens e poder."
+        "A criação do mundo e a divisão do mar, como na travessia do Mar Vermelho.",
+        "A construção das pirâmides.",
+        "As conquistas de impérios humanos.",
+        "A criação de um pequeno riacho."
       ],
-      "respostaCorreta": "Proclamar a misericórdia e a salvação de Deus a todo o mundo."
+      "respostaCorreta": "A criação do mundo e a divisão do mar, como na travessia do Mar Vermelho."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "O que significa ser 'arautos da verdade', conforme a lição discute o papel do povo de Deus?",
+      "pergunta": "Que monstro marinho mítico é mencionado no Salmo 74 como um símbolo dos inimigos de Deus?",
       "opcoes": [
-        "Ser aqueles que ocultam a verdade dos outros.",
-        "Ser os canais que o Senhor quer usar para mostrar a verdade.",
-        "Ser aqueles que inventam novas verdades.",
-        "Ser aqueles que guardam a verdade apenas para si."
+        "Behemoth",
+        "Leviatã",
+        "Grifo",
+        "Fênix"
       ],
-      "respostaCorreta": "Ser os canais que o Senhor quer usar para mostrar a verdade."
+      "respostaCorreta": "Leviatã"
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Segundo uma das fontes, a verdade está sendo espezinhada, falseada e substituída pelo erro hoje. Diante disso, o que Deus necessita e quer de Seu povo?",
+      "pergunta": "Qual é o apelo final do Salmo 74 a Deus?",
       "opcoes": [
-        "Que se isolem do mundo.",
-        "Que defendam o erro.",
-        "Que sejam Seus arautos da verdade.",
-        "Que sejam Seus arautos da verdade."
+        "Que Ele se esqueça de Seu povo.",
+        "Que Ele se lembre de Sua aliança e não se esqueça de Seu povo sofredor e dos clamores dos pobres.",
+        "Que Ele destrua o mundo.",
+        "Que Ele pare de intervir na história humana."
       ],
-      "respostaCorreta": "Que sejam Seus arautos da verdade."
+      "respostaCorreta": "Que Ele se lembre de Sua aliança e não se esqueça de Seu povo sofredor e dos clamores dos pobres."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "O que é o 'cadinho' na vida do cristão, mencionado em uma das fontes em relação à proclamação da verdade?",
+      "pergunta": "Em que contexto profético a destruição do Templo e o sofrimento do povo no Salmo 74 podem ser vistos pela fé adventista?",
       "opcoes": [
-        "Um lugar de descanso e conforto.",
-        "Um processo de purificação que ocorre ao nos tornarmos testemunhas de Jesus e proclamarmos verdades que o mundo tem relutância em aceitar.",
-        "Um período de prosperidade sem desafios.",
-        "Um treinamento teórico sem aplicação prática."
+        "Apenas como eventos passados e sem relevância futura.",
+        "Como precursores da destruição do mundo no fim dos tempos.",
+        "Como eventos que se repetem ao longo da história, refletindo o Grande Conflito entre o bem e o mal.",
+        "Como castigo permanente de Deus para Israel."
       ],
-      "respostaCorreta": "Um processo de purificação que ocorre ao nos tornarmos testemunhas de Jesus e proclamarmos verdades que o mundo tem relutância em aceitar."
+      "respostaCorreta": "Como eventos que se repetem ao longo da história, refletindo o Grande Conflito entre o bem e o mal."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Qual é a melhor forma de fazer face às trevas, segundo uma das fontes, ao discutirmos a missão do povo de Deus?",
+      "pergunta": "O que o Salmo 74 nos ensina sobre a perseverança na fé em tempos de crise?",
       "opcoes": [
-        "Entrar em polêmicas e discussões.",
-        "Apagar as trevas pela força.",
-        "Acender uma luz.",
-        "Fugir das trevas."
+        "Que devemos perder a esperança.",
+        "Que, mesmo em meio à adversidade, o povo de Deus pode clamar a Ele e confiar em Sua fidelidade e poder para intervir e restaurar.",
+        "Que a fé não tem valor em tempos difíceis.",
+        "Que devemos confiar apenas em nós mesmos."
       ],
-      "respostaCorreta": "Acender uma luz."
+      "respostaCorreta": "Que, mesmo em meio à adversidade, o povo de Deus pode clamar a Ele e confiar em Sua fidelidade e poder para intervir e restaurar."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Conforme Apocalipse 14:6, quem tem o evangelho eterno para pregar aos que se assentam sobre a terra?",
+      "pergunta": "A menção do 'Leviatã' no Salmo 74 é uma imagem que representa o quê?",
       "opcoes": [
-        "Os reinos terrestres.",
-        "Os falsos profetas.",
-        "Um anjo voando pelo meio do céu.",
-        "Satanás."
+        "Um animal extinto.",
+        "As forças do mal e os inimigos de Deus que oprimem Seu povo.",
+        "Um monstro marinho amigável.",
+        "Um símbolo de riqueza e poder."
       ],
-      "respostaCorreta": "Um anjo voando pelo meio do céu."
+      "respostaCorreta": "As forças do mal e os inimigos de Deus que oprimem Seu povo."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "A lição enfatiza que não é necessário esperar pela perseguição escatológica para sentir a necessidade de quê?",
+      "pergunta": "O Salmo 74 serve como um lembrete para a Igreja de que, mesmo quando Deus parece ausente, Ele é:",
       "opcoes": [
-        "De acumular bens.",
-        "Do refúgio de Deus.",
-        "De se isolar da sociedade.",
-        "De negar a fé."
+        "Indiferente.",
+        "Soberano e ativo na história, e que o Seu Reino prevalecerá.",
+        "Derrotado pelos inimigos.",
+        "Fraco e sem poder."
       ],
-      "respostaCorreta": "Do refúgio de Deus."
+      "respostaCorreta": "Soberano e ativo na história, e que o Seu Reino prevalecerá."
     },
     // SEXTA-FEIRA (Questões 61-70)
     {
       "day": "Sexta-feira",
-      "pergunta": "A passagem de Jeremias 12:5 ('se te fadigas correndo com homens que vão a pé, como poderás competir com os que vão a cavalo?') é usada para ilustrar o quê?",
+      "pergunta": "Qual Salmo se destaca como um hino de louvor ao Rei que reina na majestade de Sua santidade e justiça?",
       "opcoes": [
-        "A importância do exercício físico.",
-        "A necessidade de estar preparado para dificuldades maiores no futuro, se já se tem dificuldade com as menores no presente.",
-        "A superioridade dos cavalos sobre os homens.",
-        "A inutilidade do esforço."
+        "Salmo 99",
+        "Salmo 1",
+        "Salmo 23",
+        "Salmo 139"
       ],
-      "respostaCorreta": "A necessidade de estar preparado para dificuldades maiores no futuro, se já se tem dificuldade com as menores no presente."
+      "respostaCorreta": "Salmo 99"
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "A lição afirma que a preparação para os desafios do tempo do fim começa:",
+      "pergunta": "O que o Salmo 99 convida o povo a fazer diante da presença do Senhor?",
       "opcoes": [
-        "Apenas quando a perseguição se intensifica.",
-        "Hoje, no momento atual.",
-        "Somente na volta de Jesus.",
-        "Após os mil anos no céu."
+        "Esconder-se em medo.",
+        "Tentar fugir de Sua presença.",
+        "Tremer e adorar, pois Ele é santo e justo.",
+        "Permanecer indiferente."
       ],
-      "respostaCorreta": "Hoje, no momento atual."
+      "respostaCorreta": "Tremer e adorar, pois Ele é santo e justo."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Se uma pessoa não é fiel hoje em 'momento de paz', qual a dificuldade que ela provavelmente enfrentará no tempo do fim, segundo a lição?",
+      "pergunta": "O Salmo 99 exalta o Senhor como o Rei que ama:",
       "opcoes": [
-        "Será mais fácil ser fiel.",
-        "Não terá dificuldade alguma.",
-        "Não terá facilidade para ser fiel quando vierem as maiores dificuldades.",
-        "Sua fidelidade será automaticamente garantida."
+        "A injustiça.",
+        "A retidão e o juízo, estabelecendo a equidade em Jacó.",
+        "A corrupção.",
+        "A opressão dos pobres."
       ],
-      "respostaCorreta": "Não terá facilidade para ser fiel quando vierem as maiores dificuldades."
+      "respostaCorreta": "A retidão e o juízo, estabelecendo a equidade em Jacó."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "O que João viu sendo dado ao Cordeiro em Apocalipse 5, indicando Sua dignidade?",
+      "pergunta": "Quais figuras bíblicas são mencionadas no Salmo 99 como exemplos de líderes que oraram a Deus e foram ouvidos?",
       "opcoes": [
-        "Uma espada.",
-        "Um livro.",
-        "Uma coroa.",
-        "Um trono."
+        "Abraão, Isaque e Jacó",
+        "Noé, Daniel e Jó",
+        "Moisés, Arão e Samuel",
+        "Pedro, Tiago e João"
       ],
-      "respostaCorreta": "Um livro."
+      "respostaCorreta": "Moisés, Arão e Samuel"
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "A abertura dos selos em Apocalipse 6, após o Cordeiro receber o livro, surge para contar a história de quê?",
+      "pergunta": "O que o Salmo 99 nos lembra sobre o caráter de Deus?",
       "opcoes": [
-        "O início da criação.",
-        "A queda de Satanás.",
-        "A igreja até o fim.",
-        "A vida de Jesus na Terra."
+        "Que Ele é indiferente às orações.",
+        "Que Ele é um Deus que perdoa as iniquidades, mas também castiga as transgressões.",
+        "Que Ele nunca perdoa.",
+        "Que Ele é um Deus distante e inacessível."
       ],
-      "respostaCorreta": "A igreja até o fim."
+      "respostaCorreta": "Que Ele é um Deus que perdoa as iniquidades, mas também castiga as transgressões."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Quais temas são destacados nas cartas às igrejas no início do livro de Apocalipse (Ap. 2, 3)?",
+      "pergunta": "Qual é o convite final do Salmo 99 ao povo de Deus?",
       "opcoes": [
-        "Alegria e prosperidade.",
-        "Tribulação.",
-        "Isolamento.",
-        "Indiferença."
+        "Para ignorar a santidade de Deus.",
+        "Para exaltar o Senhor, nosso Deus, e adorar em Seu santo monte, porque o Senhor, nosso Deus, é santo.",
+        "Para adorar outros deuses.",
+        "Para questionar a autoridade de Deus."
       ],
-      "respostaCorreta": "Tribulação."
+      "respostaCorreta": "Para exaltar o Senhor, nosso Deus, e adorar em Seu santo monte, porque o Senhor, nosso Deus, é santo."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Em Apocalipse 17:14, quem conquista e com quem?",
+      "pergunta": "A mensagem do Salmo 99 é particularmente relevante para a Igreja Adventista do Sétimo Dia por que razão?",
       "opcoes": [
-        "Os reinos da terra conquistam com a besta.",
-        "Satanás conquista com seus seguidores.",
-        "O Cordeiro vence e com Ele os eleitos e fiéis.",
-        "A humanidade conquista pela ciência."
+        "Porque ele fala sobre a necessidade de festas e celebrações.",
+        "Porque ele enfatiza a santidade e a majestade de Deus, temas centrais na doutrina do santuário e na preparação para a Segunda Vinda de Cristo.",
+        "Porque ele descreve rituais de sacrifício.",
+        "Porque ele se foca apenas na história antiga de Israel."
       ],
-      "respostaCorreta": "O Cordeiro vence e com Ele os eleitos e fiéis."
+      "respostaCorreta": "Porque ele enfatiza a santidade e a majestade de Deus, temas centrais na doutrina do santuário e na preparação para a Segunda Vinda de Cristo."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Qual poder é essencial para que o povo de Deus possa cumprir a tarefa de pregar o evangelho até os confins da terra, segundo Jesus e os apóstolos?",
+      "pergunta": "O que o Salmo 99 nos ensina sobre a oração?",
       "opcoes": [
-        "Força física.",
-        "Poder político.",
-        "Riqueza material.",
-        "O poder do Espírito Santo."
+        "Que a oração não tem efeito.",
+        "Que Deus ouve e responde às orações de Seus servos fiéis, mas também exige responsabilidade por suas ações.",
+        "Que orar é inútil em tempos de dificuldade.",
+        "Que Deus ignora as orações dos pecadores."
       ],
-      "respostaCorreta": "O poder do Espírito Santo."
+      "respostaCorreta": "Que Deus ouve e responde às orações de Seus servos fiéis, mas também exige responsabilidade por suas ações."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Quem é o responsável pela obra de alcançar as pessoas com a verdade, e qual é o nosso papel, segundo uma das fontes?",
+      "pergunta": "A frase 'Ele é santo' repetida no Salmo 99 serve para enfatizar o quê?",
       "opcoes": [
-        "Nós somos totalmente responsáveis, e Deus é apenas um espectador.",
-        "Os anjos são responsáveis, e nós apenas observamos.",
-        "Deus é o responsável, e nós somos apenas os instrumentos.",
-        "O mundo é responsável por se salvar."
+        "A fragilidade de Deus.",
+        "A pureza, a perfeição e a separação de Deus de tudo o que é pecaminoso e impuro.",
+        "A distância de Deus da humanidade.",
+        "A incapacidade de Deus de intervir."
       ],
-      "respostaCorreta": "Deus é o responsável, e nós somos apenas os instrumentos."
+      "respostaCorreta": "A pureza, a perfeição e a separação de Deus de tudo o que é pecaminoso e impuro."
+    },
+    {
+      "day": "Sexta-feira",
+      "pergunta": "No contexto escatológico, a adoração da santidade de Deus no Salmo 99 aponta para qual aspecto da fé adventista?",
+      "opcoes": [
+        "Apenas para a vida terrena.",
+        "Para a adoração celestial no Reino de Deus, onde Sua santidade será plenamente manifesta e adorada por todo o universo.",
+        "Para a adoração de ídolos.",
+        "Para a indiferença à moralidade."
+      ],
+      "respostaCorreta": "Para a adoração celestial no Reino de Deus, onde Sua santidade será plenamente manifesta e adorada por todo o universo."
     }
-  ];
+];
 
-  let questions = []; // Este array agora será preenchido com as questões filtradas
-  let currentQuestionIndex = 0;
-  let selectedAnswer = null;
-  let correctAnswersCount = 0;
+// Elementos do DOM
+const daySelectionContainer = document.getElementById('day-selection-container');
+const quizContentContainer = document.getElementById('quiz-content');
+const questionText = document.getElementById('question-text');
+const optionsContainer = document.getElementById('options-container');
+const submitButton = document.getElementById('submit-button');
+const feedback = document.getElementById('feedback');
+const nextButton = document.getElementById('next-button');
+const questionCounter = document.getElementById('question-counter');
+const backToDaysButton = document.getElementById('back-to-days-button');
+const restartButton = document.getElementById('restart-button');
 
-  // Referências aos novos elementos da interface
-  const daySelectionContainer = document.getElementById('day-selection-container');
-  const daySelect = document.getElementById('day-select'); // Referência ao novo select
-  const allQuestionsButton = document.getElementById('all-questions-button'); // Referência ao botão "Todas as Questões"
-  const quizContentContainer = document.getElementById('quiz-content');
+// Adicionado para selecionar TODOS os botões de dia
+const dayButtons = document.querySelectorAll('.day-button');
 
-  const questionTextElement = document.getElementById('question-text');
-  const questionCounterElement = document.getElementById('question-counter');
-  const optionsContainer = document.getElementById('options-container');
-  const submitButton = document.getElementById('submit-button');
-  const feedbackElement = document.getElementById('feedback');
-  const nextButton = document.getElementById('next-button');
-  const restartButton = document.getElementById('restart-button');
-  const backToDaysButton = document.getElementById('back-to-days-button');
-  const scoreDisplayElement = document.getElementById('score-display');
+let questions = []; // Perguntas para o quiz atual
+let currentQuestionIndex = 0;
+let correctAnswersCount = 0;
+let selectedOption = null;
 
-  // Função para embaralhar um array (Fisher-Yates shuffle)
-  function shuffleArray(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
-      }
-  }
+// Função para embaralhar um array (Fisher-Yates shuffle)
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
-  function updateQuestionCounter() {
-      questionCounterElement.textContent = `Questão ${currentQuestionIndex + 1} de ${questions.length}`;
-  }
+function loadQuestion() {
+    if (currentQuestionIndex >= questions.length) {
+        showResults();
+        return;
+    }
 
-  function loadQuestion() {
-      scoreDisplayElement.style.display = 'none';
-      backToDaysButton.style.display = 'none';
+    selectedOption = null; // Reseta a seleção
+    feedback.textContent = ''; // Limpa o feedback
+    submitButton.style.display = 'block'; // Mostra o botão de verificar
+    nextButton.style.display = 'none'; // Esconde o botão de próxima
+    optionsContainer.innerHTML = ''; // Limpa as opções anteriores
 
-      if (currentQuestionIndex < questions.length) {
-          const currentQuestion = questions[currentQuestionIndex];
-          questionTextElement.textContent = currentQuestion.pergunta;
-          optionsContainer.innerHTML = '';
-          selectedAnswer = null;
-          updateQuestionCounter();
+    const question = questions[currentQuestionIndex];
+    questionText.textContent = question.pergunta;
+    questionCounter.textContent = `Questão ${currentQuestionIndex + 1} de ${questions.length}`;
 
-          const shuffledOptions = [...currentQuestion.opcoes];
-          shuffleArray(shuffledOptions);
+    // Embaralha as opções para a pergunta atual
+    const shuffledOptions = [...question.opcoes];
+    shuffleArray(shuffledOptions);
 
-          shuffledOptions.forEach(option => {
-              const button = document.createElement('button');
-              button.classList.add('option-button');
-              button.textContent = option;
-              button.addEventListener('click', () => selectOption(button, option));
-              optionsContainer.appendChild(button);
-          });
+    shuffledOptions.forEach(option => {
+        const button = document.createElement('button');
+        button.textContent = option;
+        button.classList.add('option-button');
+        button.addEventListener('click', () => {
+            // Remove a classe 'selected' de todos os botões antes de adicionar ao novo
+            document.querySelectorAll('.option-button').forEach(btn => {
+                btn.classList.remove('selected');
+            });
+            button.classList.add('selected');
+            selectedOption = option;
+        });
+        optionsContainer.appendChild(button);
+    });
+}
 
-          submitButton.style.display = 'block';
-          submitButton.disabled = false;
-          feedbackElement.textContent = '';
-          nextButton.style.display = 'none';
+function checkAnswer() {
+    if (selectedOption === null) {
+        feedback.textContent = 'Por favor, selecione uma opção.';
+        feedback.style.color = 'orange';
+        return;
+    }
 
-          optionsContainer.querySelectorAll('.option-button').forEach(btn => {
-              btn.classList.remove('correct', 'incorrect', 'selected');
-              btn.disabled = false;
-          });
+    const question = questions[currentQuestionIndex];
+    const optionButtons = optionsContainer.querySelectorAll('.option-button');
 
-      } else {
-          questionTextElement.textContent = "Quiz Concluído!";
-          optionsContainer.innerHTML = '';
-          submitButton.style.display = 'none';
-          feedbackElement.textContent = 'Você terminou todas as questões para este dia!';
-          questionCounterElement.style.display = 'none';
+    optionButtons.forEach(button => {
+        if (button.textContent === question.respostaCorreta) {
+            button.classList.add('correct');
+        } else if (button.textContent === selectedOption) {
+            button.classList.add('wrong');
+        }
+        button.disabled = true; // Desabilita todos os botões após a verificação
+    });
 
-          scoreDisplayElement.textContent = `Você acertou ${correctAnswersCount} de ${questions.length} questões!`;
-          scoreDisplayElement.style.display = 'block';
+    if (selectedOption === question.respostaCorreta) {
+        feedback.textContent = 'Correto!';
+        feedback.style.color = 'green';
+        correctAnswersCount++;
+    } else {
+        feedback.textContent = 'Errado. A resposta correta era: ' + question.respostaCorreta;
+        feedback.style.color = 'red';
+    }
 
-          restartButton.style.display = 'block';
-          backToDaysButton.style.display = 'block';
-          nextButton.style.display = 'none';
-      }
-  }
+    submitButton.style.display = 'none';
+    nextButton.style.display = 'block';
+}
 
-  function selectOption(button, option) {
-      optionsContainer.querySelectorAll('.option-button').forEach(btn => {
-          btn.classList.remove('selected');
-      });
-      button.classList.add('selected');
-      selectedAnswer = option;
-  }
+function goToNextQuestion() {
+    currentQuestionIndex++;
+    loadQuestion();
+}
 
-  function checkAnswer() {
-      if (selectedAnswer === null) {
-          feedbackElement.textContent = 'Por favor, selecione uma opção.';
-          feedbackElement.style.color = '#ffc107';
-          return;
-      }
+function showResults() {
+    questionText.textContent = `Quiz Finalizado! Você acertou ${correctAnswersCount} de ${questions.length} questões.`;
+    optionsContainer.innerHTML = '';
+    feedback.textContent = '';
+    submitButton.style.display = 'none';
+    nextButton.style.display = 'none';
+    backToDaysButton.style.display = 'block';
+    restartButton.style.display = 'block';
+    questionCounter.textContent = ''; // Limpa o contador de questões
+}
 
-      const currentQuestion = questions[currentQuestionIndex];
-      const buttons = optionsContainer.querySelectorAll('.option-button');
+function restartQuiz() {
+    currentQuestionIndex = 0;
+    correctAnswersCount = 0;
+    shuffleArray(questions); // Embaralha novamente para um novo quiz
+    loadQuestion();
+    backToDaysButton.style.display = 'none';
+    restartButton.style.display = 'none';
+}
 
-      buttons.forEach(button => {
-          button.disabled = true;
-          if (button.textContent === currentQuestion.respostaCorreta) {
-              button.classList.add('correct');
-          } else if (button.textContent === selectedAnswer) {
-              button.classList.add('incorrect');
-          }
-      });
+// Função para resetar o quiz e mostrar a seleção de dia
+function resetQuiz() {
+    // daySelect.value = ""; // REMOVA ESTA LINHA OU COMENTE
+    questionText.textContent = '';
+    optionsContainer.innerHTML = '';
+    feedback.textContent = '';
+    submitButton.style.display = 'block';
+    nextButton.style.display = 'none';
+    backToDaysButton.style.display = 'none';
+    restartButton.style.display = 'none';
+    daySelectionContainer.style.display = 'block'; // Garante que a tela de seleção de dia volte
+    quizContentContainer.style.display = 'none';
+}
 
-      if (selectedAnswer === currentQuestion.respostaCorreta) {
-          feedbackElement.textContent = 'Correto!';
-          feedbackElement.style.color = '#28a745';
-          correctAnswersCount++;
-      } else {
-          feedbackElement.textContent = `Incorreto. A resposta correta era: ${currentQuestion.respostaCorreta}`;
-          feedbackElement.style.color = '#dc3545';
-      }
+function showDaySelection() {
+    quizContentContainer.style.display = 'none';
+    daySelectionContainer.style.display = 'block';
+    resetQuiz(); // Chame resetQuiz para limpar o estado e mostrar a seleção de dias
+}
 
-      submitButton.style.display = 'none';
-      nextButton.style.display = 'block';
-
-      if (currentQuestionIndex === questions.length - 1) {
-          nextButton.style.display = 'none';
-          restartButton.style.display = 'block';
-          backToDaysButton.style.display = 'block';
-      }
-  }
-
-  function goToNextQuestion() {
-      currentQuestionIndex++;
-      loadQuestion();
-  }
-
-  function restartQuiz() {
-      currentQuestionIndex = 0;
-      correctAnswersCount = 0;
-      shuffleArray(questions);
-      questionCounterElement.style.display = 'block';
-      loadQuestion();
-  }
-
-  function showDaySelection() {
-      quizContentContainer.style.display = 'none';
-      daySelectionContainer.style.display = 'flex';
-      correctAnswersCount = 0;
-      currentQuestionIndex = 0;
-      questionCounterElement.style.display = 'block';
-      scoreDisplayElement.style.display = 'none';
-      feedbackElement.textContent = '';
-      daySelect.value = ""; // Reseta o valor selecionado no dropdown
-  }
-
-  function startQuiz(day) {
-      if (day === "") { // Adicionado para lidar com a opção "Selecione um dia"
-          alert("Por favor, selecione um dia para começar o quiz.");
-          return;
-      }
-      if (day === "Geral") {
-          questions = [...allQuestions];
-      } else {
-          questions = allQuestions.filter(q => q.day === day);
-      }
-
-      if (questions.length === 0) {
-          alert("Não há questões para o dia selecionado. Por favor, escolha outro dia.");
-          return;
-      }
-
-      shuffleArray(questions);
-      currentQuestionIndex = 0;
-      correctAnswersCount = 0;
-
-      daySelectionContainer.style.display = 'none';
-      quizContentContainer.style.display = 'block';
-      loadQuestion();
-  }
-
-  // Event Listeners
-  submitButton.addEventListener('click', checkAnswer);
-  nextButton.addEventListener('click', goToNextQuestion);
-  restartButton.addEventListener('click', restartQuiz);
-  backToDaysButton.addEventListener('click', showDaySelection);
-
-  // Event Listener para o novo combobox/dropdown
-  daySelect.addEventListener('change', (event) => {
-      const selectedDay = event.target.value;
-      startQuiz(selectedDay);
-  });
-
-  // Event Listener para o botão "Todas as Questões"
-  allQuestionsButton.addEventListener('click', () => {
-      startQuiz("Geral");
-  });
-
-  // Inicializa mostrando a tela de seleção de dias
-  showDaySelection();
+// NOVO: Event Listener para TODOS os botões de dia
+dayButtons.forEach(button => {
+    button.addEventListener('click', (event) => {
+        const selectedDay = event.target.dataset.day; // Pega o valor de data-day
+        startQuiz(selectedDay);
+    });
+});
