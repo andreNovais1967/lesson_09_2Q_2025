@@ -791,8 +791,10 @@ const questionCounter = document.getElementById('question-counter');
 const backToDaysButton = document.getElementById('back-to-days-button');
 const restartButton = document.getElementById('restart-button');
 
-// Adicionado para selecionar TODOS os botões de dia
-const dayButtons = document.querySelectorAll('.day-button');
+// Adicionado para selecionar TODOS os botões de dia (incluindo o dropdown e o "Todas as Questões")
+const daySelect = document.getElementById('day-select'); // O dropdown
+const allQuestionsButton = document.getElementById('all-questions-button'); // O botão "Todas as Questões"
+const dayButtons = document.querySelectorAll('.day-button'); // Botões de dia individuais (se houver, mas agora o dropdown e o "Todas as Questões" são os principais)
 
 let questions = []; // Perguntas para o quiz atual
 let currentQuestionIndex = 0;
@@ -806,6 +808,33 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ESTA FUNÇÃO FALTAVA E É CRUCIAL >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+function startQuiz(day) {
+    if (day === "") { // Adicionado para lidar com a opção "Selecione um dia" do dropdown
+        alert("Por favor, selecione um dia para começar o quiz.");
+        return;
+    }
+    if (day === "Geral") {
+        questions = [...allQuestions];
+    } else {
+        questions = allQuestions.filter(q => q.day === day);
+    }
+
+    if (questions.length === 0) {
+        alert("Não há questões para o dia selecionado. Por favor, escolha outro dia.");
+        return;
+    }
+
+    shuffleArray(questions);
+    currentQuestionIndex = 0;
+    correctAnswersCount = 0;
+
+    daySelectionContainer.style.display = 'none'; // Esconde a seleção de dia
+    quizContentContainer.style.display = 'block'; // Mostra o quiz
+    loadQuestion(); // Carrega a primeira questão
+}
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FIM DA FUNÇÃO QUE FALTAVA >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 function loadQuestion() {
     if (currentQuestionIndex >= questions.length) {
@@ -902,7 +931,7 @@ function restartQuiz() {
 
 // Função para resetar o quiz e mostrar a seleção de dia
 function resetQuiz() {
-    // A linha 'daySelect.value = "";' foi removida, pois 'daySelect' não existe mais.
+    // daySelect.value = ""; // Remova ou comente esta linha se o valor inicial do select não for vazio string
     questionText.textContent = '';
     optionsContainer.innerHTML = '';
     feedback.textContent = '';
@@ -915,21 +944,22 @@ function resetQuiz() {
 }
 
 function showDaySelection() {
-    quizContentContainer.style.display = 'none';
-    daySelectionContainer.style.display = 'block';
     resetQuiz(); // Chame resetQuiz para limpar o estado e mostrar a seleção de dias
 }
 
-// Event Listener para os botões de dia (novo)
-dayButtons.forEach(button => {
-    button.addEventListener('click', (event) => {
-        const selectedDay = event.target.dataset.day; // Pega o valor de data-day
-        startQuiz(selectedDay);
-    });
-});
-
-// Outros Event Listeners (permanecem)
+// Event Listeners
 submitButton.addEventListener('click', checkAnswer);
 nextButton.addEventListener('click', goToNextQuestion);
 restartButton.addEventListener('click', restartQuiz);
 backToDaysButton.addEventListener('click', showDaySelection);
+
+// Event Listener para o dropdown (daySelect)
+daySelect.addEventListener('change', (event) => {
+    const selectedDay = event.target.value;
+    startQuiz(selectedDay);
+});
+
+// Event Listener para o botão "Todas as Questões"
+allQuestionsButton.addEventListener('click', () => {
+    startQuiz("Geral");
+});
