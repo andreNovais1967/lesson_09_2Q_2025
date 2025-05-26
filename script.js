@@ -18,962 +18,948 @@ const allQuestions = [ // Renomeado para 'allQuestions' para manter o array comp
       "opcoes": [
         "O êxodo do Egito e a entrada na Terra Prometida, a construção do Templo de Salomão e a dispersão das tribos de Israel.",
         "A criação do mundo, a queda do homem e a promessa de um Salvador.",
-        "O segundo advento de Cristo, o juízo e o estabelecimento do Reino de Deus.",
-        "A vida de Jesus Cristo e Seus milagres."
+        "Tribulação e confiança em Deus, o colapso dos reinos terrestres, a entronização de Cristo, o juízo final e o papel missionário do povo de Deus.",
+        "A vida e o ministério de Jesus Cristo, Seus milagres e Seus ensinamentos."
       ],
-      "respostaCorreta": "O segundo advento de Cristo, o juízo e o estabelecimento do Reino de Deus."
+      "respostaCorreta": "Tribulação e confiança em Deus, o colapso dos reinos terrestres, a entronização de Cristo, o juízo final e o papel missionário do povo de Deus."
     },
     {
       "day": "Sábado",
-      "pergunta": "O que a profecia de Ageu sobre a abalo de 'todas as nações' e o 'Desejado de todas as nações' tem em comum com as alusões proféticas nos Salmos?",
+      "pergunta": "De que forma os Salmos abordam questões como o problema do mal e sofrimento, a justiça divina e a batalha entre o bem e o mal, em contraste com as profecias apocalípticas?",
       "opcoes": [
-        "Ambas as profecias se referem exclusivamente ao primeiro advento de Cristo.",
-        "Ambas enfatizam o retorno literal do povo de Israel à sua terra.",
-        "Ambas predizem o juízo final sobre a Terra e o estabelecimento do Reino milenar.",
-        "Ambas as profecias apontam para a manifestação gloriosa de Cristo e Seu governo sobre as nações."
+        "De forma histórica e cronológica.",
+        "De forma poética e devocional.",
+        "De forma legalista e cerimonial.",
+        "De forma apocalíptica e simbólica complexa."
       ],
-      "respostaCorreta": "Ambas as profecias apontam para a manifestação gloriosa de Cristo e Seu governo sobre as nações."
+      "respostaCorreta": "De forma poética e devocional."
     },
     {
       "day": "Sábado",
-      "pergunta": "O que o Salmo 23, com sua imagem do 'Pastor', tem a ver com a compreensão profética e escatológica?",
+      "pergunta": "Quais outros livros proféticos a lição menciona que dialogam com as passagens dos Salmos?",
       "opcoes": [
-        "Ele profetiza a futura ocupação da Terra Prometida.",
-        "Ele se refere apenas à liderança de Moisés no deserto.",
-        "Ele simboliza o cuidado e a provisão de Deus para Seu povo, que culmina na era messiânica e no Reino de Deus.",
-        "Ele é uma alusão direta à vida de Davi como pastor."
+        "Gênesis, Êxodo, Levítico, Números, Deuteronômio.",
+        "Isaías, Ezequiel, Joel, Amós, Miquéias.",
+        "Daniel, Jeremias, Zacarias, Mateus, Apocalipse.",
+        "Provérbios, Eclesiastes, Cântico dos Cânticos."
       ],
-      "respostaCorreta": "Ele simboliza o cuidado e a provisão de Deus para Seu povo, que culmina na era messiânica e no Reino de Deus."
+      "respostaCorreta": "Daniel, Jeremias, Zacarias, Mateus, Apocalipse."
     },
     {
       "day": "Sábado",
-      "pergunta": "Como os Salmos contribuem para a nossa compreensão do Messias e Seu Reino, mesmo sem serem profecias apocalípticas explícitas?",
+      "pergunta": "Segundo a lição, o estudo dos Salmos e sua conexão com a escatologia adventista visa, entre outras coisas:",
       "opcoes": [
-        "Apenas fornecendo hinos para adoração no templo.",
-        "Através de imagens poéticas e simbólicas, os Salmos prefiguram a vinda, o sofrimento, a ressurreição e o reinado de Cristo.",
-        "Eles contam histórias da vida dos profetas do Antigo Testamento.",
-        "Eles descrevem a fundação de Jerusalém como capital."
+        "Aumentar o medo dos eventos finais.",
+        "Fortalecer a esperança e o compromisso dos crentes.",
+        "Desencorajar a busca por lições práticas.",
+        "Focar exclusivamente em símbolos complexos."
       ],
-      "respostaCorreta": "Através de imagens poéticas e simbólicas, os Salmos prefiguram a vinda, o sofrimento, a ressurreição e o reinado de Cristo."
+      "respostaCorreta": "Fortalecer a esperança e o compromisso dos crentes."
     },
     {
       "day": "Sábado",
-      "pergunta": "Qual é a relação entre os Salmos e a visão adventista do Grande Conflito?",
+      "pergunta": "Além de abordar temas proféticos, em grande profundidade, explorando quase todas as emoções humanas, o que mais o livro de Salmos e o livro de Provérbios são considerados, segundo uma das fontes?",
       "opcoes": [
-        "Os Salmos não têm relação alguma com o Grande Conflito, pois são apenas cânticos de louvor.",
-        "Os Salmos não abordam o tema do Grande Conflito.",
-        "Os Salmos retratam o conflito entre o bem e o mal, a justiça e a injustiça, e a esperança final na vitória de Deus, alinhando-se com a visão adventista do Grande Conflito.",
-        "Eles apenas narram eventos históricos de guerras em Israel."
+        "Os melhores livros de história antiga.",
+        "Os melhores manuais de psicologia humana que podemos encontrar.",
+        "Os mais importantes livros sobre lei e justiça.",
+        "Os textos mais difíceis de interpretar."
       ],
-      "respostaCorreta": "Os Salmos retratam o conflito entre o bem e o mal, a justiça e a injustiça, e a esperança final na vitória de Deus, alinhando-se com a visão adventista do Grande Conflito."
+      "respostaCorreta": "Os melhores manuais de psicologia humana que podemos encontrar."
     },
     {
       "day": "Sábado",
-      "pergunta": "No contexto da escatologia adventista, como os Salmos podem fortalecer a nossa fé no segundo advento de Cristo?",
+      "pergunta": "Por que a Bíblia, incluindo o Livro dos Salmos, continua sendo um livro atual, segundo uma das fontes?",
       "opcoes": [
-        "Eles fornecem detalhes específicos sobre a data do retorno de Cristo.",
-        "Através da descrição de Deus como Rei e Juiz, os Salmos reforçam a certeza do futuro reino de justiça e paz, onde Cristo reinará plenamente.",
-        "Eles descrevem os sinais exatos que precederão o retorno de Jesus.",
-        "Os Salmos não mencionam o segundo advento."
+        "Porque as épocas e a natureza humana mudaram drasticamente.",
+        "Porque trata de assuntos base da raça humana que são as mesmas vivências de hoje, apesar das diferentes épocas e avanços tecnológicos.",
+        "Porque foi escrita com uma linguagem complexa que só pode ser entendida hoje.",
+        "Porque se foca apenas em eventos históricos que não se repetem."
       ],
-      "respostaCorreta": "Através da descrição de Deus como Rei e Juiz, os Salmos reforçam a certeza do futuro reino de justiça e paz, onde Cristo reinará plenamente."
+      "respostaCorreta": "Porque trata de assuntos base da raça humana que são as mesmas vivências de hoje, apesar das diferentes épocas e avanços tecnológicos."
     },
     {
       "day": "Sábado",
-      "pergunta": "Qual a importância de estudar as 'alusões proféticas' nos Salmos para a interpretação adventista?",
+      "pergunta": "A indagação sobre por que Deus não trata o mal de forma mais direta e imediata é mencionada como uma questão com a qual quem se debate?",
       "opcoes": [
-        "Para focar apenas na história de Israel.",
-        "Para entender a Bíblia de forma literal e não simbólica.",
-        "Elas fornecem um contexto mais rico e aprofundado para a compreensão das grandes verdades do plano da salvação e do futuro de Deus para a humanidade.",
-        "Para desconsiderar as profecias apocalípticas."
+        "Apenas os inimigos de Deus.",
+        "Indivíduos que leem o livro de Provérbios.",
+        "Indivíduos que leem o livro de Salmos e com a qual todos nós já nos colocamos.",
+        "Somente aqueles que não têm fé."
       ],
-      "respostaCorreta": "Elas fornecem um contexto mais rico e aprofundado para a compreensão das grandes verdades do plano da salvação e do futuro de Deus para a humanidade."
+      "respostaCorreta": "Indivíduos que leem o livro de Salmos e com a qual todos nós já nos colocamos."
     },
     {
       "day": "Sábado",
-      "pergunta": "Que papel os Salmos desempenham na Liturgia e adoração adventista, especialmente considerando seu conteúdo profético?",
+      "pergunta": "Além do santuário terrestre ou templo terrestre, para onde somos encaminhados em busca de respostas ao lermos os Salmos?",
       "opcoes": [
-        "Apenas como músicas de fundo.",
-        "São cantados para preencher o tempo nos cultos.",
-        "Os Salmos são usados para inspirar louvor e adoração, ao mesmo tempo em que lembram os crentes das promessas divinas e da esperança futura.",
-        "Eles servem apenas para meditação individual e não para culto público."
+        "Para o mar Mediterrâneo.",
+        "Para o monte Sinai.",
+        "Para o santuário celestial.",
+        "Para a cidade de Babilônia."
       ],
-      "respostaCorreta": "Os Salmos são usados para inspirar louvor e adoração, ao mesmo tempo em que lembram os crentes das promessas divinas e da esperança futura."
+      "respostaCorreta": "Para o santuário celestial."
     },
     {
       "day": "Sábado",
-      "pergunta": "Em resumo, qual a mensagem central que os Salmos transmitem sobre o futuro, conforme a compreensão adventista?",
+      "pergunta": "Qual é o Verso para Memorizar da Lição 9, “Nos Salmos – Parte 2”?",
       "opcoes": [
-        "Uma mensagem de desespero e incerteza.",
-        "Uma mensagem de espera passiva pelo fim.",
-        "Uma mensagem de esperança, justiça e a certeza da vitória final de Deus e do estabelecimento de Seu Reino eterno.",
-        "Uma mensagem focada apenas na salvação individual, sem perspectiva coletiva."
+        "\"O Senhor é o meu pastor; nada me faltará.\" (Salmo 23:1)",
+        "\"Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.\" (João 3:16)",
+        "\"Louvem-Te os povos, ó Deus! Louvem-Te os povos todos! Alegrem-se e exultem as nações, pois julgas os povos com justiça e guias na Terra as nações.\" (Salmo 67:3, 4)",
+        "\"Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.\" (Mateus 11:28)"
       ],
-      "respostaCorreta": "Uma mensagem de esperança, justiça e a certeza da vitória final de Deus e do estabelecimento de Seu Reino eterno."
+      "respostaCorreta": "\"Louvem-Te os povos, ó Deus! Louvem-Te os povos todos! Alegrem-se e exultem as nações, pois julgas os povos com justiça e guias na Terra as nações.\" (Salmo 67:3, 4)"
     },
-
     // DOMINGO (Questões 11-20)
     {
       "day": "Domingo",
-      "pergunta": "Que tipo de linguagem os Salmos empregam para transmitir suas mensagens, especialmente as alusões proféticas?",
+      "pergunta": "De acordo com o Salmo 46, qual é a atitude do povo de Deus diante das grandes comoções naturais mencionadas no texto?",
       "opcoes": [
-        "Linguagem meramente histórica e factual.",
-        "Linguagem apocalíptica direta e símbolos complexos.",
-        "Linguagem poética, simbólica e metafórica que, ao invés de apresentar datas ou eventos explícitos, evoca imagens e sentimentos.",
-        "Linguagem jurídica e legalista."
+        "Temor e desespero.",
+        "Incredulidade e negação.",
+        "Confiança e a ausência de temor.",
+        "Fuga e busca por esconderijo."
       ],
-      "respostaCorreta": "Linguagem poética, simbólica e metafórica que, ao invés de apresentar datas ou eventos explícitos, evoca imagens e sentimentos."
+      "respostaCorreta": "Confiança e a ausência de temor."
     },
     {
       "day": "Domingo",
-      "pergunta": "Qual a principal função da poesia no Livro dos Salmos?",
+      "pergunta": "O Salmo 46:1 afirma que Deus é nosso refúgio e fortaleza, socorro bem presente em qual circunstância?",
       "opcoes": [
-        "Apenas para embelezar o texto.",
-        "A poesia nos Salmos tem a função de expressar emoções profundas, facilitar a memorização e criar imagens vívidas que revelam verdades sobre Deus e a experiência humana.",
-        "Para tornar o texto mais difícil de entender.",
-        "Para esconder o verdadeiro significado das profecias."
+        "Apenas em tempos de paz.",
+        "Na angústia.",
+        "Durante a prosperidade.",
+        "Ao realizar obras de caridade."
       ],
-      "respostaCorreta": "A poesia nos Salmos tem a função de expressar emoções profundas, facilitar a memorização e criar imagens vívidas que revelam verdades sobre Deus e a experiência humana."
+      "respostaCorreta": "Na angústia."
     },
     {
       "day": "Domingo",
-      "pergunta": "O que significa dizer que os Salmos utilizam 'imagens' e 'símbolos' em suas alusões proféticas?",
+      "pergunta": "As cenas do Apocalipse sobre a volta de Jesus, mencionadas em Apocalipse 6:14 (céu enrolando-se, montes e ilhas removidos), são comparadas a que descrição encontrada no Salmo 46?",
       "opcoes": [
-        "Significa que os Salmos são livros de adivinhação.",
-        "Significa que eles fornecem representações concretas de conceitos abstratos, permitindo que os leitores compreendam verdades espirituais complexas de forma mais intuitiva.",
-        "Significa que os Salmos são apenas histórias infantis.",
-        "Que suas mensagens são diretas e sem duplo sentido."
+        "A calmaria após uma tempestade.",
+        "A terra mudando e os montes se transportando para o meio dos mares.",
+        "A construção de uma nova cidade.",
+        "A fertilidade da terra."
       ],
-      "respostaCorreta": "Significa que eles fornecem representações concretas de conceitos abstratos, permitindo que os leitores compreendam verdades espirituais complexas de forma mais intuitiva."
+      "respostaCorreta": "A terra mudando e os montes se transportando para o meio dos mares."
     },
     {
       "day": "Domingo",
-      "pergunta": "Qual a diferença entre uma 'profecia direta' e uma 'alusão profética' no contexto dos Salmos?",
+      "pergunta": "Qual evento histórico no Antigo Testamento é mencionado como o contexto em que Salmos como o 46 foram cantados, apresentando Deus como refúgio na tribulação?",
       "opcoes": [
-        "Não há diferença; são termos sinônimos.",
-        "Uma profecia direta prediz um evento futuro de forma explícita, enquanto uma alusão profética usa imagens e temas que prefiguram eventos ou realidades messiânicas e escatológicas.",
-        "A profecia direta só se aplica ao Antigo Testamento, e a alusão profética ao Novo.",
-        "A profecia direta é fácil de entender, a alusão profética é impossível de entender."
+        "A libertação de Israel do Egito sob Moisés.",
+        "A vitória sobre os cananeus sob Josué.",
+        "Uma notável vitória nos dias de Josafá.",
+        "A dedicação do Templo por Salomão."
       ],
-      "respostaCorreta": "Uma profecia direta prediz um evento futuro de forma explícita, enquanto uma alusão profética usa imagens e temas que prefiguram eventos ou realidades messiânicas e escatológicas."
+      "respostaCorreta": "Uma notável vitória nos dias de Josafá."
     },
     {
       "day": "Domingo",
-      "pergunta": "Por que a compreensão da linguagem poética é crucial para a interpretação dos Salmos?",
+      "pergunta": "O Salmo 46 contrasta o mundo em ruínas e caos com qual imagem relacionada a Deus e Seu povo?",
       "opcoes": [
-        "Porque os Salmos são apenas poemas e não têm significado profundo.",
-        "Porque a poesia dos Salmos não é importante para o entendimento da mensagem.",
-        "Porque ignorar a natureza poética leva a interpretações literais e equivocadas, perdendo a riqueza de significado e as camadas de sentido que os Salmos pretendem transmitir.",
-        "Porque a poesia dificulta a compreensão da verdade bíblica."
+        "O deserto árido.",
+        "A torre de Babel.",
+        "A cidade de Deus que habita em paz.",
+        "O dilúvio universal."
       ],
-      "respostaCorreta": "Porque ignorar a natureza poética leva a interpretações literais e equivocadas, perdendo a riqueza de significado e as camadas de sentido que os Salmos pretendem transmitir."
+      "respostaCorreta": "A cidade de Deus que habita em paz."
     },
     {
       "day": "Domingo",
-      "pergunta": "Como o Salmo 2, com sua imagem do 'Filho' governando sobre as nações, exemplifica uma alusão profética?",
+      "pergunta": "No Salmo 46, a fúria dos rios e mares é contrastada com qual elemento relacionado à presença de Deus?",
       "opcoes": [
-        "Ele se refere apenas ao filho biológico de Davi.",
-        "Ele é uma profecia literal sobre a divisão do reino de Israel.",
-        "Ele usa a figura de um rei terreno para aludir ao Messias, o Filho de Deus, cujo reinado se estenderá sobre todas as nações, prefigurando o reino de Cristo.",
-        "É um salmo histórico sem implicações futuras."
+        "Um deserto sem água.",
+        "Um rio que flui da presença de Deus e alegra a cidade santa.",
+        "Um lago de fogo.",
+        "O mar Vermelho."
       ],
-      "respostaCorreta": "Ele usa a figura de um rei terreno para alusão ao Messias, o Filho de Deus, cujo reinado se estenderá sobre todas as nações, prefigurando o reino de Cristo."
+      "respostaCorreta": "Um rio que flui da presença de Deus e alegra a cidade santa."
     },
     {
       "day": "Domingo",
-      "pergunta": "No Salmo 24, a entrada do 'Rei da Glória' em Jerusalém pode ser entendida como uma alusão a que evento futuro?",
+      "pergunta": "O comando 'Aquietai-vos e saibam que eu sou Deus' (Salmo 46) é apresentado como um contraste direto a qual condição do mundo?",
       "opcoes": [
-        "Apenas a entrada de Davi na cidade.",
-        "A construção do segundo Templo.",
-        "À entrada triunfal de Cristo em Jerusalém, à Sua ascensão aos céus e, finalmente, ao Seu retorno glorioso para estabelecer Seu reino eterno.",
-        "A uma conquista militar."
+        "A paz e harmonia universais.",
+        "As guerras e a agitação entre nações.",
+        "A busca por conhecimento científico.",
+        "A celebração religiosa."
       ],
-      "respostaCorreta": "À entrada triunfal de Cristo em Jerusalém, à Sua ascensão aos céus e, finalmente, ao Seu retorno glorioso para estabelecer Seu reino eterno."
+      "respostaCorreta": "As guerras e a agitação entre nações."
     },
     {
       "day": "Domingo",
-      "pergunta": "Qual é a importância de reconhecer a linguagem figurada nos Salmos para a escatologia adventista?",
+      "pergunta": "Qual é a principal mensagem que o Salmo 46 nos incentiva a ter diante das tribulações, sejam elas atuais ou finais?",
       "opcoes": [
-        "Para diminuir a importância da profecia.",
-        "Para não levar a Bíblia a sério.",
-        "Permite que os adventistas compreendam como os Salmos, com sua riqueza poética, apontam para a segunda vinda de Cristo, o juízo e o estabelecimento do reino milenar de Deus.",
-        "Para focar apenas no aspecto histórico da Bíblia."
+        "A fugir e se esconder.",
+        "A lutar com nossas próprias forças.",
+        "A confiar e não temer.",
+        "A questionar a justiça de Deus."
       ],
-      "respostaCorreta": "Permite que os adventistas compreendam como os Salmos, com sua riqueza poética, apontam para a segunda vinda de Cristo, o juízo e o estabelecimento do reino milenar de Deus."
+      "respostaCorreta": "A confiar e não temer."
     },
     {
       "day": "Domingo",
-      "pergunta": "Como a poesia dos Salmos ajuda a preparar os crentes para os eventos finais?",
+      "pergunta": "A lição sugere que, se buscarmos a Deus como nosso refúgio hoje:",
       "opcoes": [
-        "Apenas descrevendo desastres naturais.",
-        "Ao inspirar esperança, fé e confiança na soberania de Deus, a poesia dos Salmos fortalece os crentes para enfrentar os desafios e esperar a consumação das promessas divinas.",
-        "Dando-lhes instruções detalhadas sobre como construir abrigos.",
-        "Ensinando-os a prever o futuro com precisão."
+        "As dificuldades cessarão completamente.",
+        "Teremos o livramento e a proteção dEle no tempo do fim nas perseguições.",
+        "Não precisaremos nos preparar para o futuro.",
+        "Apenas as dificuldades atuais serão resolvidas."
       ],
-      "respostaCorreta": "Ao inspirar esperança, fé e confiança na soberania de Deus, a poesia dos Salmos fortalece os crentes para enfrentar os desafios e esperar a consumação das promessas divinas."
+      "respostaCorreta": "Teremos o livramento e a proteção dEle no tempo do fim nas perseguições."
     },
     {
       "day": "Domingo",
-      "pergunta": "O que a 'exegese histórico-gramatical' e a 'leitura teológica' dos Salmos contribuem para a compreensão das alusões proféticas?",
+      "pergunta": "O Salmo 46 é aplicado para aqueles que:",
       "opcoes": [
-        "Apenas focam na gramática hebraica.",
-        "A exegese histórico-gramatical busca o sentido original do texto, enquanto a leitura teológica contextualiza as alusões proféticas dentro da história da salvação e da teologia bíblica mais ampla, revelando sua relevância para o plano de Deus.",
-        "Ambas as abordagens são contraditórias e não devem ser usadas juntas.",
-        "Elas são irrelevantes para a interpretação profética."
+        "Dependem de sua própria força.",
+        "Confiam e se entregam a Deus.",
+        "Ignoram os sinais do fim.",
+        "Apenas buscam prosperidade material."
       ],
-      "respostaCorreta": "A exegese histórico-gramatical busca o sentido original do texto, enquanto a leitura teológica contextualiza as alusões proféticas dentro da história da salvação e da teologia bíblica mais ampla, revelando sua relevância para o plano de Deus."
+      "respostaCorreta": "Confiam e se entregam a Deus."
     },
     // SEGUNDA-FEIRA (Questões 21-30)
     {
       "day": "Segunda-feira",
-      "pergunta": "Qual o principal tema abordado no Salmo 97 e como ele se relaciona com a escatologia?",
+      "pergunta": "A linguagem do Salmo 46, ao descrever o abalo da terra física, é vista como um prenúncio de quê?",
       "opcoes": [
-        "A importância da observância do sábado.",
-        "A descrição da criação do mundo.",
-        "O reinado universal e a glória de Deus, que culmina no estabelecimento de Seu reino de justiça e no juízo final, eventos cruciais na escatologia.",
-        "A história da vida de Davi."
+        "A construção de novas cidades.",
+        "A transformação da terra pelo retorno de Cristo.",
+        "Um período de paz e prosperidade duradoura.",
+        "A criação de novas espécies."
       ],
-      "respostaCorreta": "O reinado universal e a glória de Deus, que culmina no estabelecimento de Seu reino de justiça e no juízo final, eventos cruciais na escatologia."
+      "respostaCorreta": "A transformação da terra pelo retorno de Cristo."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "O que a expressão 'nuvens e densas trevas O rodeiam' no Salmo 97:2 simboliza no contexto profético?",
+      "pergunta": "A passagem de Jeremias 4:23-26 descreve a terra em qual estado?",
       "opcoes": [
-        "A presença de uma tempestade literal.",
-        "A dificuldade de se aproximar de Deus.",
-        "A santidade, a majestade e, por vezes, o mistério e o terror da presença divina em Seus atos de juízo e poder.",
-        "O eclipse solar."
+        "Um paraíso restaurado com abundância de vida.",
+        "Sem forma e vazia, com montes tremendo e cidades derribadas, após o furor da ira do Senhor.",
+        "Um centro de tecnologia avançada e desenvolvimento humano.",
+        "Um deserto fértil e habitado por muitas aves."
       ],
-      "respostaCorreta": "A santidade, a majestade e, por vezes, o mistério e o terror da presença divina em Seus atos de juízo e poder."
+      "respostaCorreta": "Sem forma e vazia, com montes tremendo e cidades derribadas, após o furor da ira do Senhor."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "Como a frase 'fogo vai adiante dEle e abrasa os inimigos ao redor' (Salmo 97:3) se encaixa na visão adventista do fim dos tempos?",
+      "pergunta": "A lição conecta a visão de Jeremias 4 com a promessa de um 'novo céu e uma nova terra', encontrada em qual outro livro bíblico?",
       "opcoes": [
-        "Refere-se a um incêndio florestal.",
-        "Descreve o castigo literal do povo de Israel.",
-        "Aponta para o juízo final de Deus sobre os ímpios, onde o fogo destrói o pecado e purifica a Terra, preparando-a para o estabelecimento do Reino eterno.",
-        "É uma metáfora para a raiva humana."
+        "Isaías.",
+        "Mateus.",
+        "Apocalipse.",
+        "Hebreus."
       ],
-      "respostaCorreta": "Aponta para o juízo final de Deus sobre os ímpios, onde o fogo destrói o pecado e purifica a Terra, preparando-a para o estabelecimento do Reino eterno."
+      "respostaCorreta": "Apocalipse."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "Que significado tem a frase 'os montes se derretem como cera na presença do Senhor' (Salmo 97:5) para a escatologia?",
+      "pergunta": "Segundo o apóstolo Paulo em 2 Coríntios 4:8-9, os servos de Deus podem ser atribulados, perplexos, perseguidos e abatidos, mas em que condição final?",
       "opcoes": [
-        "Descreve um fenômeno geológico.",
-        "Significa que as montanhas de Israel vão derreter.",
-        "Simboliza a magnitude do poder divino que transforma e reconfigura a criação em preparação para o estabelecimento de Seu reino de justiça, como na Nova Terra.",
-        "É uma descrição de uma erupção vulcânica."
+        "Angustiados, desanimados, desamparados e destruídos.",
+        "Vencedores, alegres, prósperos e saudáveis.",
+        "Não angustiados, não desanimados, não desamparados e não destruídos.",
+        "Imunes a qualquer tipo de sofrimento."
       ],
-      "respostaCorreta": "Simboliza a magnitude do poder divino que transforma e reconfigura a criação em preparação para o estabelecimento de Seu reino de justiça, como na Nova Terra."
+      "respostaCorreta": "Não angustiados, não desanimados, não desamparados e não destruídos."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "O Salmo 97:6 afirma que 'os céus anunciam a Sua justiça, e todos os povos veem a Sua glória'. Como isso se alinha com a visão adventista do segundo advento?",
+      "pergunta": "Por que Deus permite que Seus filhos passem por sofrimento, perplexidade, tribulação ou perseguição, segundo uma das fontes?",
       "opcoes": [
-        "Indica que apenas algumas pessoas verão a glória de Deus.",
-        "É uma declaração sobre a supremacia do sol.",
-        "Refere-se à manifestação universal da glória de Cristo e à proclamação final da justiça de Deus ao mundo antes de Sua vinda.",
-        "Descreve um fenômeno meteorológico."
+        "Porque Ele não tem poder para impedi-lo.",
+        "Porque Ele quer provar sua fraqueza.",
+        "Porque sabe que muitas vezes nessas situações o caráter se molda à imagem de Cristo.",
+        "Porque Ele é indiferente à dor humana."
       ],
-      "respostaCorreta": "Refere-se à manifestação universal da glória de Cristo e à proclamação final da justiça de Deus ao mundo antes de Sua vinda."
+      "respostaCorreta": "Porque sabe que muitas vezes nessas situações o caráter se molda à imagem de Cristo."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "Qual a implicação da ordem 'adorai-o, todos os seus anjos' (Salmo 97:7) para a adoração no fim dos tempos?",
+      "pergunta": "Qual é o 'motor' na vida do cristão que o impede de desanimar e dá sempre um objetivo à vida?",
       "opcoes": [
-        "Apenas os anjos devem adorar a Deus.",
-        "Não tem implicação para a adoração humana.",
-        "Aponta para a adoração universal a Deus no fim dos tempos, onde toda a criação, incluindo os remidos, se unirá em louvor e reconhecimento de Sua soberania.",
-        "Adoração é um conceito desatualizado."
+        "A riqueza material.",
+        "O reconhecimento humano.",
+        "A esperança.",
+        "A força física."
       ],
-      "respostaCorreta": "Aponta para a adoração universal a Deus no fim dos tempos, onde toda a criação, incluindo os remidos, se unirá em louvor e reconhecimento de Sua soberania."
+      "respostaCorreta": "A esperança."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "Como a alegria de Sião e Judá no Salmo 97:8-9 pode ser interpretada à luz do fim dos tempos?",
+      "pergunta": "A grande esperança do cristão, especialmente para os Adventistas do Sétimo Dia, é:",
       "opcoes": [
-        "Apenas a alegria das cidades de Israel.",
-        "Um sentimento passageiro e sem importância.",
-        "Sinaliza a celebração e a justificação do povo de Deus (a Sião espiritual) ao ver a justiça e a vitória de Deus se manifestarem plenamente no final dos tempos.",
-        "É uma metáfora para a felicidade dos reis."
+        "Uma longa vida na terra.",
+        "O encontro com Jesus (o advento).",
+        "O sucesso profissional.",
+        "A ausência de dificuldades."
       ],
-      "respostaCorreta": "Sinaliza a celebração e a justificação do povo de Deus (a Sião espiritual) ao ver a justiça e a vitória de Deus se manifestarem plenamente no final dos tempos."
+      "respostaCorreta": "O encontro com Jesus (o advento)."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "O Salmo 97:10 exorta: 'Vós que amais o Senhor, aborrecei o mal'. Que relevância isso tem para a vida dos crentes antes do segundo advento?",
+      "pergunta": "De acordo com a lição, quando o contexto da linguagem do Livro dos Salmos aponta para os tempos do fim (tempos escatológicos), essa linguagem deve ser interpretada como:",
       "opcoes": [
-        "Não é relevante para a vida cristã.",
-        "Significa que os crentes devem odiar todas as pessoas.",
-        "Destaca a importância da santidade e da separação do pecado como preparação para a vinda de Cristo e para viver no Seu reino de justiça.",
-        "Apenas para os líderes religiosos."
+        "Meramente simbólica, sem aplicação literal.",
+        "Com razões claras para pensar que seja literal.",
+        "Apenas como poesia sem significado profético.",
+        "Uma alegoria sem conexão com eventos reais."
       ],
-      "respostaCorreta": "Destaca a importância da santidade e da separação do pecado como preparação para a vinda de Cristo e para viver no Seu reino de justiça."
+      "respostaCorreta": "Com razões claras para pensar que seja literal."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "Que papel o Salmo 97 desempenha na esperança adventista da restauração e do novo céu e nova terra?",
+      "pergunta": "A esperança em meio à turbulência mencionada na lição de segunda-feira nos lembra que as dificuldades atuais são um sinal de quê?",
       "opcoes": [
-        "Nenhum papel, é apenas um salmo sobre a realeza de Deus.",
-        "Ele reforça a crença na intervenção divina para estabelecer um novo mundo de justiça e paz, onde a glória de Deus será plenamente revelada e o mal será erradicado.",
-        "Descreve a formação de novas galáxias.",
-        "Foca apenas na vida presente."
+        "Que Deus nos abandonou.",
+        "Que as coisas nunca melhorarão.",
+        "Que algo melhor está por chegar.",
+        "Que o pecado venceu."
       ],
-      "respostaCorreta": "Ele reforça a crença na intervenção divina para estabelecer um novo mundo de justiça e paz, onde a glória de Deus será plenamente revelada e o mal será erradicado."
+      "respostaCorreta": "Que algo melhor está por chegar."
     },
     {
       "day": "Segunda-feira",
-      "pergunta": "Em suma, qual a mensagem de esperança que o Salmo 97 transmite sobre o futuro de Deus?",
+      "pergunta": "Qual Salmo é o foco principal da lição de terça-feira?",
       "opcoes": [
-        "Uma mensagem de incerteza e medo.",
-        "Que Deus é um rei cruel e implacável.",
-        "Uma mensagem de triunfo divino, justiça e a certeza de que Deus reinará soberanamente, trazendo luz e alegria para Seu povo.",
-        "Que o mundo está fadado à destruição sem esperança."
+        "Salmo 23",
+        "Salmo 46",
+        "Salmo 47",
+        "Salmo 75"
       ],
-      "respostaCorreta": "Uma mensagem de triunfo divino, justiça e a certeza de que Deus reinará soberanamente, trazendo luz e alegria para Seu povo."
+      "respostaCorreta": "Salmo 47"
     },
     // TERÇA-FEIRA (Questões 31-40)
     {
       "day": "Terça-feira",
-      "pergunta": "Qual a principal profecia messiânica no Salmo 45?",
+      "pergunta": "O tema da lição de terça-feira, 'Debaixo de seus pés', é uma expressão de quê?",
       "opcoes": [
-        "A conquista de uma cidade por Davi.",
-        "O casamento de um rei israelita.",
-        "A unção e o reinado eterno de um rei divinamente escolhido, que prefigura Jesus Cristo como o Messias e Rei.",
-        "A construção de um templo."
+        "Submissão do povo de Deus aos seus inimigos.",
+        "A derrota final de Deus.",
+        "Vitória e triunfo sobre os inimigos.",
+        "A fraqueza do reino de Deus."
       ],
-      "respostaCorreta": "A unção e o reinado eterno de um rei divinamente escolhido, que prefigura Jesus Cristo como o Messias e Rei."
+      "respostaCorreta": "Vitória e triunfo sobre os inimigos."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "A quem se refere a frase 'Tu és mais formoso do que os filhos dos homens' (Salmo 45:2) no contexto messiânico?",
+      "pergunta": "Segundo Salmo 47:3, Deus submeterá os povos e porá as nações 'debaixo dos nossos pés'. O que essa linguagem de batalha e vitória indica?",
       "opcoes": [
-        "A um rei terreno comum.",
-        "A qualquer ser humano.",
-        "A Jesus Cristo, que excede em beleza e graça a todos os seres humanos, refletindo Sua divindade e perfeição.",
-        "A um anjo."
+        "Que o povo de Deus lutará fisicamente contra todas as nações.",
+        "Que Deus colocará os inimigos que perseguiram debaixo dos pés de Seu povo fiel após Sua vitória.",
+        "Que as nações se submeterão voluntariamente ao povo de Deus.",
+        "Que o povo de Deus dominará o mundo pela força."
       ],
-      "respostaCorreta": "A Jesus Cristo, que excede em beleza e graça a todos os seres humanos, refletindo Sua divindade e perfeição."
+      "respostaCorreta": "Que Deus colocará os inimigos que perseguiram debaixo dos pés de Seu povo fiel após Sua vitória."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "O que significa 'Deus, o Teu trono subsiste para todo o sempre' (Salmo 45:6) em relação ao Messias?",
+      "pergunta": "A ideia de colocar os inimigos debaixo dos pés também é encontrada em Salmo 110:1, referindo-se a quem?",
       "opcoes": [
-        "Que o trono de um rei terreno é eterno.",
-        "Que Deus não tem trono.",
-        "Indica a natureza divina e eterna do reinado de Jesus Cristo, cujo reino não terá fim, cumprindo a promessa do Reino de Deus.",
-        "É uma figura de linguagem sem significado profundo."
+        "O rei Davi.",
+        "O povo de Israel.",
+        "Jesus, pela Sua vitória na cruz.",
+        "Os profetas."
       ],
-      "respostaCorreta": "Indica a natureza divina e eterna do reinado de Jesus Cristo, cujo reino não terá fim, cumprindo a promessa do Reino de Deus."
+      "respostaCorreta": "Jesus, pela Sua vitória na cruz."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Como a unção do Messias com 'óleo de alegria mais do que a Teus companheiros' (Salmo 45:7) se relaciona com Jesus?",
+      "pergunta": "De acordo com Salmo 47, qual é o lugar que em última análise nós, o povo de Deus, ocupamos no reino de Cristo?",
       "opcoes": [
-        "Refere-se a um ritual de coroação antigo.",
-        "Significa que Jesus era mais feliz que todos.",
-        "Simboliza a unção de Jesus pelo Espírito Santo para Sua missão messiânica, destacando Sua alegria e pureza como Filho de Deus.",
-        "É uma referência literal a óleo de oliva."
+        "Dominadores sobre Deus.",
+        "Escravos sem direitos.",
+        "Súditos, mas chamados a reinar junto com Cristo como príncipes.",
+        "Observadores passivos."
       ],
-      "respostaCorreta": "Simboliza a unção de Jesus pelo Espírito Santo para Sua missão messiânica, destacando Sua alegria e pureza como Filho de Deus."
+      "respostaCorreta": "Súditos, mas chamados a reinar junto com Cristo como príncipes."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Quem é a 'rainha' mencionada no Salmo 45:9 ('A rainha está à Tua direita em ouro de Ofir') no contexto profético?",
+      "pergunta": "A lição menciona a profecia de Zacarias 14:4, que descreve o retorno de Jesus e Seus pés sobre o Monte das Oliveiras. Qual detalhe geográfico significativo ocorre neste evento?",
       "opcoes": [
-        "A esposa de um rei terreno.",
-        "Uma rainha histórica de Israel.",
-        "Representa a Igreja, a noiva de Cristo, adornada com a justiça de Deus e unida a Ele em Seu reino.",
-        "É uma figura mitológica."
+        "O monte se tornará uma ilha.",
+        "O monte será fendido pelo meio.",
+        "O monte será movido para o mar.",
+        "O monte desaparecerá."
       ],
-      "respostaCorreta": "Representa a Igreja, a noiva de Cristo, adornada com a justiça de Deus e unida a Ele em Seu reino."
+      "respostaCorreta": "O monte será fendido pelo meio."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "O que a instrução à 'filha do rei' para 'esquecer o teu povo e a casa de teu pai' (Salmo 45:10) significa para a Igreja?",
+      "pergunta": "Em Daniel 7:14, é dada a quem o domínio, a honra e o reino que é eterno e não será destruído?",
       "opcoes": [
-        "Que a Igreja deve abandonar sua história.",
-        "Que os crentes devem renunciar à sua família.",
-        "Simboliza a completa dedicação e lealdade da Igreja a Cristo, deixando para trás as antigas formas e apegos mundanos para se unir a Ele.",
-        "É uma alegoria sem aplicação prática."
+        "Aos reinos terrestres.",
+        "Ao povo dos santos do Altíssimo.",
+        "Ao Filho do Homem.",
+        "Ao anticristo."
       ],
-      "respostaCorreta": "Simboliza a completa dedicação e lealdade da Igreja a Cristo, deixando para trás as antigas formas e apegos mundanos para se unir a Ele."
+      "respostaCorreta": "Ao Filho do Homem."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Como os Salmos 110 e 45 se complementam na descrição do Messias?",
+      "pergunta": "Conforme Daniel 7:27, os reinos, domínios e majestade debaixo de todo o céu serão dados a quem após o fracasso dos reinos rebeldes?",
       "opcoes": [
-        "Não se complementam, são independentes.",
-        "O Salmo 110 foca no sacerdócio, e o Salmo 45 na realeza.",
-        "Enquanto o Salmo 110 enfatiza o Messias como Rei e Sacerdote, o Salmo 45 o descreve como um Rei glorioso e o Noivo da Igreja, juntos, oferecendo uma visão completa de Seu ofício messiânico.",
-        "Ambos descrevem o mesmo evento histórico."
+        "Ao Filho do Homem.",
+        "Ao povo dos santos do Altíssimo.",
+        "Às bestas apocalípticas.",
+        "Aos anjos."
       ],
-      "respostaCorreta": "Enquanto o Salmo 110 enfatiza o Messias como Rei e Sacerdote, o Salmo 45 o descreve como um Rei glorioso e o Noivo da Igreja, juntos, oferecendo uma visão completa de Seu ofício messiânico."
+      "respostaCorreta": "Ao povo dos santos do Altíssimo."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Qual a relevância do Salmo 45 para a escatologia adventista, especialmente em relação ao casamento do Cordeiro?",
+      "pergunta": "A vinda de Cristo, conforme descrito nas profecias bíblicas, será caracterizada por ser:",
       "opcoes": [
-        "Nenhuma, é apenas um salmo de amor.",
-        "É uma profecia sobre casamentos terrenos.",
-        "O Salmo 45 prefigura o casamento do Cordeiro (Apocalipse 19:7-9), simbolizando a união final e gloriosa de Cristo com Sua Igreja remida no estabelecimento do Reino eterno.",
-        "Descreve o fim dos casamentos."
+        "Oculta e secreta.",
+        "Visível para todo olho.",
+        "Compreendida apenas por alguns eleitos.",
+        "Um evento puramente espiritual sem manifestação física."
       ],
-      "respostaCorreta": "O Salmo 45 prefigura o casamento do Cordeiro (Apocalipse 19:7-9), simbolizando a união final e gloriosa de Cristo com Sua Igreja remida no estabelecimento do Reino eterno."
+      "respostaCorreta": "Visível para todo olho."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "O que a menção de 'filhas de reis' e 'princesas' no Salmo 45:13-14 representa para a Igreja?",
+      "pergunta": "Qual doutrina, surgida no mundo protestante/evangélico, é contrastada na lição com a visibilidade da vinda de Cristo e criticada por não ser como Deus age?",
       "opcoes": [
-        "Apenas mulheres da realeza.",
-        "Não tem significado simbólico.",
-        "Simboliza a universalidade da Igreja, composta por pessoas de todas as nações e classes sociais, que são convidadas a se unirem ao Rei e Sua noiva.",
-        "Representa a hierarquia da Igreja."
+        "A doutrina da Trindade.",
+        "A doutrina da criação.",
+        "A doutrina do arrebatamento secreto.",
+        "A doutrina do batismo."
       ],
-      "respostaCorreta": "Simboliza a universalidade da Igreja, composta por pessoas de todas as nações e classes sociais, que são convidadas a se unirem ao Rei e Sua noiva."
+      "respostaCorreta": "A doutrina do arrebatamento secreto."
     },
     {
       "day": "Terça-feira",
-      "pergunta": "Qual a mensagem geral de esperança que o Salmo 45 transmite sobre o Messias e Sua Igreja?",
+      "pergunta": "Qual Salmo é o foco principal da lição de quarta-feira?",
       "opcoes": [
-        "Uma mensagem de derrota e tristeza.",
-        "Que o Messias não terá uma Igreja.",
-        "Uma mensagem de glória, beleza e triunfo, onde o Messias reinará eternamente com Sua Igreja, trazendo alegria e prosperidade sem fim.",
-        "Uma mensagem focada na imperfeição humana."
+        "Salmo 46",
+        "Salmo 47",
+        "Salmo 75",
+        "Salmo 67"
       ],
-      "respostaCorreta": "Uma mensagem de glória, beleza e triunfo, onde o Messias reinará eternamente com Sua Igreja, trazendo alegria e prosperidade sem fim."
+      "respostaCorreta": "Salmo 75"
     },
     // QUARTA-FEIRA (Questões 41-50)
     {
       "day": "Quarta-feira",
-      "pergunta": "O que o Salmo 82 descreve e qual sua relevância para a escatologia?",
+      "pergunta": "Que aspecto do caráter e obra de Deus é revelado no Salmo 75?",
       "opcoes": [
-        "Apenas uma disputa entre deuses pagãos.",
-        "Um julgamento divino que demonstra o juízo de Deus sobre líderes injustos e falsos deuses, prefigurando o juízo final e o estabelecimento do Reino de Deus.",
-        "Uma batalha entre nações.",
-        "Um evento histórico sem significado futuro."
+        "Deus como Criador.",
+        "Deus como Redentor.",
+        "Deus como Juiz que trará justiça.",
+        "Deus como Pastor."
       ],
-      "respostaCorreta": "Um julgamento divino que demonstra o juízo de Deus sobre líderes injustos e falsos deuses, prefigurando o juízo final e o estabelecimento do Reino de Deus."
+      "respostaCorreta": "Deus como Juiz que trará justiça."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "A quem se refere 'Deus assiste na congregação divina' (Salmo 82:1)?",
+      "pergunta": "No Salmo 75:8, o que simboliza o 'cálice espumante' nas mãos de Deus?",
       "opcoes": [
-        "A uma reunião de sacerdotes.",
-        "A uma assembleia de anjos e seres celestiais, onde Deus, o Juiz supremo, preside o julgamento dos 'deuses' (governantes injustos).",
-        "A um conselho de reis terrenos.",
-        "A uma reunião secreta de magos."
+        "Bênçãos divinas.",
+        "A salvação oferecida a todos.",
+        "O vinho da cólera/ira de Deus para os ímpios.",
+        "A comunhão entre Deus e Seu povo."
       ],
-      "respostaCorreta": "A uma assembleia de anjos e seres celestiais, onde Deus, o Juiz supremo, preside o julgamento dos 'deuses' (governantes injustos)."
+      "respostaCorreta": "O vinho da cólera/ira de Deus para os ímpios."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "O que significa 'Até quando julgareis injustamente e tomareis partido com os ímpios?' (Salmo 82:2)?",
+      "pergunta": "Apocalipse 14:10 ecoa quase literalmente Salmo 75:8 ao advertir que quem adorar a besta beberá do vinho da cólera de Deus. Qual é a diferença crucial mencionada na lição sobre o vinho em Apocalipse 14:10 ('sem mistura') em comparação com Salmo 75:8 ('cheio de mistura')?",
       "opcoes": [
-        "Uma crítica aos juízes de Israel.",
-        "Uma acusação de corrupção política.",
-        "Uma condenação divina à injustiça e à corrupção dos líderes e governantes que oprimem os necessitados e violam a lei de Deus.",
-        "Uma pergunta retórica sem resposta."
+        "No Salmo, a ira é mais intensa; no Apocalipse, é diluída.",
+        "No Apocalipse, o vinho tem força total, sem diluição com misericórdia, representando a plena medida do juízo divino.",
+        "O vinho no Salmo representa a misericórdia, enquanto no Apocalipse representa a ira.",
+        "A mistura no Salmo significa adição de água, enquanto no Apocalipse significa adição de veneno."
       ],
-      "respostaCorreta": "Uma condenação divina à injustiça e à corrupção dos líderes e governantes que oprimem os necessitados e violam a lei de Deus."
+      "respostaCorreta": "No Apocalipse, o vinho tem força total, sem diluição com misericórdia, representando a plena medida do juízo divino."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "Qual a implicação da frase 'todos vós sois deuses' (Salmo 82:6) para os juízes e líderes?",
+      "pergunta": "Beber o 'vinho da ira sem mistura' no fim dos tempos, conforme Apocalipse 14 e Salmo 75, é interpretado como:",
       "opcoes": [
-        "Que os juízes são literalmente deuses.",
-        "Que os líderes são imortais.",
-        "Lembrar que, embora tenham autoridade delegada por Deus, eles são mortais e responsáveis por seus atos, submetidos ao juízo divino.",
-        "Que eles têm poder ilimitado."
+        "Uma oportunidade de arrependimento.",
+        "A plena medida do juízo divino.",
+        "Um castigo parcial anterior.",
+        "Uma bênção para os fiéis."
       ],
-      "respostaCorreta": "Lembrar que, embora tenham autoridade delegada por Deus, eles são mortais e responsáveis por seus atos, submetidos ao juízo divino."
+      "respostaCorreta": "A plena medida do juízo divino."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "Como o Salmo 82:7, 'Todavia, como homens morrereis, e como um dos príncipes caireis', se relaciona com o juízo final?",
+      "pergunta": "O que acontecerá com os pecadores ('ímpios da terra'), segundo Salmo 75:8, ao beberem do cálice da ira de Deus?",
       "opcoes": [
-        "Descreve a morte natural de todos os homens.",
-        "Significa que apenas os príncipes morrerão.",
-        "Enfatiza a mortalidade e a responsabilidade de todos os 'deuses' (líderes) diante de Deus, que os julgará e os fará cair como qualquer ser humano, no juízo final.",
-        "É uma profecia sobre a queda de impérios."
+        "Serão purificados e salvos.",
+        "Absorverão e beberão as escórias de suas obras.",
+        "Serão transportados para um lugar seguro.",
+        "Receberão misericórdia."
       ],
-      "respostaCorreta": "Enfatiza a mortalidade e a responsabilidade de todos os 'deuses' (líderes) diante de Deus, que os julgará e os fará cair como qualquer ser humano, no juízo final."
+      "respostaCorreta": "Absorverão e beberão as escórias de suas obras."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "O que a exortação 'Levanta-te, ó Deus, julga a terra, pois tu herdarás todas as nações' (Salmo 82:8) significa para a esperança escatológica?",
+      "pergunta": "A terceira mensagem angélica em Apocalipse 14:9-11 é comparada a um eco do Salmo 75, assegurando que",
       "opcoes": [
-        "Um pedido para Deus abençoar a terra.",
-        "Que Deus deve se tornar um rei terreno.",
-        "É um clamor para que Deus intervenha e estabeleça Seu reino de justiça, onde Ele reinará sobre todas as nações e julgará com retidão, restaurando a ordem.",
-        "É uma expressão de desespero."
+        "Todos terão a oportunidade de escapar do juízo.",
+        "Nenhum ímpio escapará das consequências de suas escolhas.",
+        "O juízo será apenas para alguns.",
+        "A misericórdia anulará completamente o juízo."
       ],
-      "respostaCorreta": "É um clamor para que Deus intervenha e estabeleça Seu reino de justiça, onde Ele reinará sobre todas as nações e julgará com retidão, restaurando a ordem."
+      "respostaCorreta": "Nenhum ímpio escapará das consequências de suas escolhas."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "Qual a relação entre o Salmo 82 e a visão adventista do juízo investigativo?",
+      "pergunta": "O que Deus fará em relação ao Seu povo, ao pecado e aos pecadores no juízo final, conforme revelado no Salmo 75?",
       "opcoes": [
-        "Não há relação.",
-        "O Salmo 82 descreve o juízo final e a punição dos ímpios, alinhando-se com a crença adventista no juízo investigativo que precede o segundo advento e determina quem é digno da salvação.",
-        "O Salmo 82 foca apenas no juízo terreno.",
-        "É uma profecia sobre a destruição de templos."
+        "Perdoará a todos sem distinção.",
+        "Ignorará o pecado e os pecadores.",
+        "Exaltará Seu povo, destruirá pecado e pecadores, e revelará Seu caráter justo.",
+        "Apenas julgará as nações, mas não indivíduos."
       ],
-      "respostaCorreta": "O Salmo 82 descreve o juízo final e a punição dos ímpios, alinhando-se com a crença adventista no juízo investigativo que precede o segundo advento e determina quem é digno da salvação."
+      "respostaCorreta": "Exaltará Seu povo, destruirá pecado e pecadores, e revelará Seu caráter justo."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "O Salmo 82 aborda a questão da justiça social. Como isso se relaciona com a preparação para o fim dos tempos?",
+      "pergunta": "Qual é uma de las coisas que Deus corrigirá no juízo, segundo uma das fontes?",
       "opcoes": [
-        "A justiça social não é importante no fim dos tempos.",
-        "É um tema apenas para ativistas sociais.",
-        "A busca pela justiça social e a defesa dos oprimidos são parte integrante da fé adventista e refletem o caráter de Deus, preparando os crentes para viver em um mundo de justiça plena.",
-        "É uma distração da pregação do evangelho."
+        "A ausência de progresso científico.",
+        "A falta de organização social.",
+        "A apropriação indevida de poder e o egoísmo.",
+        "A diversidade cultural."
       ],
-      "respostaCorreta": "A busca pela justiça social e a defesa dos oprimidos são parte integrante da fé adventista e refletem o caráter de Deus, preparando os crentes para viver em um mundo de justiça plena."
+      "respostaCorreta": "A apropriação indevida de poder e o egoísmo."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "Que esperança o Salmo 82 oferece aos oprimidos e aos que sofrem injustiça?",
+      "pergunta": "O que é identificado em uma das fontes como o 'grande problema do pecado'?",
       "opcoes": [
-        "Nenhuma esperança, apenas descreve a injustiça.",
-        "Apenas a esperança de vingança.",
-        "Oferece a esperança de que Deus é o Juiz supremo que defenderá os oprimidos, corrigirá as injustiças e estabelecerá Seu reino de justiça plena.",
-        "Apenas a esperança de um milagre imediato."
+        "A falta de conhecimento.",
+        "O egoísmo.",
+        "A desobediência a leis humanas.",
+        "A fraqueza física."
       ],
-      "respostaCorreta": "Oferece a esperança de que Deus é o Juiz supremo que defenderá os oprimidos, corrigirá as injustiças e estabelecerá Seu reino de justiça plena."
+      "respostaCorreta": "O egoísmo."
     },
     {
       "day": "Quarta-feira",
-      "pergunta": "Em resumo, qual a principal mensagem do Salmo 82 sobre o caráter de Deus e o futuro?",
+      "pergunta": "Qual Salmo é o foco principal da lição de quinta-feira?",
       "opcoes": [
-        "Que Deus é indiferente à injustiça.",
-        "Que Deus é apenas um observador passivo.",
-        "Que Deus é um Juiz justo e soberano que, no tempo certo, intervirá para julgar a terra, erradicar a injustiça e estabelecer Seu reino de justiça e paz.",
-        "Que o futuro é incerto e sem direção."
+        "Salmo 46",
+        "Salmo 47",
+        "Salmo 75",
+        "Salmo 67"
       ],
-      "respostaCorreta": "Que Deus é um Juiz justo e soberano que, no tempo certo, intervirá para julgar a terra, erradicar a injustiça e estabelecer Seu reino de justiça e paz."
+      "respostaCorreta": "Salmo 67"
     },
     // QUINTA-FEIRA (Questões 51-60)
     {
       "day": "Quinta-feira",
-      "pergunta": "Qual o tema central do Salmo 118 em relação à profecia?",
+      "pergunta": "O que o Salmo 67 apresenta em relação à presença de Deus?",
       "opcoes": [
-        "A construção do Templo de Jerusalém.",
-        "A celebração da vitória militar.",
-        "A vinda do Messias, a Sua rejeição e, por fim, a Sua exaltação como a 'pedra angular', prefigurando Sua morte, ressurreição e reinado.",
-        "A coroação de um rei terreno."
+        "Deus escondido de Seu povo.",
+        "Deus presente entre Seu povo.",
+        "Deus distante e inalcançável.",
+        "Deus preocupado apenas consigo mesmo."
       ],
-      "respostaCorreta": "A vinda do Messias, a Sua rejeição e, por fim, a Sua exaltação como a 'pedra angular', prefigurando Sua morte, ressurreição e reinado."
+      "respostaCorreta": "Deus presente entre Seu povo."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "A quem se refere a frase 'Bendito o que vem em nome do Senhor' (Salmo 118:26) no Novo Testamento?",
+      "pergunta": "Segundo Salmo 67:2, qual é o propósito de Deus abençoar e fazer resplandecer Seu rosto sobre Seu povo?",
       "opcoes": [
-        "A qualquer pessoa que vem ao templo.",
-        "A um profeta do Antigo Testamento.",
-        "A Jesus Cristo, em Sua entrada triunfal em Jerusalém, quando a multidão O saudou com essas palavras, reconhecendo-O como o Messias.",
-        "Ao sumo sacerdote."
+        "Para que Seu povo se torne rico e poderoso.",
+        "Para que se conheça na terra o Seu caminho e entre todas as nações a Sua salvação.",
+        "Para que Seu povo domine as outras nações.",
+        "Para que Seu povo viva isolado do mundo."
       ],
-      "respostaCorreta": "A Jesus Cristo, em Sua entrada triunfal em Jerusalém, quando a multidão O saudou com essas palavras, reconhecendo-O como o Messias."
+      "respostaCorreta": "Para que se conheça na terra o Seu caminho e entre todas as nações a Sua salvação."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "O que significa 'A pedra que os construtores rejeitaram, essa veio a ser a pedra angular' (Salmo 118:22) em relação a Jesus?",
+      "pergunta": "Conforme Salmo 67:4, qual é a razão para os povos se alegrarem e exultarem?",
       "opcoes": [
-        "Que Jesus foi rejeitado pelos construtores de casas.",
-        "Que Jesus era uma pedra literal.",
-        "Profetiza a rejeição de Jesus pelos líderes religiosos de Sua época, mas Sua posterior exaltação por Deus como o fundamento essencial da Igreja e do plano da salvação.",
-        "É uma metáfora sobre a construção de um muro."
+        "Porque alcançaram prosperidade econômica.",
+        "Porque alcançaram a paz mundial.",
+        "Porque Deus julga os povos com justiça e guia as nações na Terra.",
+        "Porque o conhecimento humano superou a ignorância."
       ],
-      "respostaCorreta": "Profetiza a rejeição de Jesus pelos líderes religiosos de Sua época, mas Sua posterior exaltação por Deus como o fundamento essencial da Igreja e do plano da salvação."
+      "respostaCorreta": "Porque Deus julga os povos com justiça e guia as nações na Terra."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Como a frase 'Esta é a obra do Senhor; maravilhosa é aos nossos olhos' (Salmo 118:23) se aplica à ressurreição de Cristo?",
+      "pergunta": "Qual é o grande objetivo do povo de Deus no tempo do fim, conforme a lição relaciona Salmo 67 com Apocalipse 14?",
       "opcoes": [
-        "Refere-se à construção de uma grande obra arquitetônica.",
-        "Não tem relação com a ressurreição.",
-        "Reconhece a ressurreição de Jesus como um ato milagroso e divino de Deus, que é surpreendente e digno de admiração para os que creem.",
-        "Descreve um espetáculo natural."
+        "Estabelecer um reino terrestre.",
+        "Proclamar a misericórdia e a salvação de Deus a todo o mundo.",
+        "Viver em isolamento e santidade.",
+        "Acumular bens e poder."
       ],
-      "respostaCorreta": "Reconhece a ressurreição de Jesus como um ato milagroso e divino de Deus, que é surpreendente e digno de admiração para os que creem."
+      "respostaCorreta": "Proclamar a misericórdia e a salvação de Deus a todo o mundo."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Que papel a 'pedra angular' desempenha na visão adventista da Igreja e do plano da salvação?",
+      "pergunta": "O que significa ser 'arautos da verdade', conforme a lição discute o papel do povo de Deus?",
       "opcoes": [
-        "É apenas um ornamento sem função.",
-        "A pedra angular simboliza Jesus Cristo como o fundamento inabalável da Igreja, sobre quem toda a estrutura da fé e do plano da salvação é construída.",
-        "A pedra angular é um objeto de adoração.",
-        "Não tem papel na teologia adventista."
+        "Ser aqueles que ocultam a verdade dos outros.",
+        "Ser os canais que o Senhor quer usar para mostrar a verdade.",
+        "Ser aqueles que inventam novas verdades.",
+        "Ser aqueles que guardam a verdade apenas para si."
       ],
-      "respostaCorreta": "A pedra angular simboliza Jesus Cristo como o fundamento inabalável da Igreja, sobre quem toda a estrutura da fé e do plano da salvação é construída."
+      "respostaCorreta": "Ser os canais que o Senhor quer usar para mostrar a verdade."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Como o Salmo 118 reforça a esperança na soberania de Deus e no Seu plano, mesmo diante da rejeição?",
+      "pergunta": "Segundo uma das fontes, a verdade está sendo espezinhada, falseada e substituída pelo erro hoje. Diante disso, o que Deus necessita e quer de Seu povo?",
       "opcoes": [
-        "Ele sugere que Deus não tem um plano.",
-        "Ao mostrar que Deus, mesmo diante da oposição humana, cumpre Seus propósitos e exalta aqueles que são rejeitados, inspirando confiança na Sua justiça e poder.",
-        "Foca apenas no sofrimento.",
-        "Mostra que a rejeição é o fim de tudo."
+        "Que se isolem do mundo.",
+        "Que defendam o erro.",
+        "Que sejam Seus arautos da verdade.",
+        "Que sejam Seus arautos da verdade."
       ],
-      "respostaCorreta": "Ao mostrar que Deus, mesmo diante da oposição humana, cumpre Seus propósitos e exalta aqueles que são rejeitados, inspirando confiança na Sua justiça e poder."
+      "respostaCorreta": "Que sejam Seus arautos da verdade."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "O Salmo 118 é um 'salmo Hallel' (de louvor). Que mensagem de louvor ele oferece sobre a fidelidade de Deus no fim dos tempos?",
+      "pergunta": "O que é o 'cadinho' na vida do cristão, mencionado em uma das fontes em relação à proclamação da verdade?",
       "opcoes": [
-        "Apenas louvor pela vida presente.",
-        "Que Deus é fiel apenas em tempos bons.",
-        "Ele inspira louvor pela fidelidade inabalável de Deus, que garante a vitória final de Cristo e o cumprimento de todas as Suas promessas, mesmo em meio às adversidades.",
-        "É um salmo de lamento."
+        "Um lugar de descanso e conforto.",
+        "Um processo de purificação que ocorre ao nos tornarmos testemunhas de Jesus e proclamarmos verdades que o mundo tem relutância em aceitar.",
+        "Um período de prosperidade sem desafios.",
+        "Um treinamento teórico sem aplicação prática."
       ],
-      "respostaCorreta": "Ele inspira louvor pela fidelidade inabalável de Deus, que garante a vitória final de Cristo e o cumprimento de todas as Suas promessas, mesmo em meio às adversidades."
+      "respostaCorreta": "Um processo de purificação que ocorre ao nos tornarmos testemunhas de Jesus e proclamarmos verdades que o mundo tem relutância em aceitar."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Qual a conexão entre o Salmo 118 e a ressurreição dos justos no segundo advento?",
+      "pergunta": "Qual é a melhor forma de fazer face às trevas, segundo uma das fontes, ao discutirmos a missão do povo de Deus?",
       "opcoes": [
-        "Não há conexão, trata-se apenas de Jesus.",
-        "O Salmo 118, ao exaltar a vitória de Cristo sobre a morte, aponta para a promessa da ressurreição dos justos, que também experimentarão a vida em Cristo.",
-        "Descreve a ressurreição dos ímpios.",
-        "É sobre a ressurreição de reis terrenos."
+        "Entrar em polêmicas e discussões.",
+        "Apagar as trevas pela força.",
+        "Acender uma luz.",
+        "Fugir das trevas."
       ],
-      "respostaCorreta": "O Salmo 118, ao exaltar a vitória de Cristo sobre a morte, aponta para a promessa da ressurreição dos justos, que também experimentarão a vida em Cristo."
+      "respostaCorreta": "Acender uma luz."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "O que a mensagem de 'luz' no Salmo 118:27 ('O Senhor é Deus, e nos deu luz') pode significar para o fim dos tempos?",
+      "pergunta": "Conforme Apocalipse 14:6, quem tem o evangelho eterno para pregar aos que se assentam sobre a terra?",
       "opcoes": [
-        "Apenas a luz do sol.",
-        "A luz da iluminação espiritual e da verdade que Deus revela ao Seu povo, guiando-os em meio às trevas e preparando-os para o reino de luz de Cristo.",
-        "A luz artificial das cidades.",
-        "É uma figura de linguagem sem sentido profético."
+        "Os reinos terrestres.",
+        "Os falsos profetas.",
+        "Um anjo voando pelo meio do céu.",
+        "Satanás."
       ],
-      "respostaCorreta": "A luz da iluminação espiritual e da verdade que Deus revela ao Seu povo, guiando-os em meio às trevas e preparando-os para o reino de luz de Cristo."
+      "respostaCorreta": "Um anjo voando pelo meio do céu."
     },
     {
       "day": "Quinta-feira",
-      "pergunta": "Em resumo, qual a mensagem central de esperança que o Salmo 118 transmite sobre o Messias e o plano da salvação?",
+      "pergunta": "A lição enfatiza que não é necessário esperar pela perseguição escatológica para sentir a necessidade de quê?",
       "opcoes": [
-        "Uma mensagem de fracasso e desespero.",
-        "Que o plano de Deus foi frustrado pela rejeição.",
-        "Uma mensagem de triunfo divino, revelando que a rejeição do Messias levou à Sua exaltação como a pedra angular, garantindo a vitória final de Deus e a salvação para todos que nEle creem.",
-        "Uma mensagem focada apenas na história passada."
+        "De acumular bens.",
+        "Do refúgio de Deus.",
+        "De se isolar da sociedade.",
+        "De negar a fé."
       ],
-      "respostaCorreta": "Uma mensagem de triunfo divino, revelando que a rejeição do Messias levou à Sua exaltação como a pedra angular, garantindo a vitória final de Deus e a salvação para todos que nEle creem."
+      "respostaCorreta": "Do refúgio de Deus."
     },
     // SEXTA-FEIRA (Questões 61-70)
     {
       "day": "Sexta-feira",
-      "pergunta": "Como os Salmos em geral, com suas alusões proféticas, fortalecem a fé dos adventistas no segundo advento?",
+      "pergunta": "A passagem de Jeremias 12:5 ('se te fadigas correndo com homens que vão a pé, como poderás competir com os que vão a cavalo?') é usada para ilustrar o quê?",
       "opcoes": [
-        "Eles não têm relação com o segundo advento.",
-        "Ao prefigurarem eventos e aspectos do reinado messiânico e do juízo final, os Salmos oferecem uma base sólida e inspiradora para a esperança na segunda vinda de Cristo.",
-        "Apenas descrevendo os sinais celestiais.",
-        "Fornecendo datas exatas para o retorno de Jesus."
+        "A importância do exercício físico.",
+        "A necessidade de estar preparado para dificuldades maiores no futuro, se já se tem dificuldade com as menores no presente.",
+        "A superioridade dos cavalos sobre os homens.",
+        "A inutilidade do esforço."
       ],
-      "respostaCorreta": "Ao prefigurarem eventos e aspectos do reinado messiânico e do juízo final, os Salmos oferecem uma base sólida e inspiradora para a esperança na segunda vinda de Cristo."
+      "respostaCorreta": "A necessidade de estar preparado para dificuldades maiores no futuro, se já se tem dificuldade com as menores no presente."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Qual a importância de integrar a leitura dos Salmos com outros livros proféticos como Daniel e Apocalipse?",
+      "pergunta": "A lição afirma que a preparação para os desafios do tempo do fim começa:",
       "opcoes": [
-        "Não é importante, pois são livros distintos.",
-        "Ajuda a criar confusão na interpretação.",
-        "A integração permite uma compreensão mais rica e completa do plano de Deus, pois os Salmos fornecem o contexto emocional e espiritual para as verdades proféticas mais explícitas.",
-        "Apenas para aumentar o volume de leitura."
+        "Apenas quando a perseguição se intensifica.",
+        "Hoje, no momento atual.",
+        "Somente na volta de Jesus.",
+        "Após os mil anos no céu."
       ],
-      "respostaCorreta": "A integração permite uma compreensão mais rica e completa do plano de Deus, pois os Salmos fornecem o contexto emocional e espiritual para as verdades proféticas mais explícitas."
+      "respostaCorreta": "Hoje, no momento atual."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Como os Salmos inspiram adoração e serviço ativo enquanto esperamos o cumprimento das profecias?",
+      "pergunta": "Se uma pessoa não é fiel hoje em 'momento de paz', qual a dificuldade que ela provavelmente enfrentará no tempo do fim, segundo a lição?",
       "opcoes": [
-        "Apenas incentivando a espera passiva.",
-        "Eles inspiram adoração ao revelar a grandeza de Deus e o Seu plano, e serviço ativo ao motivar os crentes a viverem vidas justas e a proclamarem a mensagem do Evangelho.",
-        "Desencorajando qualquer ação.",
-        "Focando apenas na salvação individual."
+        "Será mais fácil ser fiel.",
+        "Não terá dificuldade alguma.",
+        "Não terá facilidade para ser fiel quando vierem as maiores dificuldades.",
+        "Sua fidelidade será automaticamente garantida."
       ],
-      "respostaCorreta": "Eles inspiram adoração ao revelar a grandeza de Deus e o Seu plano, e serviço ativo ao motivar os crentes a viverem vidas justas e a proclamarem a mensagem do Evangelho."
+      "respostaCorreta": "Não terá facilidade para ser fiel quando vierem as maiores dificuldades."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Que papel a linguagem poética e simbólica dos Salmos desempenha na nossa compreensão da profecia?",
+      "pergunta": "O que João viu sendo dado ao Cordeiro em Apocalipse 5, indicando Sua dignidade?",
       "opcoes": [
-        "Torna a profecia ambígua e sem sentido.",
-        "Permite uma compreensão mais profunda das verdades divinas, convidando à reflexão e à conexão emocional com o plano de Deus, além de ser um recurso literário para expressar realidades futuras.",
-        "Serve apenas para entretenimento.",
-        "Impede uma interpretação clara."
+        "Uma espada.",
+        "Um livro.",
+        "Uma coroa.",
+        "Um trono."
       ],
-      "respostaCorreta": "Permite uma compreensão mais profunda das verdades divinas, convidando à reflexão e à conexão emocional com o plano de Deus, além de ser um recurso literário para expressar realidades futuras."
+      "respostaCorreta": "Um livro."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Como os Salmos nos preparam para o juízo final e o estabelecimento do Reino de Deus?",
+      "pergunta": "A abertura dos selos em Apocalipse 6, após o Cordeiro receber o livro, surge para contar a história de quê?",
       "opcoes": [
-        "Não nos preparam, são apenas cânticos.",
-        "Ao retratar a soberania de Deus como Juiz e Rei, os Salmos nos convidam à reflexão sobre nossa vida, à retidão e à confiança na justiça divina que se manifestará plenamente.",
-        "Apenas através de descrições apocalípticas.",
-        "Incentivando o medo e o desespero."
+        "O início da criação.",
+        "A queda de Satanás.",
+        "A igreja até o fim.",
+        "A vida de Jesus na Terra."
       ],
-      "respostaCorreta": "Ao retratar a soberania de Deus como Juiz e Rei, os Salmos nos convidam à reflexão sobre nossa vida, à retidão e à confiança na justiça divina que se manifestará plenamente."
+      "respostaCorreta": "A igreja até o fim."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Qual a relação dos Salmos com a doutrina adventista do Grande Conflito?",
+      "pergunta": "Quais temas são destacados nas cartas às igrejas no início do livro de Apocalipse (Ap. 2, 3)?",
       "opcoes": [
-        "Nenhuma, pois são livros de diferentes épocas.",
-        "Os Salmos, ao abordarem temas de sofrimento, injustiça, e a vitória final de Deus, refletem e reforçam a narrativa do Grande Conflito entre Cristo e Satanás.",
-        "Os Salmos tratam apenas de conflitos terrenos.",
-        "São contrários à doutrina do Grande Conflito."
+        "Alegria e prosperidade.",
+        "Tribulação.",
+        "Isolamento.",
+        "Indiferença."
       ],
-      "respostaCorreta": "Os Salmos, ao abordarem temas de sofrimento, injustiça, e a vitória final de Deus, refletem e reforçam a narrativa do Grande Conflito entre Cristo e Satanás."
+      "respostaCorreta": "Tribulação."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Que mensagem de esperança e encorajamento os Salmos oferecem para os crentes que vivem nos últimos dias?",
+      "pergunta": "Em Apocalipse 17:14, quem conquista e com quem?",
       "opcoes": [
-        "Uma mensagem de desespero e isolamento.",
-        "Que não há esperança para o futuro.",
-        "Os Salmos oferecem consolo, direção e a certeza da vitória final de Deus, incentivando a confiança em Sua soberania e a perseverança na fé, mesmo em tempos difíceis.",
-        "Apenas promessas de riqueza material."
+        "Os reinos da terra conquistam com a besta.",
+        "Satanás conquista com seus seguidores.",
+        "O Cordeiro vence e com Ele os eleitos e fiéis.",
+        "A humanidade conquista pela ciência."
       ],
-      "respostaCorreta": "Os Salmos oferecem consolo, direção e a certeza da vitória final de Deus, incentivando a confiança em Sua soberania e a perseverança na fé, mesmo em tempos difíceis."
+      "respostaCorreta": "O Cordeiro vence e com Ele os eleitos e fiéis."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Como a leitura devocional dos Salmos pode enriquecer a experiência de fé adventista?",
+      "pergunta": "Qual poder é essencial para que o povo de Deus possa cumprir a tarefa de pregar o evangelho até os confins da terra, segundo Jesus e os apóstolos?",
       "opcoes": [
-        "Tornando-a superficial e sem significado.",
-        "Apenas para fins de estudo acadêmico.",
-        "A leitura devocional dos Salmos nutre a alma, fortalece a conexão com Deus, inspira gratidão e louvor, e aprofunda a compreensão do plano divino, enriquecendo a vida espiritual.",
-        "Diminuindo a fé e a confiança."
+        "Força física.",
+        "Poder político.",
+        "Riqueza material.",
+        "O poder do Espírito Santo."
       ],
-      "respostaCorreta": "A leitura devocional dos Salmos nutre a alma, fortalece a conexão com Deus, inspira gratidão e louvor, e aprofunda a compreensão do plano divino, enriquecendo a vida espiritual."
+      "respostaCorreta": "O poder do Espírito Santo."
     },
     {
       "day": "Sexta-feira",
-      "pergunta": "Qual a relevância prática de estudar as alusões proféticas nos Salmos para a vida diária?",
+      "pergunta": "Quem é o responsável pela obra de alcançar as pessoas com a verdade, e qual é o nosso papel, segundo uma das fontes?",
       "opcoes": [
-        "Não tem relevância prática, é apenas teoria.",
-        "A relevância prática está em compreender que Deus está no controle da história, e que Suas promessas de justiça e restauração oferecem esperança e propósito para a vida diária, influenciando nossas escolhas e atitudes.",
-        "Apenas para prever o futuro.",
-        "É um estudo para o ócio."
+        "Nós somos totalmente responsáveis, e Deus é apenas um espectador.",
+        "Os anjos são responsáveis, e nós apenas observamos.",
+        "Deus é o responsável, e nós somos apenas os instrumentos.",
+        "O mundo é responsável por se salvar."
       ],
-      "respostaCorreta": "A relevância prática está em compreender que Deus está no controle da história, e que Suas promessas de justiça e restauração oferecem esperança e propósito para a vida diária, influenciando nossas escolhas e atitudes."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "Em conclusão, qual a mensagem unificadora dos Salmos e sua importância para a escatologia adventista?",
-      "opcoes": [
-        "Uma mensagem de desunião e dúvida.",
-        "Que os Salmos são irrelevantes para os adventistas.",
-        "Os Salmos oferecem uma mensagem unificadora de esperança messiânica e escatológica, revelando a soberania de Deus, a vitória de Cristo e a certeza do estabelecimento de Seu reino eterno de justiça e paz, inspirando fé e adoração.",
-        "Uma mensagem de materialismo e egocentrismo."
-      ],
-      "respostaCorreta": "Os Salmos oferecem uma mensagem unificadora de esperança messiânica e escatológica, revelando a soberania de Deus, a vitória de Cristo e a certeza do estabelecimento de Seu reino eterno de justiça e paz, inspirando fé e adoração."
+      "respostaCorreta": "Deus é o responsável, e nós somos apenas os instrumentos."
     }
-];
+  ];
 
-document.addEventListener('DOMContentLoaded', () => {
-    let questions = []; // Este array agora será preenchido com as questões filtradas
-    let currentQuestionIndex = 0;
-    let selectedAnswer = null;
-    let correctAnswersCount = 0;
+  let questions = []; // Este array agora será preenchido com as questões filtradas
+  let currentQuestionIndex = 0;
+  let selectedAnswer = null;
+  let correctAnswersCount = 0;
 
-    // Referências aos novos elementos da interface
-    const daySelectionContainer = document.getElementById('day-selection-container');
-    const daySelect = document.getElementById('day-select'); // Referência ao novo select
-    const allQuestionsButton = document.getElementById('all-questions-button'); // Referência ao botão "Todas as Questões"
-    const quizContentContainer = document.getElementById('quiz-content');
+  // Referências aos novos elementos da interface
+  const daySelectionContainer = document.getElementById('day-selection-container');
+  const daySelect = document.getElementById('day-select'); // Referência ao novo select
+  const allQuestionsButton = document.getElementById('all-questions-button'); // Referência ao botão "Todas as Questões"
+  const quizContentContainer = document.getElementById('quiz-content');
 
-    const questionTextElement = document.getElementById('question-text');
-    const questionCounterElement = document.getElementById('question-counter');
-    const optionsContainer = document.getElementById('options-container');
-    const submitButton = document.getElementById('submit-button');
-    const feedbackElement = document.getElementById('feedback');
-    const nextButton = document.getElementById('next-button');
-    const restartButton = document.getElementById('restart-button');
-    const backToDaysButton = document.getElementById('back-to-days-button');
-    const scoreDisplayElement = document.getElementById('score-display');
+  const questionTextElement = document.getElementById('question-text');
+  const questionCounterElement = document.getElementById('question-counter');
+  const optionsContainer = document.getElementById('options-container');
+  const submitButton = document.getElementById('submit-button');
+  const feedbackElement = document.getElementById('feedback');
+  const nextButton = document.getElementById('next-button');
+  const restartButton = document.getElementById('restart-button');
+  const backToDaysButton = document.getElementById('back-to-days-button');
+  const scoreDisplayElement = document.getElementById('score-display');
 
-    // Função para embaralhar um array (Fisher-Yates shuffle)
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-    }
+  // Função para embaralhar um array (Fisher-Yates shuffle)
+  function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+      }
+  }
 
-    function updateQuestionCounter() {
-        questionCounterElement.textContent = `Questão ${currentQuestionIndex + 1} de ${questions.length}`;
-    }
+  function updateQuestionCounter() {
+      questionCounterElement.textContent = `Questão ${currentQuestionIndex + 1} de ${questions.length}`;
+  }
 
-    function loadQuestion() {
-        scoreDisplayElement.style.display = 'none';
-        backToDaysButton.style.display = 'none';
+  function loadQuestion() {
+      scoreDisplayElement.style.display = 'none';
+      backToDaysButton.style.display = 'none';
 
-        if (currentQuestionIndex < questions.length) {
-            const currentQuestion = questions[currentQuestionIndex];
-            questionTextElement.textContent = currentQuestion.pergunta;
-            optionsContainer.innerHTML = '';
-            selectedAnswer = null;
-            updateQuestionCounter();
+      if (currentQuestionIndex < questions.length) {
+          const currentQuestion = questions[currentQuestionIndex];
+          questionTextElement.textContent = currentQuestion.pergunta;
+          optionsContainer.innerHTML = '';
+          selectedAnswer = null;
+          updateQuestionCounter();
 
-            const shuffledOptions = [...currentQuestion.opcoes];
-            shuffleArray(shuffledOptions);
+          const shuffledOptions = [...currentQuestion.opcoes];
+          shuffleArray(shuffledOptions);
 
-            shuffledOptions.forEach(option => {
-                const button = document.createElement('button');
-                button.classList.add('option-button');
-                button.textContent = option;
-                button.addEventListener('click', () => selectOption(button, option));
-                optionsContainer.appendChild(button);
-            });
+          shuffledOptions.forEach(option => {
+              const button = document.createElement('button');
+              button.classList.add('option-button');
+              button.textContent = option;
+              button.addEventListener('click', () => selectOption(button, option));
+              optionsContainer.appendChild(button);
+          });
 
-            submitButton.style.display = 'block';
-            submitButton.disabled = false;
-            feedbackElement.textContent = '';
-            nextButton.style.display = 'none';
+          submitButton.style.display = 'block';
+          submitButton.disabled = false;
+          feedbackElement.textContent = '';
+          nextButton.style.display = 'none';
 
-            optionsContainer.querySelectorAll('.option-button').forEach(btn => {
-                btn.classList.remove('correct', 'incorrect', 'selected');
-                btn.disabled = false;
-            });
+          optionsContainer.querySelectorAll('.option-button').forEach(btn => {
+              btn.classList.remove('correct', 'incorrect', 'selected');
+              btn.disabled = false;
+          });
 
-        } else {
-            questionTextElement.textContent = "Quiz Concluído!";
-            optionsContainer.innerHTML = '';
-            submitButton.style.display = 'none';
-            feedbackElement.textContent = 'Você terminou todas as questões para este dia!';
-            questionCounterElement.style.display = 'none';
+      } else {
+          questionTextElement.textContent = "Quiz Concluído!";
+          optionsContainer.innerHTML = '';
+          submitButton.style.display = 'none';
+          feedbackElement.textContent = 'Você terminou todas as questões para este dia!';
+          questionCounterElement.style.display = 'none';
 
-            scoreDisplayElement.textContent = `Você acertou ${correctAnswersCount} de ${questions.length} questões!`;
-            scoreDisplayElement.style.display = 'block';
+          scoreDisplayElement.textContent = `Você acertou ${correctAnswersCount} de ${questions.length} questões!`;
+          scoreDisplayElement.style.display = 'block';
 
-            restartButton.style.display = 'block';
-            backToDaysButton.style.display = 'block';
-            nextButton.style.display = 'none';
-        }
-    }
+          restartButton.style.display = 'block';
+          backToDaysButton.style.display = 'block';
+          nextButton.style.display = 'none';
+      }
+  }
 
-    function selectOption(button, option) {
-        optionsContainer.querySelectorAll('.option-button').forEach(btn => {
-            btn.classList.remove('selected');
-        });
-        button.classList.add('selected');
-        selectedAnswer = option;
-    }
+  function selectOption(button, option) {
+      optionsContainer.querySelectorAll('.option-button').forEach(btn => {
+          btn.classList.remove('selected');
+      });
+      button.classList.add('selected');
+      selectedAnswer = option;
+  }
 
-    function checkAnswer() {
-        if (selectedAnswer === null) {
-            feedbackElement.textContent = 'Por favor, selecione uma opção.';
-            feedbackElement.style.color = '#ffc107';
-            return;
-        }
+  function checkAnswer() {
+      if (selectedAnswer === null) {
+          feedbackElement.textContent = 'Por favor, selecione uma opção.';
+          feedbackElement.style.color = '#ffc107';
+          return;
+      }
 
-        const currentQuestion = questions[currentQuestionIndex];
-        const buttons = optionsContainer.querySelectorAll('.option-button');
+      const currentQuestion = questions[currentQuestionIndex];
+      const buttons = optionsContainer.querySelectorAll('.option-button');
 
-        buttons.forEach(button => {
-            button.disabled = true;
-            if (button.textContent === currentQuestion.respostaCorreta) {
-                button.classList.add('correct');
-            } else if (button.textContent === selectedAnswer) {
-                button.classList.add('incorrect');
-            }
-        });
+      buttons.forEach(button => {
+          button.disabled = true;
+          if (button.textContent === currentQuestion.respostaCorreta) {
+              button.classList.add('correct');
+          } else if (button.textContent === selectedAnswer) {
+              button.classList.add('incorrect');
+          }
+      });
 
-        if (selectedAnswer === currentQuestion.respostaCorreta) {
-            feedbackElement.textContent = 'Correto!';
-            feedbackElement.style.color = '#28a745';
-            correctAnswersCount++;
-        } else {
-            feedbackElement.textContent = `Incorreto. A resposta correta era: ${currentQuestion.respostaCorreta}`;
-            feedbackElement.style.color = '#dc3545';
-        }
+      if (selectedAnswer === currentQuestion.respostaCorreta) {
+          feedbackElement.textContent = 'Correto!';
+          feedbackElement.style.color = '#28a745';
+          correctAnswersCount++;
+      } else {
+          feedbackElement.textContent = `Incorreto. A resposta correta era: ${currentQuestion.respostaCorreta}`;
+          feedbackElement.style.color = '#dc3545';
+      }
 
-        submitButton.style.display = 'none';
-        nextButton.style.display = 'block';
+      submitButton.style.display = 'none';
+      nextButton.style.display = 'block';
 
-        if (currentQuestionIndex === questions.length - 1) {
-            nextButton.style.display = 'none';
-            restartButton.style.display = 'block';
-            backToDaysButton.style.display = 'block';
-        }
-    }
+      if (currentQuestionIndex === questions.length - 1) {
+          nextButton.style.display = 'none';
+          restartButton.style.display = 'block';
+          backToDaysButton.style.display = 'block';
+      }
+  }
 
-    function goToNextQuestion() {
-        currentQuestionIndex++;
-        loadQuestion();
-    }
+  function goToNextQuestion() {
+      currentQuestionIndex++;
+      loadQuestion();
+  }
 
-    function restartQuiz() {
-        currentQuestionIndex = 0;
-        correctAnswersCount = 0;
-        shuffleArray(questions);
-        questionCounterElement.style.display = 'block';
-        loadQuestion();
-    }
+  function restartQuiz() {
+      currentQuestionIndex = 0;
+      correctAnswersCount = 0;
+      shuffleArray(questions);
+      questionCounterElement.style.display = 'block';
+      loadQuestion();
+  }
 
-    function showDaySelection() {
-        quizContentContainer.style.display = 'none';
-        daySelectionContainer.style.display = 'flex';
-        correctAnswersCount = 0;
-        currentQuestionIndex = 0;
-        questionCounterElement.style.display = 'block';
-        scoreDisplayElement.style.display = 'none';
-        feedbackElement.textContent = '';
-        daySelect.value = ""; // Reseta o valor selecionado no dropdown
-    }
+  function showDaySelection() {
+      quizContentContainer.style.display = 'none';
+      daySelectionContainer.style.display = 'flex';
+      correctAnswersCount = 0;
+      currentQuestionIndex = 0;
+      questionCounterElement.style.display = 'block';
+      scoreDisplayElement.style.display = 'none';
+      feedbackElement.textContent = '';
+      daySelect.value = ""; // Reseta o valor selecionado no dropdown
+  }
 
-    function startQuiz(day) {
-        if (day === "") { // Adicionado para lidar com a opção "Selecione um dia"
-            alert("Por favor, selecione um dia para começar o quiz.");
-            return;
-        }
-        if (day === "Geral") {
-            questions = [...allQuestions];
-        } else {
-            questions = allQuestions.filter(q => q.day === day);
-        }
+  function startQuiz(day) {
+      if (day === "") { // Adicionado para lidar com a opção "Selecione um dia"
+          alert("Por favor, selecione um dia para começar o quiz.");
+          return;
+      }
+      if (day === "Geral") {
+          questions = [...allQuestions];
+      } else {
+          questions = allQuestions.filter(q => q.day === day);
+      }
 
-        if (questions.length === 0) {
-            alert("Não há questões para o dia selecionado. Por favor, escolha outro dia.");
-            return;
-        }
+      if (questions.length === 0) {
+          alert("Não há questões para o dia selecionado. Por favor, escolha outro dia.");
+          return;
+      }
 
-        shuffleArray(questions);
-        currentQuestionIndex = 0;
-        correctAnswersCount = 0;
+      shuffleArray(questions);
+      currentQuestionIndex = 0;
+      correctAnswersCount = 0;
 
-        daySelectionContainer.style.display = 'none';
-        quizContentContainer.style.display = 'block';
-        loadQuestion();
-    }
+      daySelectionContainer.style.display = 'none';
+      quizContentContainer.style.display = 'block';
+      loadQuestion();
+  }
 
-    // Event Listeners
-    submitButton.addEventListener('click', checkAnswer);
-    nextButton.addEventListener('click', goToNextQuestion);
-    restartButton.addEventListener('click', restartQuiz);
-    backToDaysButton.addEventListener('click', showDaySelection);
+  // Event Listeners
+  submitButton.addEventListener('click', checkAnswer);
+  nextButton.addEventListener('click', goToNextQuestion);
+  restartButton.addEventListener('click', restartQuiz);
+  backToDaysButton.addEventListener('click', showDaySelection);
 
-    // Event Listener para o novo combobox/dropdown
-    daySelect.addEventListener('change', (event) => {
-        const selectedDay = event.target.value;
-        startQuiz(selectedDay);
-    });
+  // Event Listener para o novo combobox/dropdown
+  daySelect.addEventListener('change', (event) => {
+      const selectedDay = event.target.value;
+      startQuiz(selectedDay);
+  });
 
-    // Event Listener para o botão "Todas as Questões"
-    allQuestionsButton.addEventListener('click', () => {
-        startQuiz("Geral");
-    });
+  // Event Listener para o botão "Todas as Questões"
+  allQuestionsButton.addEventListener('click', () => {
+      startQuiz("Geral");
+  });
 
-    // Inicializa mostrando a tela de seleção de dias
-    showDaySelection();
-});
+  // Inicializa mostrando a tela de seleção de dias
+  showDaySelection();

@@ -8,16 +8,19 @@
 </head>
 <body>
     <div class="quiz-container" id="day-selection-container">
-        <h1>Selecione o período para selecionar as perguntas</h1>
+        <h1>Selecione o Dia da Lição</h1>
         <div class="selection-controls">
-            <button class="day-button" data-day="Sábado">Sábado</button>
-            <button class="day-button" data-day="Domingo">Domingo</button>
-            <button class="day-button" data-day="Segunda-feira">Segunda</button>
-            <button class="day-button" data-day="Terça-feira">Terça</button>
-            <button class="day-button" data-day="Quarta-feira">Quarta</button>
-            <button class="day-button" data-day="Quinta-feira">Quinta</button>
-            <button class="day-button" data-day="Sexta-feira">Sexta</button>
-            <button class="day-button all-questions" data-day="Geral">Todas as Questões</button>
+            <select id="day-select">
+                <option value="">Selecione um dia</option>
+                <option value="Sábado">Sábado</option>
+                <option value="Domingo">Domingo</option>
+                <option value="Segunda-feira">Segunda-feira</option>
+                <option value="Terça-feira">Terça-feira</option>
+                <option value="Quarta-feira">Quarta-feira</option>
+                <option value="Quinta-feira">Quinta-feira</option>
+                <option value="Sexta-feira">Sexta-feira</option>
+            </select>
+            <button class="day-button" data-day="Geral" id="all-questions-button">Todas as Questões (70)</button>
         </div>
     </div>
 
@@ -31,6 +34,7 @@
         <button id="next-button" style="display: none;">Próxima Questão</button>
         <button id="back-to-days-button" style="display: none;">Voltar para Seleção de Dias</button>
         <button id="restart-button" style="display: none;">Recomeçar Quiz</button>
+        <p id="score-display" style="display: none; margin-top: 20px; font-size: 1.2em; font-weight: bold;"></p>
     </div>
 
     <script src="script.js"></script>
