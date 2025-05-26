@@ -902,7 +902,7 @@ function restartQuiz() {
 
 // Função para resetar o quiz e mostrar a seleção de dia
 function resetQuiz() {
-    // daySelect.value = ""; // REMOVA ESTA LINHA OU COMENTE
+    // A linha 'daySelect.value = "";' foi removida, pois 'daySelect' não existe mais.
     questionText.textContent = '';
     optionsContainer.innerHTML = '';
     feedback.textContent = '';
@@ -920,10 +920,16 @@ function showDaySelection() {
     resetQuiz(); // Chame resetQuiz para limpar o estado e mostrar a seleção de dias
 }
 
-// NOVO: Event Listener para TODOS os botões de dia
+// Event Listener para os botões de dia (novo)
 dayButtons.forEach(button => {
     button.addEventListener('click', (event) => {
         const selectedDay = event.target.dataset.day; // Pega o valor de data-day
         startQuiz(selectedDay);
     });
 });
+
+// Outros Event Listeners (permanecem)
+submitButton.addEventListener('click', checkAnswer);
+nextButton.addEventListener('click', goToNextQuestion);
+restartButton.addEventListener('click', restartQuiz);
+backToDaysButton.addEventListener('click', showDaySelection);
