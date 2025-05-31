@@ -1,772 +1,776 @@
 // O array de questões JSON já está embutido aqui, com a propriedade "day" adicionada
-const allQuestions = [ // Renomeado para 'allQuestions' para manter o array completo
-    // SÁBADO (Questões 1-10)
-    {
-      "day": "Sábado",
-      "pergunta": "Qual é o foco principal da Lição 9, 'Nos Salmos - Parte 2'?",
-      "opcoes": [
-        "Analisar profecias apocalípticas com bestas e símbolos complexos.",
-        "Explorar alusões proféticas no Livro dos Salmos e como suas imagens, símbolos e alusões enriquecem a compreensão da profecia bíblica.",
-        "Estudar a história do povo de Israel através de seus cânticos devocionais.",
-        "Comparar o Livro dos Salmos com os Evangelhos."
-      ],
-      "respostaCorreta": "Explorar alusões proféticas no Livro dos Salmos e como suas imagens, símbolos e alusões enriquecem a compreensão da profecia bíblica."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "Do ponto de vista da Igreja Adventista do Sétimo Dia, quais temas escatológicos centrais são destacados nos Salmos estudados?",
-      "opcoes": [
-        "O êxodo do Egito e a entrada na Terra Prometida, a construção do Templo de Salomão e a dispersão das tribos de Israel.",
-        "A criação do mundo, a queda do homem e a promessa de um Salvador.",
-        "Tribulação e confiança em Deus, o colapso dos reinos terrestres, a entronização de Cristo, o juízo final e o papel missionário do povo de Deus.",
-        "A vida e o ministério de Jesus Cristo, Seus milagres e Seus ensinamentos."
-      ],
-      "respostaCorreta": "Tribulação e confiança em Deus, o colapso dos reinos terrestres, a entronização de Cristo, o juízo final e o papel missionário do povo de Deus."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "De que forma os Salmos abordam questões como o problema do mal e sofrimento, a justiça divina e a batalha entre o bem e o mal, em contraste com as profecias apocalípticas?",
-      "opcoes": [
-        "De forma histórica e cronológica.",
-        "De forma poética e devocional.",
-        "De forma legalista e cerimonial.",
-        "De forma apocalíptica e simbólica complexa."
-      ],
-      "respostaCorreta": "De forma poética e devocional."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "Quais outros livros proféticos a lição menciona que dialogam com as passagens dos Salmos?",
-      "opcoes": [
-        "Gênesis, Êxodo, Levítico, Números, Deuteronômio.",
-        "Isaías, Ezequiel, Joel, Amós, Miquéias.",
-        "Daniel, Jeremias, Zacarias, Mateus, Apocalipse.",
-        "Provérbios, Eclesiastes, Cântico dos Cânticos."
-      ],
-      "respostaCorreta": "Daniel, Jeremias, Zacarias, Mateus, Apocalipse."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "Segundo a lição, o estudo dos Salmos e sua conexão com a escatologia adventista visa, entre outras coisas:",
-      "opcoes": [
-        "Aumentar o medo dos eventos finais.",
-        "Fortalecer a esperança e o compromisso dos crentes.",
-        "Desencorajar a busca por lições práticas.",
-        "Focar exclusivamente em símbolos complexos."
-      ],
-      "respostaCorreta": "Fortalecer a esperança e o compromisso dos crentes."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "Além de abordar temas proféticos, em grande profundidade, explorando quase todas as emoções humanas, o que mais o livro de Salmos e o livro de Provérbios são considerados, segundo uma das fontes?",
-      "opcoes": [
-        "Os melhores livros de história antiga.",
-        "Os melhores manuais de psicologia humana que podemos encontrar.",
-        "Os mais importantes livros sobre lei e justiça.",
-        "Os textos mais difíceis de interpretar."
-      ],
-      "respostaCorreta": "Os melhores manuais de psicologia humana que podemos encontrar."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "Por que a Bíblia, incluindo o Livro dos Salmos, continua sendo um livro atual, segundo uma das fontes?",
-      "opcoes": [
-        "Porque as épocas e a natureza humana mudaram drasticamente.",
-        "Porque trata de assuntos base da raça humana que são as mesmas vivências de hoje, apesar das diferentes épocas e avanços tecnológicos.",
-        "Porque foi escrita com uma linguagem complexa que só pode ser entendida hoje.",
-        "Porque se foca apenas em eventos históricos que não se repetem."
-      ],
-      "respostaCorreta": "Porque trata de assuntos base da raça humana que são as mesmas vivências de hoje, apesar das diferentes épocas e avanços tecnológicos."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "A indagação sobre por que Deus não trata o mal de forma mais direta e imediata é mencionada como uma questão com a qual quem se debate?",
-      "opcoes": [
-        "Apenas os inimigos de Deus.",
-        "Indivíduos que leem o livro de Provérbios.",
-        "Indivíduos que leem o livro de Salmos e com a qual todos nós já nos colocamos.",
-        "Somente aqueles que não têm fé."
-      ],
-      "respostaCorreta": "Indivíduos que leem o livro de Salmos e com a qual todos nós já nos colocamos."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "Além do santuário terrestre ou templo terrestre, para onde somos encaminhados em busca de respostas ao lermos os Salmos?",
-      "opcoes": [
-        "Para o mar Mediterrâneo.",
-        "Para o monte Sinai.",
-        "Para o santuário celestial.",
-        "Para a cidade de Babilônia."
-      ],
-      "respostaCorreta": "Para o santuário celestial."
-    },
-    {
-      "day": "Sábado",
-      "pergunta": "Qual é o Verso para Memorizar da Lição 9, “Nos Salmos – Parte 2”?",
-      "opcoes": [
-        "\"O Senhor é o meu pastor; nada me faltará.\" (Salmo 23:1)",
-        "\"Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.\" (João 3:16)",
-        "\"Louvem-Te os povos, ó Deus! Louvem-Te os povos todos! Alegrem-se e exultem as nações, pois julgas os povos com justiça e guias na Terra as nações.\" (Salmo 67:3, 4)",
-        "\"Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.\" (Mateus 11:28)"
-      ],
-      "respostaCorreta": "\"Louvem-Te os povos, ó Deus! Louvem-Te os povos todos! Alegrem-se e exultem as nações, pois julgas os povos com justiça e guias na Terra as nações.\" (Salmo 67:3, 4)"
-    },
-    // DOMINGO (Questões 11-20)
-    {
-      "day": "Domingo",
-      "pergunta": "De acordo com o Salmo 46, qual é a atitude do povo de Deus diante das grandes comoções naturais mencionadas no texto?",
-      "opcoes": [
-        "Temor e desespero.",
-        "Incredulidade e negação.",
-        "Confiança e a ausência de temor.",
-        "Fuga e busca por esconderijo."
-      ],
-      "respostaCorreta": "Confiança e a ausência de temor."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "O Salmo 46:1 afirma que Deus é nosso refúgio e fortaleza, socorro bem presente em qual circunstância?",
-      "opcoes": [
-        "Apenas em tempos de paz.",
-        "Na angústia.",
-        "Durante a prosperidade.",
-        "Ao realizar obras de caridade."
-      ],
-      "respostaCorreta": "Na angústia."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "As cenas do Apocalipse sobre a volta de Jesus, mencionadas em Apocalipse 6:14 (céu enrolando-se, montes e ilhas removidos), são comparadas a que descrição encontrada no Salmo 46?",
-      "opcoes": [
-        "A calmaria após uma tempestade.",
-        "A terra mudando e os montes se transportando para o meio dos mares.",
-        "A construção de uma nova cidade.",
-        "A fertilidade da terra."
-      ],
-      "respostaCorreta": "A terra mudando e os montes se transportando para o meio dos mares."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "Qual evento histórico no Antigo Testamento é mencionado como o contexto em que Salmos como o 46 foram cantados, apresentando Deus como refúgio na tribulação?",
-      "opcoes": [
-        "A libertação de Israel do Egito sob Moisés.",
-        "A vitória sobre os cananeus sob Josué.",
-        "Uma notável vitória nos dias de Josafá.",
-        "A dedicação do Templo por Salomão."
-      ],
-      "respostaCorreta": "Uma notável vitória nos dias de Josafá."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "O Salmo 46 contrasta o mundo em ruínas e caos com qual imagem relacionada a Deus e Seu povo?",
-      "opcoes": [
-        "O deserto árido.",
-        "A torre de Babel.",
-        "A cidade de Deus que habita em paz.",
-        "O dilúvio universal."
-      ],
-      "respostaCorreta": "A cidade de Deus que habita em paz."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "No Salmo 46, a fúria dos rios e mares é contrastada com qual elemento relacionado à presença de Deus?",
-      "opcoes": [
-        "Um deserto sem água.",
-        "Um rio que flui da presença de Deus e alegra a cidade santa.",
-        "Um lago de fogo.",
-        "O mar Vermelho."
-      ],
-      "respostaCorreta": "Um rio que flui da presença de Deus e alegra a cidade santa."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "O comando 'Aquietai-vos e saibam que eu sou Deus' (Salmo 46) é apresentado como um contraste direto a qual condição do mundo?",
-      "opcoes": [
-        "A paz e harmonia universais.",
-        "As guerras e a agitação entre nações.",
-        "A busca por conhecimento científico.",
-        "A celebração religiosa."
-      ],
-      "respostaCorreta": "As guerras e a agitação entre nações."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "Qual é a principal mensagem que o Salmo 46 nos incentiva a ter diante das tribulações, sejam elas atuais ou finais?",
-      "opcoes": [
-        "A fugir e se esconder.",
-        "A lutar com nossas próprias forças.",
-        "A confiar e não temer.",
-        "A questionar a justiça de Deus."
-      ],
-      "respostaCorreta": "A confiar e não temer."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "A lição sugere que, se buscarmos a Deus como nosso refúgio hoje:",
-      "opcoes": [
-        "As dificuldades cessarão completamente.",
-        "Teremos o livramento e a proteção dEle no tempo do fim nas perseguições.",
-        "Não precisaremos nos preparar para o futuro.",
-        "Apenas as dificuldades atuais serão resolvidas."
-      ],
-      "respostaCorreta": "Teremos o livramento e a proteção dEle no tempo do fim nas perseguições."
-    },
-    {
-      "day": "Domingo",
-      "pergunta": "O Salmo 46 é aplicado para aqueles que:",
-      "opcoes": [
-        "Dependem de sua própria força.",
-        "Confiam e se entregam a Deus.",
-        "Ignoram os sinais do fim.",
-        "Apenas buscam prosperidade material."
-      ],
-      "respostaCorreta": "Confiam e se entregam a Deus."
-    },
-    // SEGUNDA-FEIRA (Questões 21-30)
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A linguagem do Salmo 46, ao descrever o abalo da terra física, é vista como um prenúncio de quê?",
-      "opcoes": [
-        "A construção de novas cidades.",
-        "A transformação da terra pelo retorno de Cristo.",
-        "Um período de paz e prosperidade duradoura.",
-        "A criação de novas espécies."
-      ],
-      "respostaCorreta": "A transformação da terra pelo retorno de Cristo."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A passagem de Jeremias 4:23-26 descreve a terra em qual estado?",
-      "opcoes": [
-        "Um paraíso restaurado com abundância de vida.",
-        "Sem forma e vazia, com montes tremendo e cidades derribadas, após o furor da ira do Senhor.",
-        "Um centro de tecnologia avançada e desenvolvimento humano.",
-        "Um deserto fértil e habitado por muitas aves."
-      ],
-      "respostaCorreta": "Sem forma e vazia, com montes tremendo e cidades derribadas, após o furor da ira do Senhor."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A lição conecta a visão de Jeremias 4 com a promessa de um 'novo céu e uma nova terra', encontrada em qual outro livro bíblico?",
-      "opcoes": [
-        "Isaías.",
-        "Mateus.",
-        "Apocalipse.",
-        "Hebreus."
-      ],
-      "respostaCorreta": "Apocalipse."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "Segundo o apóstolo Paulo em 2 Coríntios 4:8-9, os servos de Deus podem ser atribulados, perplexos, perseguidos e abatidos, mas em que condição final?",
-      "opcoes": [
-        "Angustiados, desanimados, desamparados e destruídos.",
-        "Vencedores, alegres, prósperos e saudáveis.",
-        "Não angustiados, não desanimados, não desamparados e não destruídos.",
-        "Imunes a qualquer tipo de sofrimento."
-      ],
-      "respostaCorreta": "Não angustiados, não desanimados, não desamparados e não destruídos."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "Por que Deus permite que Seus filhos passem por sofrimento, perplexidade, tribulação ou perseguição, segundo uma das fontes?",
-      "opcoes": [
-        "Porque Ele não tem poder para impedi-lo.",
-        "Porque Ele quer provar sua fraqueza.",
-        "Porque sabe que muitas vezes nessas situações o caráter se molda à imagem de Cristo.",
-        "Porque Ele é indiferente à dor humana."
-      ],
-      "respostaCorreta": "Porque sabe que muitas vezes nessas situações o caráter se molda à imagem de Cristo."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "Qual é o 'motor' na vida do cristão que o impede de desanimar e dá sempre um objetivo à vida?",
-      "opcoes": [
-        "A riqueza material.",
-        "O reconhecimento humano.",
-        "A esperança.",
-        "A força física."
-      ],
-      "respostaCorreta": "A esperança."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A grande esperança do cristão, especialmente para os Adventistas do Sétimo Dia, é:",
-      "opcoes": [
-        "Uma longa vida na terra.",
-        "O encontro com Jesus (o advento).",
-        "O sucesso profissional.",
-        "A ausência de dificuldades."
-      ],
-      "respostaCorreta": "O encontro com Jesus (o advento)."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "De acordo com a lição, quando o contexto da linguagem do Livro dos Salmos aponta para os tempos do fim (tempos escatológicos), essa linguagem deve ser interpretada como:",
-      "opcoes": [
-        "Meramente simbólica, sem aplicação literal.",
-        "Com razões claras para pensar que seja literal.",
-        "Apenas como poesia sem significado profético.",
-        "Uma alegoria sem conexão com eventos reais."
-      ],
-      "respostaCorreta": "Com razões claras para pensar que seja literal."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "A esperança em meio à turbulência mencionada na lição de segunda-feira nos lembra que as dificuldades atuais são um sinal de quê?",
-      "opcoes": [
-        "Que Deus nos abandonou.",
-        "Que as coisas nunca melhorarão.",
-        "Que algo melhor está por chegar.",
-        "Que o pecado venceu."
-      ],
-      "respostaCorreta": "Que algo melhor está por chegar."
-    },
-    {
-      "day": "Segunda-feira",
-      "pergunta": "Qual Salmo é o foco principal da lição de terça-feira?",
-      "opcoes": [
-        "Salmo 23",
-        "Salmo 46",
-        "Salmo 47",
-        "Salmo 75"
-      ],
-      "respostaCorreta": "Salmo 47"
-    },
-    // TERÇA-FEIRA (Questões 31-40)
-    {
-      "day": "Terça-feira",
-      "pergunta": "O tema da lição de terça-feira, 'Debaixo de seus pés', é uma expressão de quê?",
-      "opcoes": [
-        "Submissão do povo de Deus aos seus inimigos.",
-        "A derrota final de Deus.",
-        "Vitória e triunfo sobre os inimigos.",
-        "A fraqueza do reino de Deus."
-      ],
-      "respostaCorreta": "Vitória e triunfo sobre os inimigos."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "Segundo Salmo 47:3, Deus submeterá os povos e porá as nações 'debaixo dos nossos pés'. O que essa linguagem de batalha e vitória indica?",
-      "opcoes": [
-        "Que o povo de Deus lutará fisicamente contra todas as nações.",
-        "Que Deus colocará os inimigos que perseguiram debaixo dos pés de Seu povo fiel após Sua vitória.",
-        "Que as nações se submeterão voluntariamente ao povo de Deus.",
-        "Que o povo de Deus dominará o mundo pela força."
-      ],
-      "respostaCorreta": "Que Deus colocará os inimigos que perseguiram debaixo dos pés de Seu povo fiel após Sua vitória."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "A ideia de colocar os inimigos debaixo dos pés também é encontrada em Salmo 110:1, referindo-se a quem?",
-      "opcoes": [
-        "O rei Davi.",
-        "O povo de Israel.",
-        "Jesus, pela Sua vitória na cruz.",
-        "Os profetas."
-      ],
-      "respostaCorreta": "Jesus, pela Sua vitória na cruz."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "De acordo com Salmo 47, qual é o lugar que em última análise nós, o povo de Deus, ocupamos no reino de Cristo?",
-      "opcoes": [
-        "Dominadores sobre Deus.",
-        "Escravos sem direitos.",
-        "Súditos, mas chamados a reinar junto com Cristo como príncipes.",
-        "Observadores passivos."
-      ],
-      "respostaCorreta": "Súditos, mas chamados a reinar junto com Cristo como príncipes."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "A lição menciona a profecia de Zacarias 14:4, que descreve o retorno de Jesus e Seus pés sobre o Monte das Oliveiras. Qual detalhe geográfico significativo ocorre neste evento?",
-      "opcoes": [
-        "O monte se tornará uma ilha.",
-        "O monte será fendido pelo meio.",
-        "O monte será movido para o mar.",
-        "O monte desaparecerá."
-      ],
-      "respostaCorreta": "O monte será fendido pelo meio."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "Em Daniel 7:14, é dada a quem o domínio, a honra e o reino que é eterno e não será destruído?",
-      "opcoes": [
-        "Aos reinos terrestres.",
-        "Ao povo dos santos do Altíssimo.",
-        "Ao Filho do Homem.",
-        "Ao anticristo."
-      ],
-      "respostaCorreta": "Ao Filho do Homem."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "Conforme Daniel 7:27, os reinos, domínios e majestade debaixo de todo o céu serão dados a quem após o fracasso dos reinos rebeldes?",
-      "opcoes": [
-        "Ao Filho do Homem.",
-        "Ao povo dos santos do Altíssimo.",
-        "Às bestas apocalípticas.",
-        "Aos anjos."
-      ],
-      "respostaCorreta": "Ao povo dos santos do Altíssimo."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "A vinda de Cristo, conforme descrito nas profecias bíblicas, será caracterizada por ser:",
-      "opcoes": [
-        "Oculta e secreta.",
-        "Visível para todo olho.",
-        "Compreendida apenas por alguns eleitos.",
-        "Um evento puramente espiritual sem manifestação física."
-      ],
-      "respostaCorreta": "Visível para todo olho."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "Qual doutrina, surgida no mundo protestante/evangélico, é contrastada na lição com a visibilidade da vinda de Cristo e criticada por não ser como Deus age?",
-      "opcoes": [
-        "A doutrina da Trindade.",
-        "A doutrina da criação.",
-        "A doutrina do arrebatamento secreto.",
-        "A doutrina do batismo."
-      ],
-      "respostaCorreta": "A doutrina do arrebatamento secreto."
-    },
-    {
-      "day": "Terça-feira",
-      "pergunta": "Qual Salmo é o foco principal da lição de quarta-feira?",
-      "opcoes": [
-        "Salmo 46",
-        "Salmo 47",
-        "Salmo 75",
-        "Salmo 67"
-      ],
-      "respostaCorreta": "Salmo 75"
-    },
-    // QUARTA-FEIRA (Questões 41-50)
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Que aspecto do caráter e obra de Deus é revelado no Salmo 75?",
-      "opcoes": [
-        "Deus como Criador.",
-        "Deus como Redentor.",
-        "Deus como Juiz que trará justiça.",
-        "Deus como Pastor."
-      ],
-      "respostaCorreta": "Deus como Juiz que trará justiça."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "No Salmo 75:8, o que simboliza o 'cálice espumante' nas mãos de Deus?",
-      "opcoes": [
-        "Bênçãos divinas.",
-        "A salvação oferecida a todos.",
-        "O vinho da cólera/ira de Deus para os ímpios.",
-        "A comunhão entre Deus e Seu povo."
-      ],
-      "respostaCorreta": "O vinho da cólera/ira de Deus para os ímpios."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Apocalipse 14:10 ecoa quase literalmente Salmo 75:8 ao advertir que quem adorar a besta beberá do vinho da cólera de Deus. Qual é a diferença crucial mencionada na lição sobre o vinho em Apocalipse 14:10 ('sem mistura') em comparação com Salmo 75:8 ('cheio de mistura')?",
-      "opcoes": [
-        "No Salmo, a ira é mais intensa; no Apocalipse, é diluída.",
-        "No Apocalipse, o vinho tem força total, sem diluição com misericórdia, representando a plena medida do juízo divino.",
-        "O vinho no Salmo representa a misericórdia, enquanto no Apocalipse representa a ira.",
-        "A mistura no Salmo significa adição de água, enquanto no Apocalipse significa adição de veneno."
-      ],
-      "respostaCorreta": "No Apocalipse, o vinho tem força total, sem diluição com misericórdia, representando a plena medida do juízo divino."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Beber o 'vinho da ira sem mistura' no fim dos tempos, conforme Apocalipse 14 e Salmo 75, é interpretado como:",
-      "opcoes": [
-        "Uma oportunidade de arrependimento.",
-        "A plena medida do juízo divino.",
-        "Um castigo parcial anterior.",
-        "Uma bênção para os fiéis."
-      ],
-      "respostaCorreta": "A plena medida do juízo divino."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "O que acontecerá com os pecadores ('ímpios da terra'), segundo Salmo 75:8, ao beberem do cálice da ira de Deus?",
-      "opcoes": [
-        "Serão purificados e salvos.",
-        "Absorverão e beberão as escórias de suas obras.",
-        "Serão transportados para um lugar seguro.",
-        "Receberão misericórdia."
-      ],
-      "respostaCorreta": "Absorverão e beberão as escórias de suas obras."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "A terceira mensagem angélica em Apocalipse 14:9-11 é comparada a um eco do Salmo 75, assegurando que",
-      "opcoes": [
-        "Todos terão a oportunidade de escapar do juízo.",
-        "Nenhum ímpio escapará das consequências de suas escolhas.",
-        "O juízo será apenas para alguns.",
-        "A misericórdia anulará completamente o juízo."
-      ],
-      "respostaCorreta": "Nenhum ímpio escapará das consequências de suas escolhas."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "O que Deus fará em relação ao Seu povo, ao pecado e aos pecadores no juízo final, conforme revelado no Salmo 75?",
-      "opcoes": [
-        "Perdoará a todos sem distinção.",
-        "Ignorará o pecado e os pecadores.",
-        "Exaltará Seu povo, destruirá pecado e pecadores, e revelará Seu caráter justo.",
-        "Apenas julgará as nações, mas não indivíduos."
-      ],
-      "respostaCorreta": "Exaltará Seu povo, destruirá pecado e pecadores, e revelará Seu caráter justo."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Qual é uma de las coisas que Deus corrigirá no juízo, segundo uma das fontes?",
-      "opcoes": [
-        "A ausência de progresso científico.",
-        "A falta de organização social.",
-        "A apropriação indevida de poder e o egoísmo.",
-        "A diversidade cultural."
-      ],
-      "respostaCorreta": "A apropriação indevida de poder e o egoísmo."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "O que é identificado em uma das fontes como o 'grande problema do pecado'?",
-      "opcoes": [
-        "A falta de conhecimento.",
-        "O egoísmo.",
-        "A desobediência a leis humanas.",
-        "A fraqueza física."
-      ],
-      "respostaCorreta": "O egoísmo."
-    },
-    {
-      "day": "Quarta-feira",
-      "pergunta": "Qual Salmo é o foco principal da lição de quinta-feira?",
-      "opcoes": [
-        "Salmo 46",
-        "Salmo 47",
-        "Salmo 75",
-        "Salmo 67"
-      ],
-      "respostaCorreta": "Salmo 67"
-    },
-    // QUINTA-FEIRA (Questões 51-60)
-    {
-      "day": "Quinta-feira",
-      "pergunta": "O que o Salmo 67 apresenta em relação à presença de Deus?",
-      "opcoes": [
-        "Deus escondido de Seu povo.",
-        "Deus presente entre Seu povo.",
-        "Deus distante e inalcançável.",
-        "Deus preocupado apenas consigo mesmo."
-      ],
-      "respostaCorreta": "Deus presente entre Seu povo."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "Segundo Salmo 67:2, qual é o propósito de Deus abençoar e fazer resplandecer Seu rosto sobre Seu povo?",
-      "opcoes": [
-        "Para que Seu povo se torne rico e poderoso.",
-        "Para que se conheça na terra o Seu caminho e entre todas as nações a Sua salvação.",
-        "Para que Seu povo domine as outras nações.",
-        "Para que Seu povo viva isolado do mundo."
-      ],
-      "respostaCorreta": "Para que se conheça na terra o Seu caminho e entre todas as nações a Sua salvação."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "Conforme Salmo 67:4, qual é a razão para os povos se alegrarem e exultarem?",
-      "opcoes": [
-        "Porque alcançaram prosperidade econômica.",
-        "Porque alcançaram a paz mundial.",
-        "Porque Deus julga os povos com justiça e guia as nações na Terra.",
-        "Porque o conhecimento humano superou a ignorância."
-      ],
-      "respostaCorreta": "Porque Deus julga os povos com justiça e guia as nações na Terra."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "Qual é o grande objetivo do povo de Deus no tempo do fim, conforme a lição relaciona Salmo 67 com Apocalipse 14?",
-      "opcoes": [
-        "Estabelecer um reino terrestre.",
-        "Proclamar a misericórdia e a salvação de Deus a todo o mundo.",
-        "Viver em isolamento e santidade.",
-        "Acumular bens e poder."
-      ],
-      "respostaCorreta": "Proclamar a misericórdia e a salvação de Deus a todo o mundo."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "O que significa ser 'arautos da verdade', conforme a lição discute o papel do povo de Deus?",
-      "opcoes": [
-        "Ser aqueles que ocultam a verdade dos outros.",
-        "Ser os canais que o Senhor quer usar para mostrar a verdade.",
-        "Ser aqueles que inventam novas verdades.",
-        "Ser aqueles que guardam a verdade apenas para si."
-      ],
-      "respostaCorreta": "Ser os canais que o Senhor quer usar para mostrar a verdade."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "Segundo uma das fontes, a verdade está sendo espezinhada, falseada e substituída pelo erro hoje. Diante disso, o que Deus necessita e quer de Seu povo?",
-      "opcoes": [
-        "Que se isolem do mundo.",
-        "Que defendam o erro.",
-        "Que sejam Seus arautos da verdade.",
-        "Que sejam Seus arautos da verdade."
-      ],
-      "respostaCorreta": "Que sejam Seus arautos da verdade."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "O que é o 'cadinho' na vida do cristão, mencionado em uma das fontes em relação à proclamação da verdade?",
-      "opcoes": [
-        "Um lugar de descanso e conforto.",
-        "Um processo de purificação que ocorre ao nos tornarmos testemunhas de Jesus e proclamarmos verdades que o mundo tem relutância em aceitar.",
-        "Um período de prosperidade sem desafios.",
-        "Um treinamento teórico sem aplicação prática."
-      ],
-      "respostaCorreta": "Um processo de purificação que ocorre ao nos tornarmos testemunhas de Jesus e proclamarmos verdades que o mundo tem relutância em aceitar."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "Qual é a melhor forma de fazer face às trevas, segundo uma das fontes, ao discutirmos a missão do povo de Deus?",
-      "opcoes": [
-        "Entrar em polêmicas e discussões.",
-        "Apagar as trevas pela força.",
-        "Acender uma luz.",
-        "Fugir das trevas."
-      ],
-      "respostaCorreta": "Acender uma luz."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "Conforme Apocalipse 14:6, quem tem o evangelho eterno para pregar aos que se assentam sobre a terra?",
-      "opcoes": [
-        "Os reinos terrestres.",
-        "Os falsos profetas.",
-        "Um anjo voando pelo meio do céu.",
-        "Satanás."
-      ],
-      "respostaCorreta": "Um anjo voando pelo meio do céu."
-    },
-    {
-      "day": "Quinta-feira",
-      "pergunta": "A lição enfatiza que não é necessário esperar pela perseguição escatológica para sentir a necessidade de quê?",
-      "opcoes": [
-        "De acumular bens.",
-        "Do refúgio de Deus.",
-        "De se isolar da sociedade.",
-        "De negar a fé."
-      ],
-      "respostaCorreta": "Do refúgio de Deus."
-    },
-    // SEXTA-FEIRA (Questões 61-70)
-    {
-      "day": "Sexta-feira",
-      "pergunta": "A passagem de Jeremias 12:5 ('se te fadigas correndo com homens que vão a pé, como poderás competir com os que vão a cavalo?') é usada para ilustrar o quê?",
-      "opcoes": [
-        "A importância do exercício físico.",
-        "A necessidade de estar preparado para dificuldades maiores no futuro, se já se tem dificuldade com as menores no presente.",
-        "A superioridade dos cavalos sobre os homens.",
-        "A inutilidade do esforço."
-      ],
-      "respostaCorreta": "A necessidade de estar preparado para dificuldades maiores no futuro, se já se tem dificuldade com as menores no presente."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "A lição afirma que a preparação para os desafios do tempo do fim começa:",
-      "opcoes": [
-        "Apenas quando a perseguição se intensifica.",
-        "Hoje, no momento atual.",
-        "Somente na volta de Jesus.",
-        "Após os mil anos no céu."
-      ],
-      "respostaCorreta": "Hoje, no momento atual."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "Se uma pessoa não é fiel hoje em 'momento de paz', qual a dificuldade que ela provavelmente enfrentará no tempo do fim, segundo a lição?",
-      "opcoes": [
-        "Será mais fácil ser fiel.",
-        "Não terá dificuldade alguma.",
-        "Não terá facilidade para ser fiel quando vierem as maiores dificuldades.",
-        "Sua fidelidade será automaticamente garantida."
-      ],
-      "respostaCorreta": "Não terá facilidade para ser fiel quando vierem as maiores dificuldades."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "O que João viu sendo dado ao Cordeiro em Apocalipse 5, indicando Sua dignidade?",
-      "opcoes": [
-        "Uma espada.",
-        "Um livro.",
-        "Uma coroa.",
-        "Um trono."
-      ],
-      "respostaCorreta": "Um livro."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "A abertura dos selos em Apocalipse 6, após o Cordeiro receber o livro, surge para contar a história de quê?",
-      "opcoes": [
-        "O início da criação.",
-        "A queda de Satanás.",
-        "A igreja até o fim.",
-        "A vida de Jesus na Terra."
-      ],
-      "respostaCorreta": "A igreja até o fim."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "Quais temas são destacados nas cartas às igrejas no início do livro de Apocalipse (Ap. 2, 3)?",
-      "opcoes": [
-        "Alegria e prosperidade.",
-        "Tribulação.",
-        "Isolamento.",
-        "Indiferença."
-      ],
-      "respostaCorreta": "Tribulação."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "Em Apocalipse 17:14, quem conquista e com quem?",
-      "opcoes": [
-        "Os reinos da terra conquistam com a besta.",
-        "Satanás conquista com seus seguidores.",
-        "O Cordeiro vence e com Ele os eleitos e fiéis.",
-        "A humanidade conquista pela ciência."
-      ],
-      "respostaCorreta": "O Cordeiro vence e com Ele os eleitos e fiéis."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "Qual poder é essencial para que o povo de Deus possa cumprir a tarefa de pregar o evangelho até os confins da terra, segundo Jesus e os apóstolos?",
-      "opcoes": [
-        "Força física.",
-        "Poder político.",
-        "Riqueza material.",
-        "O poder do Espírito Santo."
-      ],
-      "respostaCorreta": "O poder do Espírito Santo."
-    },
-    {
-      "day": "Sexta-feira",
-      "pergunta": "Quem é o responsável pela obra de alcançar as pessoas com a verdade, e qual é o nosso papel, segundo uma das fontes?",
-      "opcoes": [
-        "Nós somos totalmente responsáveis, e Deus é apenas um espectador.",
-        "Os anjos são responsáveis, e nós apenas observamos.",
-        "Deus é o responsável, e nós somos apenas os instrumentos.",
-        "O mundo é responsável por se salvar."
-      ],
-      "respostaCorreta": "Deus é o responsável, e nós somos apenas os instrumentos."
-    }
-  ];
+const allQuestions = [ 
+  {
+    "day": "Sábado",
+    "pergunta": "De acordo com 1 Coríntios 10:11, 12, por que as coisas que aconteceram no passado foram escritas?",
+    "opcoes": [
+      "Para nos desanimar",
+      "Para servir de exemplo e advertência para nós",
+      "Para mostrar que o fim não chegará",
+      "Para justificar a queda dos que pensam estar em pé"
+    ],
+    "respostaCorreta": "Para servir de exemplo e advertência para nós"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "O que a Bíblia contém que aponta para eventos futuros e oferece chaves para compreender a 'verdade presente'?",
+    "opcoes": [
+      "Relatos sem importância para o fim dos tempos",
+      "Apenas histórias de fracasso",
+      "Relatos sobre o povo de Deus",
+      "Profecias que não se cumprirão"
+    ],
+    "respostaCorreta": "Relatos sobre o povo de Deus"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "Qual é o grande centro e objetivo final de todos os empreendimentos proféticos mencionados na lição?",
+    "opcoes": [
+      "As profecias de Daniel",
+      "As histórias do Antigo Testamento",
+      "O juízo investigativo",
+      "Cristo"
+    ],
+    "respostaCorreta": "Cristo"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "Algumas histórias do Antigo Testamento servem como tipos ou símbolos de eventos finais porque:",
+    "opcoes": [
+      "São as únicas histórias na Bíblia",
+      "O Novo Testamento se refere a elas especificamente ao descrever os eventos dos últimos dias",
+      "São as histórias mais antigas",
+      "Apenas exigem um estudo superficial"
+    ],
+    "respostaCorreta": "O Novo Testamento se refere a elas especificamente ao descrever os eventos dos últimos dias"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "O título da lição, 'Para quem o fim tem chegado', é tirado de qual texto bíblico?",
+    "opcoes": [
+      "Gênesis 6",
+      "Apocalipse 6",
+      "Daniel 7",
+      "1 Coríntios 10:11, 12"
+    ],
+    "respostaCorreta": "1 Coríntios 10:11, 12"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "O estudo das histórias do passado e dos relatos bíblicos nos dá uma base mais ampla para:",
+    "opcoes": [
+      "Menosprezar a palavra de Deus",
+      "Desanimar na fé",
+      "Nos concentrarmos apenas no presente",
+      "Nos dedicarmos ao estudo das profecias de Daniel e Apocalipse"
+    ],
+    "respostaCorreta": "Nos dedicarmos ao estudo das profecias de Daniel e Apocalipse"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "O que significa o termo grego 'telos', que se refere à palavra 'fim' ou 'fins' no verso para memorizar?",
+    "opcoes": [
+      "Um início ou começo",
+      "Uma demora ou adiamento",
+      "Um fim, propósito, meta, conclusão, realização, imposto",
+      "Uma incerteza ou dúvida"
+    ],
+    "respostaCorreta": "Um fim, propósito, meta, conclusão, realização, imposto"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "Qual é o objetivo da lição desta semana, conforme mencionado em uma das fontes?",
+    "opcoes": [
+      "Estudar apenas o livro de Êxodo",
+      "Analisar os eventos finais sem base bíblica",
+      "Abordar o juízo de Deus e suas consequências",
+      "Focar apenas nas histórias do Novo Testamento"
+    ],
+    "respostaCorreta": "Abordar o juízo de Deus e suas consequências"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "De acordo com uma das fontes, para quem o fim só chega?",
+    "opcoes": [
+      "Para aqueles que são fiéis a Deus",
+      "Para aqueles que buscam fazer a vontade do Senhor",
+      "Para aqueles que vivem na luz do reino de Deus",
+      "Para aqueles que não são fiéis a Deus, são indiferentes às coisas espirituais"
+    ],
+    "respostaCorreta": "Para aqueles que não são fiéis a Deus, são indiferentes às coisas espirituais"
+  },
+  {
+    "day": "Sábado",
+    "pergunta": "O que a 'verdade presente' significa para cada época?",
+    "opcoes": [
+      "Que a verdade de Deus nunca muda",
+      "Que a verdade de Deus é a mesma para todas as épocas, sem distinção",
+      "Que para cada época existe uma verdade diferente e atual",
+      "Que a verdade de Deus era relevante apenas no passado"
+    ],
+    "respostaCorreta": "Que para cada época existe uma verdade diferente e atual"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "Qual é o título do estudo de domingo?",
+    "opcoes": [
+      "O Evangelismo de Noé",
+      "Sodoma e Gomorra",
+      "O Juízo Pré-Advento",
+      "A Ira do Cordeiro"
+    ],
+    "respostaCorreta": "A Ira do Cordeiro"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "Qual livro e capítulo do Apocalipse são referenciados para descrever a ira do Cordeiro e a reação dos perdidos?",
+    "opcoes": [
+      "Apocalipse 20",
+      "Apocalipse 14",
+      "Apocalipse 11",
+      "Apocalipse 6"
+    ],
+    "respostaCorreta": "Apocalipse 6"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "Qual será a reação dos perdidos ao verem os eventos dos últimos dias, conforme descrito em Apocalipse 6?",
+    "opcoes": [
+      "Alegria e esperança",
+      "Reconhecimento e arrependimento",
+      "Esconderem-se nas cavernas e penhascos, pedindo para as montanhas caírem sobre eles",
+      "Pregarem o evangelho"
+    ],
+    "respostaCorreta": "Esconderem-se nas cavernas e penhascos, pedindo para as montanhas caírem sobre eles"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "A ira de Deus é descrita como sendo diferente da ira humana porque:",
+    "opcoes": [
+      "É motivada por raiva e rancor",
+      "É apenas destrutiva",
+      "É justa e virá para trazer justiça e salvação",
+      "Não tem consequências"
+    ],
+    "respostaCorreta": "É justa e virá para trazer justiça e salvação"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "A surpresa dos perdidos nos eventos finais não será por falta de informação, mas por:",
+    "opcoes": [
+      "Falta de tempo",
+      "Falta de oportunidade",
+      "Falta de evidência",
+      "Sua recusa em crer e obedecer"
+    ],
+    "respostaCorreta": "Sua recusa em crer e obedecer"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "Quem são 'eles' a quem se refere a ira do Cordeiro (no plural) em Apocalipse 6:16, 17?",
+    "opcoes": [
+      "Os profetas e os anjos",
+      "Os justos e os injustos",
+      "O Anticristo e seus seguidores",
+      "Aquele que está sentado no trono (Deus Pai) e o Cordeiro (Jesus)"
+    ],
+    "respostaCorreta": "Aquele que está sentado no trono (Deus Pai) e o Cordeiro (Jesus)"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "O que acontecerá com o evangelho antes que o fim venha?",
+    "opcoes": [
+      "Será esquecido",
+      "Será ridicularizado",
+      "Será pregado apenas para um pequeno grupo",
+      "Será pregado a todas as nações da terra"
+    ],
+    "respostaCorreta": "Será pregado a todas as nações da terra"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "Quando Jesus voltar, as pessoas que foram avisadas e não tomaram atitude:",
+    "opcoes": [
+      "Serão pegas de surpresa sem saber o que está acontecendo",
+      "Irão se arrepender imediatamente",
+      "Irão se alegrar",
+      "Lembrarão do que ouviram e entenderão o que está acontecendo"
+    ],
+    "respostaCorreta": "Lembrarão do que ouviram e entenderão o que está acontecendo"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "Qual é o papel importante do povo de Deus na história, conforme mencionado na lição?",
+    "opcoes": [
+      "Esconder-se e não falar sobre o fim",
+      "Esperar passivamente o retorno de Cristo",
+      "Focar apenas em seus próprios prazeres",
+      "Pregar o evangelho"
+    ],
+    "respostaCorreta": "Pregar o evangelho"
+  },
+  {
+    "day": "Domingo",
+    "pergunta": "A cruz de Cristo, que revelou o amor de Deus, será o motivo de terror para aqueles que:",
+    "opcoes": [
+      "A aceitaram",
+      "A estudaram",
+      "A defenderam",
+      "A desprezaram"
+    ],
+    "respostaCorreta": "A desprezaram"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "Qual é o título do estudo de segunda-feira?",
+    "opcoes": [
+      "A Ira do Cordeiro",
+      "Sodoma e Gomorra",
+      "O Juiz de Toda a Terra",
+      "O Evangelismo de Noé"
+    ],
+    "respostaCorreta": "O Evangelismo de Noé"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "Muitos não estarão preparados para o retorno de Cristo porque:",
+    "opcoes": [
+      "Não tiveram oportunidade de ouvir a mensagem",
+      "Estavam muito ocupados com suas vidas",
+      "Deus não avisou",
+      "De propósito esquecem o que aconteceu no dilúvio"
+    ],
+    "respostaCorreta": "De propósito esquecem o que aconteceu no dilúvio"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "O que o mundo possui, apesar da ridicularização do relato bíblico do dilúvio?",
+    "opcoes": [
+      "Uma memória parcial do dilúvio",
+      "Uma rejeição total do conceito de dilúvio",
+      "Uma memória coletiva de um grande dilúvio",
+      "Nenhuma lembrança do dilúvio"
+    ],
+    "respostaCorreta": "Uma memória coletiva de um grande dilúvio"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "Por quanto tempo Noé pregou a mensagem de advertência, conforme mencionado nas fontes?",
+    "opcoes": [
+      "40 dias e 40 noites",
+      "7 dias",
+      "120 meses",
+      "120 anos"
+    ],
+    "respostaCorreta": "120 anos"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "Quais condições morais nos dias de Noé levaram ao dilúvio, e que se assemelham aos dias de hoje?",
+    "opcoes": [
+      "Santidade e obediência a Deus",
+      "Apenas falta de chuva",
+      "Maldade multiplicada, imaginação e pensamentos maus, casamentos mistos, desejos carnais, indiferença, incredulidade",
+      "Apenas a construção da arca"
+    ],
+    "respostaCorreta": "Maldade multiplicada, imaginação e pensamentos maus, casamentos mistos, desejos carnais, indiferença, incredulidade"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "Apesar de pregar por 120 anos, quantas pessoas foram salvas na arca com Noé?",
+    "opcoes": [
+      "Nenhuma",
+      "Centenas",
+      "Dezenas",
+      "Oito"
+    ],
+    "respostaCorreta": "Oito"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "Se Noé fosse um evangelista dos tempos modernos, como ele seria considerado por muitos, e por quê?",
+    "opcoes": [
+      "Bem-sucedido, por ter construído a arca",
+      "Bem-sucedido, por salvar sua família",
+      "Fracassado, porque a maioria das pessoas não foi salva",
+      "Fracassado, porque a maioria das pessoas não entrou na arca"
+    ],
+    "respostaCorreta": "Fracassado, porque a maioria das pessoas não foi salva"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "O que a Bíblia compara o número de perdidos no tempo do fim a?",
+    "opcoes": [
+      "O número de salvos",
+      "Os animais da arca",
+      "Os habitantes de Sodoma e Gomorra",
+      "Os grãos de areia do mar"
+    ],
+    "respostaCorreta": "Os habitantes de Sodoma e Gomorra"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "Como podemos manter o ânimo em nossos esforços evangelísticos, mesmo que não vejamos resultados imediatos?",
+    "opcoes": [
+      "Desistindo se poucas pessoas aceitarem",
+      "Acreditando que a colheita é nossa responsabilidade",
+      "Focando apenas nos números de convertidos",
+      "Continuando firmes, fazendo a nossa parte, plantando a semente e acreditando na promessa de Deus"
+    ],
+    "respostaCorreta": "Continuando firmes, fazendo a nossa parte, plantando a semente e acreditando na promessa de Deus"
+  },
+  {
+    "day": "Segunda-feira",
+    "pergunta": "Qual é a analogia usada por Jesus para a palavra pregada que sugere a necessidade de paciência e espera pelos resultados?",
+    "opcoes": [
+      "A construção de uma arca",
+      "A chuva",
+      "A colheita",
+      "A semente"
+    ],
+    "respostaCorreta": "A semente"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "Qual história do Antigo Testamento é o foco do estudo de terça-feira?",
+    "opcoes": [
+      "O Dilúvio",
+      "O Juízo de Daniel 7",
+      "A Torre de Babel",
+      "Sodoma e Gomorra"
+    ],
+    "respostaCorreta": "Sodoma e Gomorra"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "O que a história de Sodoma e Gomorra mostra, em sua ligação com o Apocalipse?",
+    "opcoes": [
+      "A fidelidade do povo de Deus",
+      "As condições morais no tempo do fim e as advertências de Deus",
+      "A misericórdia de Deus sem juízo",
+      "Apenas uma história antiga sem paralelos futuros"
+    ],
+    "respostaCorreta": "As condições morais no tempo do fim e as advertências de Deus"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "Quais eram as principais características da maldade e violência em Sodoma e Gomorra?",
+    "opcoes": [
+      "Apenas desrespeito",
+      "Apenas orgulho",
+      "Apenas desonestidade",
+      "Imoralidade sexual e violência"
+    ],
+    "respostaCorreta": "Imoralidade sexual e violência"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "Deus revelou Seus planos de destruir Sodoma e Gomorra a Abraão antes de agir porque:",
+    "opcoes": [
+      "Precisava da permissão de Abraão",
+      "Abraão certamente viria a ser uma grande nação e nele seriam benditas todas as nações da terra",
+      "Queria testar a fé de Abraão",
+      "Não faria coisa alguma sem informar Abraão"
+    ],
+    "respostaCorreta": "Abraão certamente viria a ser uma grande nação e nele seriam benditas todas as nações da terra"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "A intercessão de Abraão por Sodoma e Gomorra é um tipo de:",
+    "opcoes": [
+      "Desconfiança em Deus",
+      "Oposição ao juízo",
+      "Ação desnecessária",
+      "Como o povo de Deus deve interceder pelos ímpios no tempo do fim"
+    ],
+    "respostaCorreta": "Como o povo de Deus deve interceder pelos ímpios no tempo do fim"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "Abraão questionou a justiça de Deus ao perguntar se Ele destruiria o justo com o ímpio. O que isso diz sobre o caráter de Deus?",
+    "opcoes": [
+      "Que Deus é questionável",
+      "Que Deus pode cometer injustiça",
+      "Que Deus não se submete ao julgamento de criaturas",
+      "Que Deus voluntariamente Se submete às perguntas de Abraão e é justo"
+    ],
+    "respostaCorreta": "Que Deus voluntariamente Se submete às perguntas de Abraão e é justo"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "A história dos anjos enviados para advertir Ló em Sodoma é comparada nas fontes a quais mensageiros do Apocalipse?",
+    "opcoes": [
+      "Os quatro cavaleiros",
+      "As sete pragas",
+      "A besta do mar",
+      "Os anjos simbólicos que chamam o povo de Deus para sair de Babilônia"
+    ],
+    "respostaCorreta": "Os anjos simbólicos que chamam o povo de Deus para sair de Babilônia"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "Qual foi a razão pela qual as filhas casadas de Ló e seus genros não quiseram sair de Sodoma?",
+    "opcoes": [
+      "Não acreditaram na advertência",
+      "Estavam muito ocupados",
+      "Ló não os avisou a tempo",
+      "Tinham refletido a cultura da época e se tornaram carnais como as pessoas de Sodoma"
+    ],
+    "respostaCorreta": "Tinham refletido a cultura da época e se tornaram carnais como as pessoas de Sodoma"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "O que a história de Ló e sua família em Sodoma ensina sobre a preparação para o fim?",
+    "opcoes": [
+      "Que é suficiente ter conhecimento",
+      "Que é possível viver no mundo sem ser afetado por ele",
+      "Que devemos rejeitar qualquer tipo de complacência espiritual e viver uma vida de santidade prática",
+      "Que Deus salva automaticamente a família do justo"
+    ],
+    "respostaCorreta": "Que devemos rejeitar qualquer tipo de complacência espiritual e viver uma vida de santidade prática"
+  },
+  {
+    "day": "Terça-feira",
+    "pergunta": "As cidades da planície, como Sodoma e Gomorra, tornaram-se o primeiro exemplo bíblico de centros populacionais destruídos por:",
+    "opcoes": [
+      "Um terremoto",
+      "Um dilúvio",
+      "Uma praga",
+      "Fogo do céu"
+    ],
+    "respostaCorreta": "Fogo do céu"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "Qual é o título do estudo de quarta-feira?",
+    "opcoes": [
+      "O Evangelismo de Noé",
+      "Sodoma e Gomorra",
+      "A Ira do Cordeiro",
+      "O Juiz de Toda a Terra"
+    ],
+    "respostaCorreta": "O Juiz de Toda a Terra"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "O que Deus não fará sem primeiro revelar o Seu segredo aos Seus servos, os profetas?",
+    "opcoes": [
+      "Criar o mundo",
+      "Fazer justiça",
+      "Vir pela segunda vez",
+      "Fazer coisa alguma"
+    ],
+    "respostaCorreta": "Fazer coisa alguma"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "O texto de Amós 3:7 é usado para demonstrar que Deus:",
+    "opcoes": [
+      "Age sem avisar",
+      "Só age no último momento",
+      "Revela Seus planos antes de julgar",
+      "Não se preocupa com a humanidade"
+    ],
+    "respostaCorreta": "Revela Seus planos antes de julgar"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "A história de Abraão intercedendo por Sodoma mostra que Deus está disposto a:",
+    "opcoes": [
+      "Ignorar a justiça",
+      "Mudar Seus planos",
+      "Ser testado por Abraão",
+      "Ser examinado por criaturas que dependem Dele"
+    ],
+    "respostaCorreta": "Ser examinado por criaturas que dependem Dele"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "Além de Abraão avaliar o caso de Sodoma, o que ele também estava fazendo ao dialogar com Deus?",
+    "opcoes": [
+      "Duvidando de Deus",
+      "Negociando a vida de Ló",
+      "Intercedendo pelos justos",
+      "Examinando o caráter de Deus"
+    ],
+    "respostaCorreta": "Examinando o caráter de Deus"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "O que Deus abrirá antes que o fim venha, permitindo que a humanidade investigue as evidências?",
+    "opcoes": [
+      "O templo",
+      "As portas do céu",
+      "O mar",
+      "Os livros do Céu"
+    ],
+    "respostaCorreta": "Os livros do Céu"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "De acordo com uma das fontes, após o juízo sobre os perdidos, Deus dará mil anos para que os justos:",
+    "opcoes": [
+      "Questionem Suas decisões",
+      "Governem a Terra",
+      "Descobriam o que houve com cada um e por quê",
+      "Obtenham respostas para suas perguntas ainda não respondidas"
+    ],
+    "respostaCorreta": "Descobriam o que houve com cada um e por quê"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "O que a disposição de Deus em ser julgado por Suas criaturas que dependem Dele diz sobre Seu caráter?",
+    "opcoes": [
+      "Que Ele é fraco",
+      "Que Ele é indiferente",
+      "Que Ele não é soberano",
+      "Demonstra Seu amor, justiça e transparência"
+    ],
+    "respostaCorreta": "Demonstra Seu amor, justiça e transparência"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "O que significa o juízo ser 'transparente' e 'cristalino'?",
+    "opcoes": [
+      "Que é fácil de entender",
+      "Que não acontece sem que a gente saiba porquê",
+      "Que é justo",
+      "Todas as opções acima estão corretas"
+    ],
+    "respostaCorreta": "Todas as opções acima estão corretas"
+  },
+  {
+    "day": "Quarta-feira",
+    "pergunta": "O que a abertura dos livros do céu tem como objetivo final?",
+    "opcoes": [
+      "Condenar os ímpios",
+      "Salvar os justos",
+      "Legitimar que Deus sempre fez o que é correto e que o pecado não se levantará uma segunda vez",
+      "Mostrar os erros dos justos"
+    ],
+    "respostaCorreta": "Legitimar que Deus sempre fez o que é correto e que o pecado não se levantará uma segunda vez"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "Qual é o tema principal do estudo de quinta-feira?",
+    "opcoes": [
+      "A Vinda de Cristo",
+      "A Destruição Final",
+      "O Juízo Executivo",
+      "O Juízo Pré-Advento / Juízo Investigativo"
+    ],
+    "respostaCorreta": "O Juízo Pré-Advento / Juízo Investigativo"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "Qual livro profético é a base para o estudo do juízo pré-advento nesta lição?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "respostaCorreta": "Daniel"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "A descrição do juízo em Daniel 7:9, 10, 13, 14, 22, 26, 27 apresenta um vislumbre por trás do véu de:",
+    "opcoes": [
+      "O plano de Satanás",
+      "A criação do mundo",
+      "O reino dos céus",
+      "Como Deus está resolvendo o problema do pecado enquanto redime os que desejam viver em aliança com Ele"
+    ],
+    "respostaCorreta": "Como Deus está resolvendo o problema do pecado enquanto redime os que desejam viver em aliança com Ele"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "Quem aparece em meio ao juízo celestial em Daniel 7, garantindo que este juízo é a favor dos santos do Altíssimo?",
+    "opcoes": [
+      "Os anjos",
+      "O Ancião de Dias",
+      "Os santos",
+      "O Filho do Homem (Cristo)"
+    ],
+    "respostaCorreta": "O Filho do Homem (Cristo)"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "O que é o foco principal do juízo investigativo em Daniel 7?",
+    "opcoes": [
+      "Condenar os ímpios",
+      "Revelar os pecados do mundo",
+      "Julgar os anjos",
+      "A vindicação do povo de Deus"
+    ],
+    "respostaCorreta": "A vindicação do povo de Deus"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "Que elementos são descritos na cena do juízo em Daniel 7:9-10?",
+    "opcoes": [
+      "O mar e a terra",
+      "O sol e a lua",
+      "Tronos postos, o Ancião de Dias, um tribunal assentado e livros abertos",
+      "O chifre pequeno e os reinos da terra"
+    ],
+    "respostaCorreta": "Tronos postos, o Ancião de Dias, um tribunal assentado e livros abertos"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "Para que Deus precisa de registros ou livros no céu, conforme explicado nas fontes?",
+    "opcoes": [
+      "Ele não precisa, mas as Suas criaturas precisam",
+      "Para lembrar de tudo",
+      "Para provar Seu poder",
+      "Para condenar os ímpios"
+    ],
+    "respostaCorreta": "Ele não precisa, mas as Suas criaturas precisam"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "De acordo com Daniel 7:22, após o juízo, o reino será dado a quem?",
+    "opcoes": [
+      "Ao Ancião de Dias",
+      "Ao Filho do Homem",
+      "À ponta pequena",
+      "Ao povo dos santos do Altíssimo"
+    ],
+    "respostaCorreta": "Ao povo dos santos do Altíssimo"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "O juízo pré-advento, ou investigativo, é uma doutrina exclusiva de qual grupo religioso, mencionada em uma das fontes?",
+    "opcoes": [
+      "Batistas",
+      "Metodistas",
+      "Pentecostais",
+      "Adventistas do Sétimo Dia"
+    ],
+    "respostaCorreta": "Adventistas do Sétimo Dia"
+  },
+  {
+    "day": "Quinta-feira",
+    "pergunta": "O que a presença de Cristo como Filho do Homem no juízo de Daniel 7 garante aos santos?",
+    "opcoes": [
+      "Sua condenação",
+      "Sua punição",
+      "Que o juízo é a favor deles",
+      "Que eles serão esquecidos"
+    ],
+    "respostaCorreta": "Que o juízo é a favor deles"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "Qual é a única esperança do crente no momento do juízo, conforme sugerido pelas notas suplementares?",
+    "opcoes": [
+      "Suas próprias obras",
+      "Os registros nos livros",
+      "O perdão",
+      "Cristo"
+    ],
+    "respostaCorreta": "Cristo"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "Os livros de registro no céu contêm:",
+    "opcoes": [
+      "Apenas os nomes dos salvos",
+      "Apenas os pecados dos perdidos",
+      "Apenas a lei de Deus",
+      "Os nomes e as obras dos homens, registros da vida de cada ser humano"
+    ],
+    "respostaCorreta": "Os nomes e as obras dos homens, registros da vida de cada ser humano"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "O que a ilustração da lição com o livro aberto, as tábuas dos Dez Mandamentos e a pena de escrever simbolizam?",
+    "opcoes": [
+      "A misericórdia de Deus sem a lei",
+      "Que a lei foi abolida",
+      "Que o juízo não ocorrerá",
+      "Que as ações humanas são avaliadas à luz da Lei divina no contexto do juízo"
+    ],
+    "respostaCorreta": "Que as ações humanas são avaliadas à luz da Lei divina no contexto do juízo"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "O que a descrição do juízo investigativo em Daniel 7 nos oferece?",
+    "opcoes": [
+      "Medo e desespero",
+      "Dúvidas sobre Deus",
+      "Uma visão além do véu para ver como Deus está resolvendo o problema do pecado",
+      "A certeza da condenação"
+    ],
+    "respostaCorreta": "Uma visão além do véu para ver como Deus está resolvendo o problema do pecado"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "O que a lição nos convida a analisar em nossa vida com base nos relatos e no juízo?",
+    "opcoes": [
+      "Apenas as falhas dos outros",
+      "Apenas os sucessos",
+      "O nosso interior, práticas diárias, egoísmo, ociosidade, indiferença espiritual, deveres não cumpridos",
+      "Apenas a teoria bíblica"
+    ],
+    "respostaCorreta": "O nosso interior, práticas diárias, egoísmo, ociosidade, indiferença espiritual, deveres não cumpridos"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "De acordo com as notas suplementares, a intemperança embota as faculdades morais e espirituais e prepara o caminho para:",
+    "opcoes": [
+      "A obediência a Deus",
+      "A reforma de saúde",
+      "A satisfação das más paixões",
+      "O estudo da Bíblia"
+    ],
+    "respostaCorreta": "A satisfação das más paixões"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "Como podemos evitar a queda, conforme a advertência de 1 Coríntios 10:12?",
+    "opcoes": [
+      "Pensando que já estamos firmes",
+      "Ignorando os exemplos do passado",
+      "Olhando para trás e não para frente",
+      "Aquele que pensa estar em pé, veja que não caia"
+    ],
+    "respostaCorreta": "Aquele que pensa estar em pé, veja que não caia"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "Apesar de ser um estudo sóbrio, o estudo do juízo investigativo e dos eventos finais traz esperança e alegria porque:",
+    "opcoes": [
+      "Podemos esconder nossos pecados",
+      "Deus não julgará",
+      "Jesus é nosso advogado",
+      "O juízo é contra nós"
+    ],
+    "respostaCorreta": "Jesus é nosso advogado"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "Qual é o apelo final feito nas fontes para aqueles que ouvem a mensagem de Deus?",
+    "opcoes": [
+      "Endurecer o coração",
+      "Adiar a decisão",
+      "Abrir o coração para Jesus e não endurecê-lo",
+      "Esperar pelo próximo aviso"
+    ],
+    "respostaCorreta": "Abrir o coração para Jesus e não endurecê-lo"
+  },
+  {
+    "day": "Sexta-feira",
+    "pergunta": "O que a palavra de Deus diz que a verdade fará por aqueles que a conhecem?",
+    "opcoes": [
+      "Os condenará",
+      "Os tornará arrogantes",
+      "Os aprisionará",
+      "Os libertará"
+    ],
+    "respostaCorreta": "Os libertará"
+  }
+];
 
   let questions = []; // Este array agora será preenchido com as questões filtradas
   let currentQuestionIndex = 0;
